@@ -1,7 +1,7 @@
 = Liste der Z-Wave-kompatible Geräte 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*52* [green]*marques de modules différentes, soit un total de* [red]*338* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*53* [green]*marques de modules différentes, soit un total de* [red]*340* [green]*modules.*
 
 Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel sein. Für eine Bitte um Kompatibilität : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Hier klicken^]
 
@@ -532,6 +532,9 @@ Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel se
 
 |image:../images/compatibility_list/fibaro.fgbs001.jpg[width=150,align="center"]|Fibaro|FGBS-001 Universal Relay|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html++[Acheter^]
 // 271.1281.16386_fgbs001.universal.binary.sensor.json
+
+|image:../images/compatibility_list/fibaro.fgcd001.jpg[width=150,align="center"]|Fibaro|FGCD-001 CO Sensor|Fumée| | 
+// 271.4609.4096_fgcd001.co.sensor.json
 
 |image:../images/compatibility_list/fibaro.fgd211.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 | link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
@@ -1207,6 +1210,18 @@ Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel se
 
 |image:../images/compatibility_list/smarthomebyeverspring.AN179-0.jpg[width=150,align="center"]|Smarthome By Everspring|AN179-0 On/Off|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html++[Acheter^]
 // 96.4.8_an.179.in.wall.on.off.json
+
+
+|===
+
+== Stelpro
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Bild|Marke|Name|Typ|Hinweis|Link
+
+|image:../images/compatibility_list/stelpro.stzw402.jpg[width=150,align="center"]|Stelpro|STZW402+ Electronic Thermostat|Thermostat| | 
+// 569.1.1_STZW402.plus.electronic.thermostat.json
 
 
 |===
