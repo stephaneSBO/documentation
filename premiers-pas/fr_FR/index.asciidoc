@@ -1,0 +1,33 @@
+= Premiers pas avec Jeedom
+
+Bienvenue dans cette documentation de premiers pas, celle-ci va vous aider à mettre en service votre Jeedom
+
+[TIP]
+Ce guide n'a pas vocation à se substituer à la documentation complète disponible sur le site Jeedom https://jeedom.fr/doc[ici]
+
+== Inscription sur le market
+include::market.asciidoc[]
+
+== Ajout de votre code service pack
+include::servicepack.asciidoc[]
+
+== Trouver votre Jeedom sur le réseau
+include::findJeedom.asciidoc[]
+
+== Lier mon Jeedom à mon compte market
+include::linkmarket.asciidoc[]
+
+== Obtenir mon URL d'accès direct
+include::dnsaccess.asciidoc[]
+
+== Changer le mot de passe par défaut de Jeedom
+include::changeuser.asciidoc[]
+
+== Créer mon premier objet
+include::createobject.asciidoc[]
+
+== Installer mon premier plugin
+include::installplugin.asciidoc[]
+
+== Support
+include::support.asciidoc[]
