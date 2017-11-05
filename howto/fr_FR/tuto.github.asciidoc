@@ -1,0 +1,25 @@
+Pour permettre nous allons voir ensemble :
+
+* Création d'un compte GitHub
+* Fork de Jeedom Core ou de la documentation
+* Mdification d'un ou plusieurs fichiers
+* Soumettre une modification
+* La mise à jour de votre fork
+
+Pour vous permettre de contribuer à Jeedom, il vous sera nécessaire de proposer les modifications (PR : Pull Request).
+
+= Création d'un compte GitHub
+
+Nous allons aborder dans ce tuto la manière de créer un compte GitHub, afin de pouvoir remonter des bugs (issue dans le langage GitHub), voire même proposer des corrections (Pull Request ou PR en langage github) pour l'ensemble du projet Jeedom, incluant ses plugins gratuits ou la documentation, ou encore tout autre projet github auxquels vous souhaiteriez participer.
+
+Se rendre sur [url]https://github.com[/url] et cliquer sur le bouton sign up. Vous devriez donc être sur une page ressemblant à celle ci-dessous et devez donc renseigner un pseudo, un email et un mot de passe et ensuite cliquer sur [color=#00BF00]Create an account[/color]
+
+image::../images/tuto.github1.png[]
+
+Vous arrivez donc sur une 2eme page comme ci-dessous et vous ne changez rien, vous cliquez sur [color=#00BF00]Continue[/color]
+
+image::../images/tuto.github2.png[]
+
+Vous voilà inscrit et sur la page de configuration des options de votre compte. Je vous conseille de vérifier l'adresse email afin de pouvoir récupérer votre compte en cas d'oubli de mot de passe par exemple. Je vous laisse également découvrir les autres options si vous êtes curieux.
+
+image::../images/tuto.github3.png[]
