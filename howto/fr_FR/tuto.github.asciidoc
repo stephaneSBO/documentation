@@ -1,4 +1,4 @@
-Pour permettre nous allons voir ensemble :
+Ce tutorial vous présente :
 
 * Création d'un compte GitHub
 * Fork de Jeedom Core ou de la documentation
@@ -50,12 +50,10 @@ image::../images/tuto.github5.png[]
 
 image::../images/tuto.github6.png[]
 
-Afin de faire une recherche dans le fichier (dans mon cas, je ne suis pas Dev, ni créateur du fichier que l'on va modifier, je ne sais donc pas ou ce situe le bout de code que je veux modifier).
-Il faut en premier, faire un clic avec la souris *DANS* le bloc ou il y a le code
-Ctrl + F
-Coller le texte que vous cherchez (un élément significatif et une ligne seulement, pas tout un bloc d'un coup)
-Entrée
+Afin de faire une recherche dans le fichier, se positionner dans le bloc texte du fichier qu'on vient d'ouvrir en mode édition avec le crayon et on fait un "Ctrl + F" pour activer la recherche.
+Vous coller ou spécifier le texte que vous cherchez (un élément significatif et une ligne seulement, pas tout un bloc d'un coup). Valider avec "Entrée" pour lancer la recherche.
 
+[TIP]
 Si vous ne cliquez pas dans la fenêtre contenant le texte ou le code que vous cherchez, c'est la recherche du navigateur qui va s'ouvrir et dans mon cas, sur Google chrome, ça ne sait pas faire la recherche dans le code ou la documentation directement.
 
 1. Le champ de recherche, oui c'est assez mince comme information, la ligne copié est bien plus grande ;).
@@ -79,12 +77,14 @@ image::../images/tuto.github8.png[]
 
 == Soumettre une modification
 
+Le *commit* fait au-dessus ne concerne que le fork du projet dans votre espace GitHub. Pour soumettre au projet d'origine les changements, il faut effecter un PR (Pull Request)
+
 1. On clique sur l'onglet Pull Request
 2. New Pull Request (PR pour les intimes)
 
 image::../images/tuto.github9.png[]
 
-1. On est ce coup-ci logique, on compare la base de jeedom avec notre repository à nous
+1. Le PR va lancer une coparaison entre la base de jeedom avec votre repository (le fork).
 2. Celà indique les modifications (le premier c'est parce que je me suis remis à jour depuis jeedom, le second concernant justement le changement de la fonction lastchangestateduration, parfait !!!)
 3. L'ancien code
 4. Le nouveau code
@@ -92,6 +92,7 @@ image::../images/tuto.github9.png[]
 
 image::../images/tuto.github10.png[]
 
+Il est important de bien expiiquer les changements soumis pour que le(s) développeur(s) du projet d'origine comprennent et puissent valider votre demande.
 
 1. On clique sur les trois petits points
 2. On recopie les informations que l'on a saisi précédemment
@@ -100,10 +101,9 @@ image::../images/tuto.github10.png[]
 
 image::../images/tuto.github11.png[]
 
-*C'est terminé.*
+*C'est terminé.* Il faut attendre que votre PR soit validé.
 
 NB: Il n'y a que les utilisateurs ayant un droit de push sur jeedom qui peuvent valider le PR.
-
 
 Pour vous assurez que votre modification est bien dans la liste, vous pouvez cliquer sur Pull Requests 
 
