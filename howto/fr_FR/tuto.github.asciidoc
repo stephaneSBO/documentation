@@ -2,7 +2,7 @@ Pour permettre nous allons voir ensemble :
 
 * Création d'un compte GitHub
 * Fork de Jeedom Core ou de la documentation
-* Mdification d'un ou plusieurs fichiers
+* Modification d'un ou plusieurs fichiers
 * Soumettre une modification
 * La mise à jour de votre fork
 
@@ -34,14 +34,14 @@ Maintenant que vous avez un compte Github et que vous êtes identifiez avec votr
 
 image::../images/tuto.github4.png[]
 
-[u][color=#0000FF][size=150]Déposer une requête de modification d'un document sur github[/size][/color][/u]
+== Modification d'un ou plusieurs fichiers
 
-Dans mon cas, je souhaite donc pousser une modification sur le fichier [i]history.class.php[/i]
+Dans mon cas, je souhaite donc pousser une modification sur le fichier __history.class.php__
 Ce fichier se situe dans le core de jeedom et plus précisément ici :  core/class/
 
 1. On est donc sur mon dépôt (TaGGoU91 / core) qui est indiqué comme étant un fork de Jeedom/core  
 2. On se rend donc dans /core/class (le premier core est en gras, c'est le dépôt ou je suis (core, cf Petit 1)
-3. On a donc notre fichier [i]history.class.php[/i] - On clique sur le fichier
+3. On a donc notre fichier __history.class.php__ - On clique sur le fichier
 
 image::../images/tuto.github5.png[]
 
@@ -51,7 +51,7 @@ image::../images/tuto.github5.png[]
 image::../images/tuto.github6.png[]
 
 Afin de faire une recherche dans le fichier (dans mon cas, je ne suis pas Dev, ni créateur du fichier que l'on va modifier, je ne sais donc pas ou ce situe le bout de code que je veux modifier).
-Il faut en premier, faire un clic avec la souris [b][i][u][size=150]DANS[/size][/u][/i][/b] le bloc ou il y a le code
+Il faut en premier, faire un clic avec la souris *DANS* le bloc ou il y a le code
 Ctrl + F
 Coller le texte que vous cherchez (un élément significatif et une ligne seulement, pas tout un bloc d'un coup)
 Entrée
@@ -65,7 +65,7 @@ image::../images/tuto.github7.png[]
 1. En jaune, c'est le résultat de la recherche
 2. En bleu, ce que je viens de sélectionner et que je souhaite modifier/remplacer par mon code. Ma modification
 
-image::../images/tuto.github8.png[]
+image::../images/tuto.github14.png[]
 
 Je supprime donc le bloc puis je le remplace.
 
@@ -75,14 +75,14 @@ Ensuite, sur la partie basse on trouve ceci :
 3. On s'assure que ça soit bien coché comme ceci 
 4. On commit = Soumettre la modification
 
-image::../images/tuto.github9.png[]
+image::../images/tuto.github8.png[]
 
-[color=#FF0000][size=150]Ce n'est pas terminé ![/size][/color]
+*Ce n'est pas terminé !*
 
 1. On clique sur l'onglet Pull Request
 2. New Pull Request (PR pour les intimes)
 
-image::../images/tuto.github10.png[]
+image::../images/tuto.github9.png[]
 
 1. On est ce coup-ci logique, on compare la base de jeedom avec notre repository à nous
 2. Celà indique les modifications (le premier c'est parce que je me suis remis à jour depuis jeedom, le second concernant justement le changement de la fonction lastchangestateduration, parfait !!!)
@@ -90,7 +90,7 @@ image::../images/tuto.github10.png[]
 4. Le nouveau code
 5. On crée le Pull Request (PR)
 
-image::../images/tuto.github11.png[]
+image::../images/tuto.github10.png[]
 
 
 1. On clique sur les trois petits points
@@ -98,9 +98,9 @@ image::../images/tuto.github11.png[]
 3. Idem, on recopie (d’où l'utilisation des ... à l'étape 1 pour s'éviter une réécriture)
 4. On clique sur Create Pull Request
 
-image::../images/tuto.github12.png[]
+image::../images/tuto.github11.png[]
 
-[color=#0040FF][size=150]C'est terminé.[/size][/color]
+*C'est terminé.*
 
 NB: Il n'y a que les utilisateurs ayant un droit de push sur jeedom qui peuvent valider le PR.
 
