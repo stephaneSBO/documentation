@@ -27,14 +27,14 @@ image::../images/philio.pst02a/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-Le détecteur ZIP-PSM02-EU propose 4 fonctions différentes : détection de mouvement, détection d'ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et d'un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la partie qui s'ouvre et le détecteur sur la partie fixe.
+Le détecteur ZIP-PSM02-EU propose 4 fonctions différentes : détection de mouvement, détection d'ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l'aimant fixé sur la partie qui s'ouvre et le détecteur sur la partie fixe.
 
 L'ouverture de la porte ou de la fenêtre éloignera l'aimant du détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave d'alarme, si le système est armé (ce signal peut être exploité par une sirène ou par une box domotique par exemple).
-Ce détecteur peut être utilisé pour la sécurité ou pour l'automatisation. Quand le détecteur est associé avec des appareils de sécurité, il sert comme déclencheur d'alertes en détectant des changements dans les niveaux de radiation infra-rouge ou d'ouverture de porte/fenêtre. Si une personne bouge dans le champ de vision du détecteur ou ouvre une porte/fenêtre, un signal radio est transmis, ce qui déclenche une alarme afin de dissuader les intrus.
+Ce détecteur peut être utilisé pour la sécurité ou pour l'automatisation. Quand le détecteur est associé avec des appareils de sécurité, il sert comme déclencheur d'alertes en détectant des changements dans les niveaux de radiation infrarouge ou d'ouverture de porte/fenêtre. Si une personne bouge dans le champ de vision du détecteur ou ouvre une porte/fenêtre, un signal radio est transmis, ce qui déclenche une alarme afin de dissuader les intrus.
 
 Le détecteur peut également être utilisé en association avec un contrôleur Z-Wave pour des usages domotiques, en détectant à la fois les changements dans les niveaux de radiation infrarouge (présence) ou d'ouverture de porte/fenêtre et les modifications dans le niveau de luminosité. Ainsi, on peut déclencher un éclairage lors d'une détection de mouvement ou d'ouverture de porte dans l'obscurité.
 
-Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois qu'un mouvement ou ouverture/fermeture est détecté.
+Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois qu'un mouvement ou ouverture/fermeture sont détectés.
 Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
 {nbsp} +
 
@@ -56,7 +56,7 @@ Un contrôleur Z-Wave (télécommande, dongle ...) est nécessaire afin d'intég
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -126,7 +126,7 @@ image::../images/philio.pst02a/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 

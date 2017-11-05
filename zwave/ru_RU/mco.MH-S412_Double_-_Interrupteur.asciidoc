@@ -30,7 +30,7 @@ L’interrupteur MH-S412-EU permet de commuter les 2 charges connectées, soit m
 
 Sa finition en verre et son design apporte un style moderne.
 
-L’interrupteur MH-S412-EU peut contrôler n’importe quel type de charge, soit un éclairage ou un appareil électrique.
+L’interrupteur MH-S412-EU peut contrôler n’importe quel type de charge, un éclairage ou un appareil électrique.
 
 L’interrupteur est également  équipé d’un voyant LED qui indique son état.
 {nbsp} +
@@ -51,7 +51,7 @@ L’interrupteur est également  équipé d’un voyant LED qui indique son éta
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -107,7 +107,7 @@ image::../images/mco.mhs412/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -169,20 +169,20 @@ image::../images/mco.mhs412/groupe.jpg[Groupe]
 
 ==== Spécificités
 
-1) les boutons tactile ont un halo de couleur bleu lorsque la charge est pilotée
+1) les boutons tactiles ont un halo de couleur bleu lorsque la charge est pilotée
 
-2) les boutons tactile ont un halo de couleur orangé lorsque la charge est non pilotée
+2) les boutons tactiles ont un halo de couleur orangé lorsque la charge est non pilotée
 
-3) le touché est plutôt agréable et les commandes réactive
+3) le touché est plutôt agréable et les commandes réactives
 
-4) cet interrupteur peut piloter sa charge en mode autonome (non rattaché à un controleur z-wave)
+4) cet interrupteur peut piloter sa charge en mode autonome (non rattaché à un contrôleur z-wave)
 
 === Wakeup
 
 {nbsp} +
 
 
-Ce module étant raccordé au secteur  (220v) , le reveil est instantanné et ne necessite donc pas d'action particuliere lors d'un changement de parametres
+Ce module étant raccordé au secteur  (220v) , le reveil est instantanné et ne necessite donc pas d'action particulière lors d'un changement de paramètres
 
 {nbsp} +
 
@@ -191,9 +191,9 @@ Ce module étant raccordé au secteur  (220v) , le reveil est instantanné et ne
 
 {nbsp} +
 
-Pour exclure ce model, mettre openzwave en mode exclusion et appuyer sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa documentation papier.
+Pour exclure ce modèle, mettre Openzwave en mode exclusion et appuyer sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa documentation papier.
 
-Pour restaurer les parametres usine, appuyer sur un seul des 2 boutons en face avant pendant 10 sec, conformément à sa documentation papier.
+Pour restaurer les paramètres usine, appuyer sur un seul des 2 boutons en face avant pendant 10 sec, conformément à sa documentation papier.
 
 {nbsp} +
 

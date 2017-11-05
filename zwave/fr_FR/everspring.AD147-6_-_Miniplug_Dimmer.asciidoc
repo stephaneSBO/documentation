@@ -48,14 +48,14 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230 V, 50 Hz
 * Consommation : 0.6W
-* Puissance maximum : Charge résistive : 250W Ampoule à incandesence : 250W Ampoule Led (non dimmable) : 6W
+* Puissance maximum : Charge résistive : 250W, Ampoule à incandesence : 250W, Ampoule Led (non dimmable) : 6W
 * Fréquence : 868,42 Mhz
 * Portée : jusqu'à  70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 * Affichage: LED sur le bouton
@@ -106,7 +106,7 @@ image::../images/everspring.AD147-6/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -125,7 +125,7 @@ image::../images/everspring.AD147-6/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-A noter que sur le dashboard, les infos Etat, ON/OFF, Intensité se retrouvent sur le même icone.
+A noter que sur le dashboard, les infos Etat, ON/OFF, Intensité se retrouvent sur la même icône.
 
 {nbsp} +
 
@@ -142,7 +142,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 

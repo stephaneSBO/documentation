@@ -1,4 +1,4 @@
-Jeedom is composed of a central part, the core, responsible for the core functionalities.
+Jeedom is composed of a core which is on charge of basic functions :
 
 * _Scenario,_
 
@@ -23,7 +23,7 @@ image::../images/doc-presentation-maj.png[Page Update]
 image::../images/doc-presentation-sauvegarde.png[Page Backup]
 
 
-Around this core plugins of any kind can integrate:
+Around this core, plugins of any kind can integrate:
 
 - home automation protocol (Z-Wave, RFXcom, EnOcean...),
 - other protocol IP (KNX, xPL...),
@@ -33,7 +33,7 @@ Around this core plugins of any kind can integrate:
 - organization (agenda, Google agenda),
 - development (script).
 
-These plugins can be installed via market and extend the possibilities of Jeedom.
+Those plugins may be downloaded from Market and allow to extend Jeedom features.
 
 image::../images/doc-presentation-market.png[Page Market]
 

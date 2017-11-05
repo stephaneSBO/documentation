@@ -6,10 +6,10 @@
 
 Voici, au cas où, une procédure de bout en bout pour installer une clé WiFi de type "Edimax ew-7811n" sur une Jeedom Mini, et en considérant une authentification wifi de type "WPA 2 + AES". 
 
-Attention, cette procédure ne marche telle quelle uniquement dans le strict cadre de l'environnement indiqué précédemment (même modèle, même box Jeedom, même authentification WiFi) . Ca peut également bien entendu marcher pour d'autres composants (ou pas) mais sans aucune garantie. 
+Attention, cette procédure ne marche telle quelle qu'uniquement dans le strict cadre de l'environnement indiqué précédemment (même modèle, même box Jeedom, même authentification WiFi) . Bien entendu cela peut fonctionner également pour d'autres composants (ou pas) mais sans aucune garantie. 
 
 [IMPORTANT]
-Attention cette procedure n'est surtout pas a faire sur mini+ sous peine ne perdre l'accès à celle-ci et de devoir tout reinstaller.
+Attention cette procédure n'est surtout pas à faire sur mini+ sous peine de perdre l'accès à celle-ci et de devoir tout réinstaller.
 
 [IMPORTANT]
 Cette doc est à appliquer à vos risques et périls en cas de soucis l'équipe Jeedom ne pourra en aucun cas être tenue responsable.
@@ -29,11 +29,11 @@ Si la clé est bien reconnue, le message ci-dessous doit alors s'afficher :
 Bus 001 Device 004: ID 7392:7811 Edimax Technology Co., Ltd EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS]
 ----
 
-Les identifiants du Bus et du Device seront peut être différents chez vous, selon le port USB sur lequel vous avez branché votre clé.
+Les identifiants du Bus et du Device seront peut-être différents chez vous, selon le port USB sur lequel vous avez branché votre clé.
 
 == Vérification du chargement du driver
 
-La clé WiFi edimax a l'avantage d'avoir un pilote déjà intégré dans votre Mini et il n'y a qu'à le vérifier en saisissant la commande suivante en SSH :
+La clé WiFi Edimax a l'avantage d'avoir un pilote déjà intégré dans votre Mini et il n'y a qu'à le vérifier en saisissant la commande suivante en SSH :
 
 ----
 sudo lsmod | grep 8192cu
@@ -101,7 +101,7 @@ network={
 * NOM_DE_TON_RESEAU_SSID par le nom de votre propre réseau, en gardant bien les guillemets (" ")
 * TA_CLE_WIFI par le nom de votre propre réseau, en gardant bien les guillemets (" ")
 
-J'attire également votre attention que votre clé WiFi apparaîtra en clair dans le fichier. Si vous souhaitez plus de sécurité, vous pouvez encoder au préalable votre clé via la commande "sudo wpa_passphrase" puis insérer votre clé encodée (sans mettre les guillemets dans ce cas là). 
+J'attire également votre attention que votre clé WiFi apparaîtra en clair dans le fichier. Si vous souhaitez plus de sécurité, vous pouvez encoder au préalable votre clé via la commande "sudo wpa_passphrase" puis insérer votre clé encodée (sans mettre les guillemets dans ce cas-là). 
 
 == Activation du WiFi
 

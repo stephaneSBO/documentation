@@ -1,9 +1,9 @@
 :icons:
-== Greenwave PowerNode - 6 prises
+== Greenwave PowerNode (Funksteckdose) - 6 Steckdosen
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/greenwave.powernode/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,12 +19,12 @@ image::../images/greenwave.powernode/vuedefaut1.jpg[width=400,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
 La multiprise PowerNode de GreenWave est un appareil intelligent qui se connecte à vos appareils électroménagers et électroniques pour vous permettre de surveiller et contrôler la consommation électrique de vos appareils à distance via un navigateur Web ou un smartphone.
-Utilisant la technologie Z-Wave, la multiprise PowerNode est compatible avec la plupart des box domotique du marché comme Fibaro Home Center 2, eedomus ou Zipabox. Equipée de 6 ports, elle pourra contrôler indépendamment 6 appareils électriques différents d'une puissance totale de 10A.
+Utilisant la technologie Z-Wave, la multiprise PowerNode est compatible avec la plupart des box domotiques du marché comme Fibaro Home Center 2, eedomus ou Zipabox. Equipée de 6 ports, elle pourra contrôler indépendamment 6 appareils électriques différents d'une puissance totale de 10A.
 
 La multiprise PowerNode recueille des données sur la consommation d'énergie des appareils connectés et les transmet à la box domotique. Vous pouvez alors contrôler la consommation d'énergie de chaque appareil connecté. Cette multiprise vous permet également d'activer ou désactiver des périphériques à distance via un navigateur Web ou smartphone ou de définir un calendrier pour activer ou désactiver automatiquement vos appareils à des heures prédéfinies.
 Une petite molette sur le côté de la multiprise permet de choisir une couleur qui représentera la pièce à laquelle est affectée la multiprise. Par exemple " bleu pour la chambre ". Cette astuce vous permettra de différencier vos différentes multiprises PowerNode. On peut également régler cette molette sur un cadenas. Cette fonction permet de verrouiller la multiprise afin d'éviter de l'éteindre par accident, mais le contrôle depuis la box domotique ne sera plus possible.
@@ -36,13 +36,13 @@ La multiprise PowerNode est équipée d'une protection contre les surintensités
 Cette multiprise est idéale pour contrôler des appareils multimédia dans un meuble de télévision ou pour piloter du matériel informatique situé dans un bureau et ainsi éviter d'avoir à utiliser 6 prises Z-Wave individuelles.
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Multiprise Z-Wave 6 ports
 * Permet le suivi des consommations des appareils branchés
-* Fonction ON/OFF
+* Funktion AN/AUS
 * Possibilité de lui affecter un numéro et une couleur afin de différencier les différentes PowerNode d'une même installation.
 * Bouton On/Off directement sur la multiprise
 * Protection contre les surintensités
@@ -50,39 +50,39 @@ Cette multiprise est idéale pour contrôler des appareils multimédia dans un m
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Alimentation : 250V ~ AC, 50Hz
-* Courant de charge maximum : 10A
+* Maximaler Laststrom : 10A
 * Puissance de charge maximale : 2400W (@ 240V)
 * Consommation en veille : 0,4 W
 * Précision de mesure : ± 0.1W
 * Protection contre les surintensités : 10A fusible interne
 * Type de prise : DIN49440 / CEE 7/7 (Schuko)
-* Radio Fréquence Z-Wave : 868.42MHz
-* Portée maximale Z-Wave : 30m
-* Température de fonctionnement : 0 ° C à + 25 ° C
+* Z-Wave Funkfrequenz : 868,42MHz
+* Maximale Z-Wave-Reichweite : 30m
+* Betriebstemperatur : 0°C bis +25°C
 * Température de stockage : -20 ° C à + 60 ° C
 * Humidité maximale : 5% à 90%
 * Classe IP (Tolérance d'humidité) : IP20
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : GreenWave
-* Nom : GreenWave[6 x prises]
-* Fabricant ID : 153
-* Type Produit : 3
-* Produit ID : 4
+* Name : GreenWave NP-210F PowerNode 6 Steckdosenleiste
+* Hersteller-ID : 153
+* Produkttyp : 3
+* Produkt-ID : 4
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -108,11 +108,11 @@ image::../images/greenwave.powernode/information.jpg[Plugin Zwave,align="center"
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -124,36 +124,36 @@ image::../images/greenwave.powernode/commandes5.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
-* Etat-1 : C'est la commande qui permet de connaitre le statut de la prise 1
+* Etat-1 : C'est la commande qui permet de connaître le statut de la prise 1
 * On-1 : C'est la commande qui permet d'allumer la prise 1
 * Off-1 : C'est la commande qui permet d'éteindre la prise 1
 * Puissance-1 : C'est la commande qui remonte la puissance instatanée consommée de la prise 1
 * Conso-1 : C'est la commande qui remonte la consommation totale de la prise 1
-* Etat-2 : C'est la commande qui permet de connaitre le statut de la prise 2
+* Etat-2 : C'est la commande qui permet de connaître le statut de la prise 2
 * On-2 : C'est la commande qui permet d'allumer la prise 2
 * Off-2 : C'est la commande qui permet d'éteindre la prise 2
 * Puissance-2 : C'est la commande qui remonte la puissance instatanée consommée de la prise 2
 * Conso-2 : C'est la commande qui remonte la consommation totale de la prise 2
-* Etat-3 : C'est la commande qui permet de connaitre le statut de la prise 3
+* Etat-3 : C'est la commande qui permet de connaître le statut de la prise 3
 * On-3 : C'est la commande qui permet d'allumer la prise 3
 * Off-3 : C'est la commande qui permet d'éteindre la prise 3
 * Puissance-3 : C'est la commande qui remonte la puissance instatanée consommée de la prise 3
 * Conso-3 : C'est la commande qui remonte la consommation totale de la prise 3
-* Etat-4 : C'est la commande qui permet de connaitre le statut de la prise 4
+* Etat-4 : C'est la commande qui permet de connaître le statut de la prise 4
 * On-4 : C'est la commande qui permet d'allumer la prise 4
 * Off-4 : C'est la commande qui permet d'éteindre la prise 4
 * Puissance-4 : C'est la commande qui remonte la puissance instatanée consommée de la prise 4
 * Conso-4 : C'est la commande qui remonte la consommation totale de la prise 4
-* Etat-5 : C'est la commande qui permet de connaitre le statut de la prise 5
+* Etat-5 : C'est la commande qui permet de connaître le statut de la prise 5
 * On-5 : C'est la commande qui permet d'allumer la prise 5
 * Off-5 : C'est la commande qui permet d'éteindre la prise 5
 * Puissance-5 : C'est la commande qui remonte la puissance instatanée consommée de la prise 5
 * Conso-5 : C'est la commande qui remonte la consommation totale de la prise 5
-* Etat-6 : C'est la commande qui permet de connaitre le statut de la prise 6
+* Etat-6 : C'est la commande qui permet de connaître le statut de la prise 6
 * On-6 : C'est la commande qui permet d'allumer la prise 6
 * Off-6 : C'est la commande qui permet d'éteindre la prise 6
 * Puissance-6 : C'est la commande qui remonte la puissance instatanée consommée de la prise 6
@@ -165,12 +165,12 @@ A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un se
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -178,7 +178,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -190,16 +190,16 @@ Comme vous pourrez le constater il n'y a pas beaucoup de configuration pour ce m
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
-* 1 : Délais avant le clignotement du bouton : nombres de secondes minimums entre deux communications (si ce délai est dépassé le bouton de la prise clignotera)
+* 1 : Délais avant le clignotement du bouton : nombres de secondes minimum entre deux communications (si ce délai est dépassé le bouton de la prise clignotera)
 * 2 : Couleur selectionnée de la molette (détectée automatiquement)
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -211,7 +211,7 @@ image::../images/greenwave.powernode/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
@@ -228,7 +228,7 @@ image::../images/greenwave.powernode/config2.jpg[Config2,align="center"]
 
 {nbsp} +
 
-Il est juste necessaire de l'activer pour la commande Power de chaque prise. Cela aura pour effet de remonter les deux (conso et puissance)
+Il est juste nécessaire de l'activer pour la commande Power de chaque prise. Cela aura pour effet de remonter les deux (conso et puissance)
 
 {nbsp} +
 
@@ -249,7 +249,7 @@ image::../images/greenwave.powernode/consocumul2.jpg[align="center"]
 {nbsp} +
 
 
-==== Reset
+==== Zurücksetzen
 
 {nbsp} +
 
@@ -257,11 +257,11 @@ image::../images/greenwave.powernode/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
-Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet système. (Il y a un reset par prise). Il faut choisir PressButton.
+Vous pouvez remettre à zéro votre compteur de consommation en cliquant sur ce bouton disponible dans l'onglet Système. (Il y a un reset par prise). Il faut choisir PressButton.
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -284,7 +284,7 @@ Avez vous réglé un CRON.
 [panel,primary]
 .La lumière blanche me dérange, puis je la désactiver ?
 --
-Non. Le module ne le permet pas. Mettez du scotch noir dessus.
+Non. Le module ne le permet pas. Mettez un morceau de ruban adhésif noir dessus.
 --
 
 {nbsp} +

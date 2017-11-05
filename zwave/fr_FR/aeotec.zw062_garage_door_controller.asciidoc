@@ -38,17 +38,17 @@ Qu'il soit utilisé par le moteur ou manuellement, le détecteur intelligent liv
 {nbsp} +
 
 * Contrôlez et surveillez votre porte de garage à distance.
-* Module s'installant simplement sur le moteur de votre porte actuel.
+* Module s'installant simplement sur le moteur de votre porte actuelle.
 * Contrôle de la porte en local via le bouton intégré.
 * Envoie des alertes d'ouverture/fermeture au contrôleur Z-Wave.
-* Alertes d'ouverture/fermeture audio et visuelle.
-* Volume sonore de lalarme réglable (105 dB max)
-* Port USB pour charger vos propres son MP3.
+* Alertes d'ouverture/fermeture sonores et visuelles.
+* Volume sonore de l'alarme réglable (105 dB max)
+* Port USB pour charger vos propres sons MP3.
 * LED de statut intégrée sur le bouton.
 * Fait partie de la gamme Gen5 de Aeon Labs.
 * Sécurité de la communication radio via le chiffrement AES-128.
 * Intègre la puce Z-Wave série 500.
-* Communication 250% plus rapide comparé à des périphériques Z-Wave standard.
+* Communication 250% plus rapide comparée à des périphériques Z-Wave standard.
 * Répéteur de messages Z-Wave.
 * Optimisation de l'antenne, portée 300 mètres.
 
@@ -56,7 +56,7 @@ Qu'il soit utilisé par le moteur ou manuellement, le détecteur intelligent liv
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -122,7 +122,7 @@ image::../images/aeotec.garagedoorcontroller/information.jpg[Plugin Zwave,align=
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -180,7 +180,7 @@ image::../images/aeotec.garagedoorcontroller/config2.jpg[Config1,align="center"]
 * 34: Permet de démarrer la calibration du temps d'ouverture de la porte.
 * 41: Permet de resetter l'état du sabotage en sélectionnant "Relieve the alarm state"
 * 80: sur Hail
-* 255 : permet de resetter d'usine
+* 255 : permet de resetter la configuration d'usine
 
 {nbsp} +
 
@@ -207,26 +207,26 @@ image::../images/aeotec.garagedoorcontroller/groupe.jpg[Groupe]
 
 Calibration du temps d'ouverture de la porte de garage:
 
-* 1 : La porte de garage doit être entièrement fermé.
+* 1 : La porte de garage doit être entièrement fermée.
 * 2 : Activer le parametre 34 sur "Do calibration".
 * 3 : Lancer l'ouverture de la porte
 * 4 : Attendre que la porte soit completement ouverte.
 * 5 : Lancer la fermeture de la porte
 
-La calibration est  complétée
+La calibration est complétée
 
-* Le parametre 34 sera actualiser sur "Normal".
-* Le parametre 35 sera mis ajour avec le temps d'ouverture calculé.
+* Le paramètre 34 sera actualisé sur "Normal".
+* Le paramètre 35 sera mis ajour avec le temps d'ouverture calculé.
 
 {nbsp} +
 
 Remise à zéro du sabotage:
 
 * 1 : Le capteur doit être convenablement fixé.
-* 2 : Activer le parametre 41 sur "Relieve the alarm state".
-* 3 : Actualiser les parametres.
+* 2 : Activer le paramètre 41 sur "Relieve the alarm state".
+* 3 : Actualiser les paramètres.
 
-La calibration est  complétée
+La calibration est complétée
 
 * Le parametre 41 sera mis ajour avec "Sensor is not removed".
 

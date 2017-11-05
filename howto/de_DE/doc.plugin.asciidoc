@@ -159,7 +159,7 @@ Beschreiben Sie den Grad der Integration der Geräte in Jeedom (komplett, unvoll
 ==== Funktionsprinzip
 Beschreiben Sie die Architektur und die Philosophie des Plugins.
 
-==== Grundvoraussetzung
+==== Voraussetzungen
 Eine Auflistung und Beschreibung der Grundvoraussetzung zur Installation und Verwendung des Plugins.
 * z.B. : benötigt einen API-Schlüssel 
 

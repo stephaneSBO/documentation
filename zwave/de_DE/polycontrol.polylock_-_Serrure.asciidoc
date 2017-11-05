@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/polycontrol.polylock/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/polycontrol.polylock/vuedefaut1.jpg[width=220,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 {nbsp}
 
 Sécurisez votre maison en utilisant la serrure électronique Z-Wave de Poly-Control !
@@ -32,13 +32,13 @@ La serrure électronique Poly-Lock est prévue pour s'adapter à presque toutes 
 
 Une fois couplé à votre contrôleur Z-Wave (tel que les systèmes Vera de VeraControl), vous pouvez avoir un contrôle complet de votre serrure depuis n'importe quel ordinateur ou smartphone, peu importe où vous soyez dans le monde. Il est également possible d'utiliser la serrure avec le clavier sans fil Poly-Pad pour ouvrir ou verrouiller la porte.
 
-Il est donc possible de verrouiller votre maison d'une manière similaire à verrouiller votre voiture - avec une télécommande, en appuyant simplement sur un bouton et votre maison est sécurisée. La serrure Poly-Control peut également fonctionner avec d'autres scènes Z-Wave, où les lumières s'allument, et le système d'alarme est désactivée lorsque déverrouillé via votre télécommande.
+Il est donc possible de verrouiller votre maison d'une manière similaire à verrouiller votre voiture - avec une télécommande, en appuyant simplement sur un bouton et votre maison est sécurisée. La serrure Poly-Control peut également fonctionner avec d'autres scènes Z-Wave, où les lumières s'allument, et le système d'alarme est désactivé lorsque déverrouillé via votre télécommande.
 
-Le système Poly-Control peut être utilisé dans un environnement domestique ou de travail. La serrure Poly-Lock est alimenté par batterie, et a été testé pour fonctionner pendant 1 an, sans remplacement de la batterie.
+Le système Poly-Control peut être utilisé dans un environnement domestique ou de travail. La serrure Poly-Lock est alimentée par batterie, et a été testée pour fonctionner pendant 1 an, sans remplacement de la batterie.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -52,33 +52,33 @@ Le système Poly-Control peut être utilisé dans un environnement domestique ou
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Alimentation : Pile Lithium-Chloride 3.6V
 * Fréquence : 868,42 Mhz
-* Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+* Reichweite : bis zu 100 m im Freien, bis zu 30 m in Gebäuden
 * Dimensions : 120 x 52 x 60 mm (L x l x h)
 * Poids : 370g
 
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : Poly-Control
-* Nom : Polylock
-* Fabricant ID : 270
-* Type Produit : 1
-* Produit ID : 1
+* Name : Polylock
+* Hersteller-ID : 270
+* Produkttyp : 1
+* Produkt-ID : 1
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -96,7 +96,7 @@ image::../images/polycontrol.polylock/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -105,12 +105,12 @@ image::../images/polycontrol.polylock/information.jpg[Plugin Zwave,align="center
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -120,7 +120,7 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -133,7 +133,7 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -141,13 +141,13 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 [icon="../images/plugin/warning.png"]
 [WARNING]
 Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu'il n'a pas de notion
-de wake-up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
+de wake up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
 
 {nbsp} +
 
 
-Si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -157,7 +157,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -166,7 +166,7 @@ image::../images/polycontrol.polylock/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -175,13 +175,13 @@ image::../images/polycontrol.polylock/config1.jpg[Config1,align="center"]
 * 1: permet de définir combien de temps va tourner la serrure pour ouvrir (0 à 15 s)
 * 2: permet de définir combien de temps va tourner la serrure pour fermer (0 à 15 s)
 * 3: permet de définir la vitesse de rotation de la serrure (0 à 15, 15 étant le plus lent)
-* 4: permet de choisir parmis différents modes de fonctionnement (couple, force, puissance etc...)
+* 4: permet de choisir parmi différents modes de fonctionnement (couple, force, puissance etc...)
 
 {nbsp} +
 
 
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -196,7 +196,7 @@ image::../images/polycontrol.polylock/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Exemples d'utilisation
+=== Anwendungsbeispiele
 
 {nbsp} +
 
@@ -206,16 +206,16 @@ image::../images/polycontrol.polylock/exemple.jpg[align="center"]
 
 L'élément déclencheur est la commande évènement d'un clavier zipato (cela peut être n'importe quoi d'autre).
 Si la valeur est 6 (home) on ferme la porte à clé. En effet on vient de rentrer donc on peut fermer la porte à clé.
-Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme. En effet on veut sortir la porte s'ouvre et se refermera peu de temps après.
+Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme. En effet, on veut sortir, la porte s'ouvre et se refermera peu de temps après.
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 
@@ -223,7 +223,7 @@ Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme
 [icon="../images/plugin/tip.png"]
 [TIP]
 Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu'il n'a pas de notion
-de wake-up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
+de wake up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
 
 {nbsp} +
 
@@ -242,11 +242,11 @@ image::../images/polycontrol.polylock/vuewidget.jpg[width=200,align="center"]
 {nbsp} +
 
 
-=== Wakeup
+=== Wake up
 
 {nbsp} +
 
-Il n'y a pas de notion de wakeup pour ce module.
+Il n'y a pas de notion de wake up pour ce module.
 
 {nbsp} +
 
@@ -256,9 +256,9 @@ Il n'y a pas de notion de wakeup pour ce module.
 {nbsp} +
 
 [panel,primary]
-.Ce module est sur batterie et je peux pas régler le wakeup !!
+.Ce module est sur batterie et je peux pas régler le wake up !!
 --
-Pas de notion de wakeup sur ce module lire le paragraphe spécificités.
+Pas de notion de wake up sur ce module, lire le paragraphe spécificités.
 --
 
 {nbsp} +

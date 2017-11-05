@@ -1,8 +1,0 @@
-== Présentation de Jeedom
-include::presentation.asciidoc[]
-
-== Principes de Jeedom
-include::principe.asciidoc[]
-
-== Liens
-include::liens.asciidoc[]

@@ -23,7 +23,7 @@ image::../images/fibaro.fgsd102/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
+Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multicouleurs et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
 
 Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien qu'autonome, il est également communiquant grâce à la technologie Z-Wave Plus.
 
@@ -49,7 +49,7 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -112,7 +112,7 @@ image::../images/fibaro.fgsd102/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -152,7 +152,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -165,7 +165,7 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 
 {nbsp} +
 
-* Wakeup : c'est l'interval de réveil du module (valeur recommandée 21600)
+* Wakeup : c'est l'intervalle de réveil du module (valeur recommandée 21600)
 * 1: permet de régler la sensibilité de la détection de fumée
 * 2: permet de choisir les notifications qui seront envoyées à Jeedom (conseil : toutes)
 * 3: permet de choisir quelles notifications seront accompagnées d'une indication visuelle
@@ -175,9 +175,9 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 * 12: idem
 * 13: permet de notifier d'autres modules zwave (à désactiver sauf si vous savez pourquoi vous l'activez)
 * 20: durée entre deux rapports de températures
-* 21: différence de température à partir de laquelle, meme si la durée du dessus n'est pas atteinte, la température sera envoyée à Jeedom
+* 21: différence de température à partir de laquelle, même si la durée du dessus n'est pas atteinte, la température sera envoyée à Jeedom
 * 30: température de déclenchement de l'alarme Chaleur
-* 31: intervalle de signalisation des pics de températures
+* 31: intervalle de signalisation des pics de température
 * 32: intervalle de signal si perte de Zwave
 
 {nbsp} +

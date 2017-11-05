@@ -21,7 +21,7 @@ image::../images/plugin/innstallationzwave2.jpg[width=356]
 {nbsp} +
 
 Une fois sur le Market, dans la barre de recherche en haut à droite, tapez le mot Z-wave et validez par la touche entrée.
-Sélectionnez le plugin et installez le, ensuite, il suffit de l’activer en cliquant sur le bouton « activer » qui apparait.
+Sélectionnez le plugin et installez le. Ensuite, il suffit de l’activer en cliquant sur le bouton « activer » qui apparait.
 
 {nbsp} +
 

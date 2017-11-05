@@ -11,7 +11,7 @@ La prise Enocean® SmartPlug permet de commander à distance vos appareils élec
 
 == Fonction
 
-* Mesure de la puissance réelle/active en Watts
+* Mesure de la puissance réelle/active en watts
 * Mesure des données de consommation d'énergie en temps réel en KWh
 * Protection de sécurité pour enfants
 * Petite taille
@@ -22,7 +22,7 @@ La prise Enocean® SmartPlug permet de commander à distance vos appareils élec
 * Très haute capacité de résistance aux surtensions ( 2,5 kV , non destructif / 6 kV , aucun risque d'incendie )
 * Certifié selon IEC60884-1 / -2 à 5 , EN60730-1 , VDE620-1 ( certificat CB )
 
-== Caracteristiques technique
+== Caracteristiques techniques
 
 * Alimentatation : 230 V~ / 50 Hz
 * Intensité :  max 16 A
@@ -56,22 +56,22 @@ Le Smartplug est vierge.
 === Apprentissage
 
 Pour passer en mode apprentissage il suffit d'appuyer sur le bouton tactile pendant 5 secondes, le voyant va passer au rouge clignotant (1 fois par seconde).
-Vous pouvez à présent appuyer sur votre Inter, capteur, ou commande Jeedom :
+Vous pouvez à présent appuyer sur votre inter, capteur, ou commande Jeedom :
 - la Led du SmartPlug doit passer au clignotement vert (5 fois) pour confirmer l'apprentissage. 
 L'ID d'identification de l'appareil est ainsi mémorisé.
 
 === Répéteur
 
 Pour activer le mode répéteur appuyez sur le bouton tactile plus de 25 secondes et relachez. 
-Appuyez à nouveau briévement (100-400ms), chaque pression définit la séquence du choix en Niveau 1 ou 2.
+Appuyez à nouveau brièvement (100-400ms), chaque pression définit la séquence du choix en Niveau 1 ou 2.
 
 == Configuration Jeedom
 
-* Activer le mode inclusion dans JeeDom.
+* Activer le mode inclusion dans Jeedom.
 * Activer le mode Apprentissage du SmartPlug.
 * Dès que le Smartplug clignotte en rouge (il est passé en mode Apprentissage) :
 ** il faut relâcher pendant au moins 5 secondes,
-** puis de nouveau maintenir le bouton enfoncé jusqu'à ce que Jeedom réagit et commence son paramétrage.
+** puis de nouveau maintenir le bouton enfoncé jusqu'à ce que Jeedom réagisse et commence son paramétrage.
 * On attend qu'il ouvre la fenêtre du nouvel équipement qui est automatiquement reconnu comme étant le Profil 1 : "[D2-01-09] Smart Plug"
 * À ce moment on ajoute le profil 2 : "[A5-12-01] Compteur/Consommation" et on sauve.
 * Ensuite on passe de nouveau le SmartPlug en mode Apprentissage, et on clique sur le bouton ON (dans Jeedom) pour faire le lien avec les commandes Jeedom.
@@ -85,7 +85,7 @@ Mise à jour du 08/03/2016 :
 
 * Les équipements créés précédemment doivent être modifiés manuellement :
 ** Veillez notamment à corriger les actions ON et OFF qui doivent contenir UNIQUEMENT Rocker Button A:I_pressed ou Rocker Button A:O_pressed
-** Supprimez les commandes inutiles (CàD qui ne sont pas présentes dans le visuel ci-dessous).
+** Supprimez les commandes inutiles, c'est à dire celles qui ne sont pas présentes dans le visuel ci-dessous.
 
 image::../images/Ubiwizz-smartplug/SmartPlugConfig.png[width=1691,align="center"]
 

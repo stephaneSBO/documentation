@@ -1,19 +1,20 @@
 = Trucs et astuces sur MySQL
 
-Das ist nicht wirklich ein Howto hier, sondern eher eine Sammlung von Tipps und Tricks für MySQL
+Pas vraiment un howto ici mais plus un recueil de trucs et astuces sur MySQL
 
 == Das Performance-Schema deaktivieren
 
 Die Datei /etc/mysql/mysql.conf.d/mysqld.cnf editieren und in ihr hinzufügen : 
 
 ----
+[mysqld]
 performance_schema=OFF
 ----
 
 == Optimiser MySQL
 
 [IMPORTANT]
-Cette méthode est à vos risques et perils. En cas de soucis aucun support ne sera possible
+Cette méthode est à vos risques et périls. En cas de soucis aucun support ne sera possible.
 
 Arrêt de MySQL et suppression des fichiers de log :
 
@@ -22,7 +23,7 @@ service mysql stop
 rm /var/lib/mysql/ib_logfile*
 ----
 
-Puis faite :
+Dann machen Sie :
 
 ----
 touch /etc/mysql/conf.d/jeedom_my.cnf

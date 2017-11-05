@@ -23,15 +23,15 @@ image::../images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg[width=200,align="c
 
 {nbsp} +
 
-Le Micromodule Mural On/Off de la marque SmartHome Europe by Everspring, est conçu pour contrôler l'allumage et
+Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring, est conçu pour contrôler l'allumage et
 l'extinction des luminaires et des appareils électriques de votre maison. Deux jeux de contacts secs permettent
 le raccordement de deux interrupteurs.
 
-À des fins de sécurité, l’unité peut détecter la surchauffe et éteindra directement le relai afin d’éviter tout
+À des fins de sécurité, l’unité peut détecter la surchauffe et éteindra directement le relais afin d’éviter tout
 dommage. À une tension de 230 V, ce module peut supporter jusqu’à 11 A en charge résistive, 1200 Watts en
 incandescence, 700 Watts de moteur, ou 320 Watts (8 x 40 Watts) de charge fluorescente.
 
-Le Micromodule Mural On/Off est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
+Le Micromodule Mural ON/OFF est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
 réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n'importe quel
 contrôleur Z-Wave de votre réseau.
 
@@ -54,7 +54,7 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -112,7 +112,7 @@ image::../images/smarthomebyeverspring.AN179-0/information.jpg[Plugin Zwave,alig
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -161,7 +161,7 @@ image::../images/smarthomebyeverspring.AN179-0/config1.jpg[Config1,align="center
 {nbsp} +
 
 * 1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas conseillé de changer cette valeur.
-* 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
+* 2 : Ce paramètre définit le délai d'envoi du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 * 3 : Ce paramètre permet de définir si l'interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
 * 4 : Ce paramètre permet de définir le type d'interrupteur (poussoir/bistable)
 
@@ -202,11 +202,11 @@ image::../images//smarthomebyeverspring.AN179-0/vuewidget.jpg[width=200,align="c
 
 {nbsp} +
 
-=== Wakeup
+=== Wake up
 
 {nbsp} +
 
-Pas de notion de wakeup sur ce module.
+Pas de notion de wake up sur ce module.
 
 {nbsp} +
 

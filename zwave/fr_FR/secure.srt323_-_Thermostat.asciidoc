@@ -23,11 +23,11 @@ image::../images/secure.srt323/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-Le SRT323 est un thermostat mural fonctionnant sur batterie. Il dispose d’un bouton rotatif permettant à l'utilisateur de régler la température de consigne dans la pièce. Ce thermostat intègre un relai de commande de charge. Il n'est donc pas nécessaire d'installer un actionneur près de la chaudière.
+Le SRT323 est un thermostat mural fonctionnant sur batterie. Il dispose d’un bouton rotatif permettant à l'utilisateur de régler la température de consigne dans la pièce. Ce thermostat intègre un relais de commande de charge. Il n'est donc pas nécessaire d'installer un actionneur près de la chaudière.
 
 En vérifiant la température de consigne avec la température réelle mesurée, le thermostat décide d'actionner la chaudière. De plus ce thermostat intègre un algorythme TPI (time-proportionnal integral), permettant une optimisation et un réglage plus juste de la température de votre environnement.
 
-Le thermostat peut recevoir la température de consigne depuis un autre contrôleur Z-Wave, et peut être également utilisé comme un capteur de température. Le thermostat lui-même n'a pas de timers intégrés, mais exécute les commandes Z-Wave et les commandes locales.
+Le thermostat peut recevoir la température de consigne depuis un autre contrôleur Z-Wave, et peut être également utilisé comme un capteur de température. Le thermostat lui-même n'a pas de timer intégré mais exécute les commandes Z-Wave et les commandes locales.
 
 Il peut être utilisé comme un remplaçant direct pour les thermostats existants, sans devoir effectuer de changements de câblage. L'algorythme TPI va permettre d'optimiser l'allumage et l'extinction de la chaudière afin de maintenir au mieux la température de consigne, sans "dépassement" de celle-ci. Il à été démontré que les contrôleurs TPI peuvent fournir des économies d'énergie considérables par rapport aux régulateurs de chauffage traditionnels.
 
@@ -49,7 +49,7 @@ Le SRT323 est un partenaire idéal pour une utilisation avec passerelle domotiqu
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -101,7 +101,7 @@ image::../images/secure.srt323/inclusion.jpg[width=350,align="center"]
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
 Ce module est capricieux à l'inclusion.
-Lors d'une première inclusion réveillez toujours le module juste après l'inclusion. Pour ce faire laisser le switch 1 en position ON puis avec la molette mettez vous en position "n" et appuyez sur le bouton. Appuyez une seconde fois apres 10 secondes pour être sur. Une fois fais cliquez sur le bouton synchroniser (visible en vue expert) à côté des boutons inclusions/exclusion. Ensuite sur la page de votre module cliquez sur la loupe en haut à droite.
+Lors d'une première inclusion réveillez toujours le module juste après l'inclusion. Pour ce faire laisser le switch 1 en position ON puis avec la molette mettez vous en position "n" et appuyez sur le bouton. Appuyez une seconde fois apres 10 secondes pour être sûr. Une fois fait, cliquez sur le bouton Synchroniser (visible en vue expert) à côté des boutons Inclusion/Exclusion. Ensuite sur la page de votre module cliquez sur la loupe en haut à droite.
 
 {nbsp} +
 
@@ -117,7 +117,7 @@ image::../images/secure.srt323/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -172,7 +172,7 @@ image::../images/secure.srt323/config1.jpg[Config1]
 
 {nbsp} +
 
-Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé aux 5 groupes
+Pour un fonctionnement optimum de votre module il faut que Jeedom soit associé aux 5 groupes
 
 {nbsp} +
 
@@ -191,7 +191,7 @@ image::../images/secure.srt323/groupe.jpg[Groupe]
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Ce module est sur batterie. Donc il est important de noter qu'un changement de consigne sera uniquement pris en compte au reveil. Par défaut le wakeup est à 86400 secondes. Il est vivement recommandé de le diminuer à 10 minutes environ. Ainsi un changement de consigne sera pris en compte par le module au maximum après 10 minutes
+Ce module est sur batterie. Donc il est important de noter qu'un changement de consigne sera uniquement pris en compte au reveil. Par défaut le wake up est à 86400 secondes. Il est vivement recommandé de le diminuer à 10 minutes environ. Ainsi un changement de consigne sera pris en compte par le module au maximum après 10 minutes
 
 {nbsp} +
 
@@ -214,7 +214,7 @@ Pour réveiller ce module il faut mettre le switch 1 en position ON et avec la m
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up.
 --
 
 {nbsp} +

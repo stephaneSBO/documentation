@@ -12,7 +12,7 @@ image::../images/ems200/ems200.vue-defaut.jpg[align="center"]
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané.
 
-Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signal tous changement d'état. 
+Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signale tout changement d'état. 
 
 == Fonctions
 
@@ -24,7 +24,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un 
 * Montage au mur par des vis ou par double face
 * Informations sur le niveau de la batterie
 
-== Caractéristiques Techniques
+== Caractéristiques techniques
 
 * Type de module : Emetteur Edisio
 * Alimentation : 3VDC (Pile Lithium ER14250)
@@ -49,7 +49,7 @@ Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous
 Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez pas d'activer l'option dans la configuration du plugin.
 
 [TIP] 
-Le placement est conseillé à une hauteur de 150 cm et en proximité de la température ressentie voulue. 
+Le placement est conseillé à une hauteur de 150 cm et à proximité de la température ressentie voulue. 
 
 === Bouton "E"
 
@@ -59,21 +59,21 @@ image::../images/ems200/ems200.bouton-e.jpg[align="center"]
 
 === Détection 
 
-Le capteur détecte le moindre mouvement dans un rayon d'environ 6M
+Le capteur détecte le moindre mouvement dans un rayon d'environ 6m
 
 image::../images/ems200/ems200.detection.jpg[align="center"]
 
 === Réglage de la minuterie
 
-Par défaut, la minuterie est désactivée. Ce paramètre, sert à configurer le délai :
+Par défaut, la minuterie est désactivée. Ce paramètre sert à configurer le délai :
 
 image::../images/ems200/ems200.minuterie.jpg[align="center"]
 
 == Association du capteur à Jeedom
 
-L'association du capteur de mouvement, est simple comme bonjour. Il suffit d'appuyer sur le bouton "E", situé sous le capteur. Celui-ci sera reconnu automatiquement par Jeedom. Il suffira de se rendre dans le plugin Edisio. Vous pourrez ainsi le placer le dans un objet, lui donner un nom et sauvegarder.
+L'association du capteur de mouvement, est simple comme bonjour. Il suffit d'appuyer sur le bouton "E", situé sous le capteur. Celui-ci sera reconnu automatiquement par Jeedom. Il suffira de se rendre dans le plugin Edisio. Vous pourrez ainsi le placer dans un objet, lui donner un nom et sauvegarder.
 
-Une fois, votre équipement associé, vous devriez obtenir ceci :
+Une fois votre équipement associé, vous devriez obtenir ceci :
 
 image::../images/ems200/ems200.general.jpg[align="center"]
 
@@ -82,7 +82,7 @@ Afin que le widget soit présent sur le dashboard, pensez à placer votre équip
 
 === Commandes
 
-Une fois votre équipement crée, vous devriez obtenir les commandes associées au module :
+Une fois votre équipement créé, vous devriez obtenir les commandes associées au module :
 
 image::../images/ems200/ems200.commande.jpg[Commandes,align="center"]
 
@@ -97,7 +97,7 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 
 image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 
-* Création : Indique la date à laquelle l'équipement à était crée
+* Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 * Batterie : Indique l'état de la batterie des modules à piles
 * Status : Retourne le status du module

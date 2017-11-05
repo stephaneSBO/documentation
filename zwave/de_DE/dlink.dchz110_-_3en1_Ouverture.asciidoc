@@ -1,9 +1,9 @@
 :icons:
-== D-Link DCH-Z110 - "3 en 1 Ouverture"
+== D-Link DCH-Z110 - "3 in 1 Tür/Fenster Sensor"
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,18 +11,18 @@ image::../images/dlink.dchz110/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
 image::../images/dlink.dchz110/vuedefaut1.jpg[width=350,align="center"]
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
-Le détecteur DCH-Z110 propose 3 fonctions différentes : détection d’ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et d’un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l’aimant fixé sur la partie qui s’ouvre et le détecteur sur la partie fixe.
+Le détecteur DCH-Z110 propose 3 fonctions différentes : détection d’ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l’aimant fixé sur la partie qui s’ouvre et le détecteur sur la partie fixe.
 
 L’ouverture de la porte ou de la fenêtre éloignera l’aimant du détecteur, ce qui enclenchera le détecteur qui enverra un signal Z-Wave d’alarme, si le système est armé (ce signal peut être exploité par une sirène ou par une box domotique par exemple). Le capteur peut également être utilisé pour le contrôle automatique de l’éclairage, en fonction du niveau de luminosité. Par exemple, le capteur enverra un signal à l’interrupteur Z-Wave pour allumer la lumière lorsque la porte s’ouvre et que la pièce est sombre.
 
@@ -31,13 +31,13 @@ Un contrôleur Z-Wave (télécommande, dongle …?) est nécessaire afin d’int
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Détecteur 3 en 1: Ouverture, température, lumière
 * Portée de l’antenne optimisée
-* Utilisation pour des applications domotique ou de sécurité
+* Utilisation pour des applications domotiques ou de sécurité
 * Bouton pour inclure/exclure le détecteur
 * Autoprotection
 * Indication de batterie faible
@@ -46,11 +46,11 @@ Un contrôleur Z-Wave (télécommande, dongle …?) est nécessaire afin d’int
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
-Site officiel : http://www.dlink.com/-/media/Consumer_Products/DCH/DCH%20Z110/Datasheet/DCH_Z110_Datasheet_FR.pdf
+Offizielle Website
 
 Autre lien technique : http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381_01_Z02.PDF
 
@@ -58,20 +58,20 @@ image::../images/dlink.dchz110/caracteristiques_techniques.jpg[width=850,align="
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : D-Link
 * Modèle : DCH-Z110 Détecteur d’ouverture de porte et de fenêtre mydlink™ Home
-* Fabricant : FIBARO System
-* Fabricant ID : 264 [0x0108]
-* Type Produit : 2 [0x0002]
-* Produit ID : 14 [0x000e]
+* Hersteller : FIBARO Systems
+* Hersteller-ID : 264 [0x0108]
+* Produkttyp : 2 [0x0002]
+* Produkt-ID : 14 [0x000e]
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -98,11 +98,11 @@ image::../images/dlink.dchz110/apres_inclusion.jpg[Plugin Zwave]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -110,7 +110,7 @@ image::../images/dlink.dchz110/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -122,18 +122,18 @@ image::../images/dlink.dchz110/commandes.jpg[Commandes]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 [icon="../images/plugin/attention.jpg"]
 [IMPORTANT]
-Lors d’une première inclusion ou d’une modification sauvegarder puis réveillez toujours le module en appuyant sur le bouton d’association. Il devrait clignoter rouge et changer de statut. 
+Lors d’une première inclusion, ou d’une modification, sauvegarder puis réveillez toujours le module en appuyant sur le bouton d’association. Il devrait clignoter rouge et changer de statut. 
 
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -141,7 +141,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -150,7 +150,7 @@ image::../images/dlink.dchz110/config2.jpg[Config2]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -160,9 +160,9 @@ image::../images/dlink.dchz110/config2.jpg[Config2]
 
 * 5: mode de fonctionnement (se reporter sur la documentation constructeur)
 
-* 6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 7
+* 6: mode de fonctionnement du multi-sensor (se reporter sur la documentation constructeur). Valeur recommandée : 7
 
-* 7: mode de fonctionnement personnalisée du multi-sensor (se reporter sur la documentation constructeur) Valeur recommandée : 20 (pour avoir l’ouverture de fonctionnelle)
+* 7: mode de fonctionnement personnalisé du multi-sensor (se reporter sur la documentation constructeur). Valeur recommandée : 20 (pour avoir l’ouverture fonctionnelle)
 
 * 9: permet de définir au bout de combien de temps le signal OFF sera envoyé aux modules associés au groupe 2
 
@@ -170,20 +170,20 @@ image::../images/dlink.dchz110/config2.jpg[Config2]
 
 * 11: permet de définir la durée entre deux rapports auto d’ouverture (une unité = parametre 20)
 
-* 12: permet de définir la durée entre deux rapports auto de luminosité (une unité = parametre 20) Valeur recommandée : 6
+* 12: permet de définir la durée entre deux rapports auto de luminosité (une unité = parametre 20). Valeur recommandée : 6
 
-* 13: permet de définir la durée entre deux rapports auto de température (une unité = parametre 20) Valeur recommandée : 2
+* 13: permet de définir la durée entre deux rapports auto de température (une unité = parametre 20). Valeur recommandée : 2
 
-* 20: durée d’un intervalle pour les paramètres 10 à 13 Valeur recommandée : 10
+* 20: durée d’un intervalle pour les paramètres 10 à 13. Valeur recommandée : 10
 
 * 21: valeur de variation en °F de température pour déclencher un rapport
 
-* 22: valeur en % de variation de luminosité pour déclencher un rapport Valeur recommandée : 10
+* 22: valeur en % de variation de luminosité pour déclencher un rapport. Valeur recommandée : 10
 
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -196,7 +196,7 @@ image::../images/dlink.dchz110/groupe.jpg[Groupe]
 {nbsp} +
 
 === Bon à savoir
-Association/Notification possible avec d'autre modules (exemple: Sirène DCH-Z510 notification carillon sur ouverture porte/fenêtre)
+Association/Notification possible avec d'autres modules (exemple: Sirène DCH-Z510 notification carillon sur ouverture porte/fenêtre)
 
 {nbsp} +
 
@@ -214,8 +214,8 @@ image::../images/dlink.dchz110/autre_visuel_jeedom.jpg[Groupe]
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
-* Relachez le bouton association et réappuyez dessus
-* Baisser le wake-up interval dans la configuration/système du module (en secondes)
+* Relâchez le bouton association et réappuyez dessus
+* Baissez le wake-up interval dans la configuration/système du module (en secondes)
 
 {nbsp} +
 
@@ -224,7 +224,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 {nbsp} +
 
 [panel,primary]
-.J'ai l'impression que le module ne se réveille pas.
+.Ich habe den Eindruck, daß das Modul nicht aufwacht.
 --
 Ce module se réveille en appuyant sur son bouton association.
 --
@@ -232,21 +232,21 @@ Ce module se réveille en appuyant sur son bouton association.
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup. (bouton d'association pour le forcer, d'ou l'interêt de ne pas mettre en place le module avant sa bonne configuration)
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup. (bouton d'association pour le forcer, d'où l'interêt de ne pas mettre en place le module avant sa bonne configuration)
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/attention.jpg"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +

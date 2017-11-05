@@ -1,10 +1,13 @@
 Vous trouverez ici la documentation pour installer Jeedom sur la plupart des systèmes linux (testée et approuvée sur la distribution Debian)
 
 [IMPORTANT]
-Debian 8 est la distribution officiellement supportée, l'utilisation d'une autre distribution est à proscrire au risque d'obtenir comme réponse du support de devoir restaurer votre Jeedom sur une image officielle.
-Si vous ne maitriser pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l'utilisation d'une mini ou center (disponible prochainement).
+Debian 9 (Strecht) est la distribution officiellement supportée pour la version 3.1.7 de jeedom (mais jessie reste parfaitement fonctionnelle).
+Si vous ne maitriser pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l'utilisation d'une Mini+ ou Smart (disponible prochainement).
 
-Connectez vous en SSH à votre système et faites : 
+[IMPORTANT]
+Le script d'installation peut etre dangereux car il part du principe que votre systeme est vierge. Si ce n'est pas le cas merci de lire le script et de faire une installation à la main
+
+Connectez-vous en SSH à votre système et faites : 
 
 ----
 wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
@@ -18,18 +21,17 @@ Il vous suffit ensuite d'aller sur IP_MACHINE_JEEDOM
 Les identifiants par défaut sont admin/admin
 
 [NOTE]
-Les arguments suivant sont utilisable :
--v = version jeedom désirer
+Les arguments suivants sont utilisables :
 -w = dossier webserver
 -z = installation dependances z-wave
--m = mot de passe root mysql desirée
+-m = mot de passe root mysql désiré
 
 -----
 
-./install.sh -v x.y.zz -w /var/www/html -z -m Jeedom
+./install.sh -w /var/www/html -z -m Jeedom
 
 -----
 
 
 
-Pour la suite vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]
+Ensuite vous pouvez suivre la documentation https://github.com/jeedom/documentation/blob/master/premiers-pas/fr_FR/index.asciidoc[Premier pas avec Jeedom]

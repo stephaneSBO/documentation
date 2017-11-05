@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/smarthomebyeverspring.AN179-0/module.jpg[width=256,align="cente
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,25 +19,25 @@ image::../images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg[width=200,align="c
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
-Le Micromodule Mural On/Off de la marque SmartHome Europe by Everspring, est conçu pour contrôler l'allumage et
+Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring, est conçu pour contrôler l'allumage et
 l'extinction des luminaires et des appareils électriques de votre maison. Deux jeux de contacts secs permettent
 le raccordement de deux interrupteurs.
 
-À des fins de sécurité, l’unité peut détecter la surchauffe et éteindra directement le relai afin d’éviter tout
+À des fins de sécurité, l’unité peut détecter la surchauffe et éteindra directement le relais afin d’éviter tout
 dommage. À une tension de 230 V, ce module peut supporter jusqu’à 11 A en charge résistive, 1200 Watts en
 incandescence, 700 Watts de moteur, ou 320 Watts (8 x 40 Watts) de charge fluorescente.
 
-Le Micromodule Mural On/Off est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
+Le Micromodule Mural ON/OFF est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
 réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n'importe quel
 contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -50,11 +50,11 @@ contrôleur Z-Wave de votre réseau.
 * Technologie Z-Wave Plus
 * S'installe facilement dans une boîte d'encastrement standard
 * Bouton pour inclure/exclure/associer le module
-* Fonction répéteur Z-Wave
+* Z-Wave Repeater-Funktion
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -69,19 +69,19 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : SmartHome by Everspring
-* Nom : In Wall On Off
-* Fabricant ID : 96
-* Type Produit : 4
-* Produit ID : 8
+* Name : Im Wall it Off
+* Hersteller-ID : 96
+* Produkttyp : 4
+* Produkt-ID : 8
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -100,7 +100,7 @@ image::../images/smarthomebyeverspring.AN179-0/inclusion.jpg[width=350,align="ce
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -108,11 +108,11 @@ image::../images/smarthomebyeverspring.AN179-0/information.jpg[Plugin Zwave,alig
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -120,7 +120,7 @@ image::../images/smarthomebyeverspring.AN179-0/commandes.jpg[Commandes,align="ce
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -134,12 +134,12 @@ A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur le même 
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -147,7 +147,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -156,20 +156,20 @@ image::../images/smarthomebyeverspring.AN179-0/config1.jpg[Config1,align="center
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
 * 1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas conseillé de changer cette valeur.
-* 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
+* 2 : Ce paramètre définit le délai d'envoi du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 * 3 : Ce paramètre permet de définir si l'interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
 * 4 : Ce paramètre permet de définir le type d'interrupteur (poussoir/bistable)
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède 2 groupes d'association.
+Dieses Modul hat 2 Assoziationsgruppen.
 
 {nbsp} +
 
@@ -202,11 +202,11 @@ image::../images//smarthomebyeverspring.AN179-0/vuewidget.jpg[width=200,align="c
 
 {nbsp} +
 
-=== Wakeup
+=== Wake up
 
 {nbsp} +
 
-Pas de notion de wakeup sur ce module.
+Pas de notion de wake up sur ce module.
 
 {nbsp} +
 

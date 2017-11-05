@@ -4,9 +4,9 @@
 
 Il faut tout d'abord se connecter en telnet (port 23) sur openkarotz, l'identifiant étant kartoz
 
-== Ajout un moteur de voix
+== Ajout d'un moteur de voix
 
-Allez /www/cgi-bin/ et editer le fichier tts.inc, ajoutez une fonction (exemple pour Jeedom) : 
+Allez sur /www/cgi-bin/ et editez le fichier tts.inc, ajoutez une fonction (exemple pour Jeedom) : 
 
 ----
 function jeedomTTS {

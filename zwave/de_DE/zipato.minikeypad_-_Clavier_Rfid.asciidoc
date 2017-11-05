@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/zipato.minikeypad/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,19 +19,19 @@ image::../images/zipato.minikeypad/vuedefaut1.jpg[width=256,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
 Contrôlez votre système de sécurité grâce à ce mini clavier mural Zipato !
 
 Avec ce clavier RFID compatible Z-Wave, vous allez pouvoir activer ou désactiver facilement votre système d'alarme.
-Les touches "Home" et "Away" vous permettent d'armer/désarmer le système de sécurité et/ou exécuter des scénarios domotique rapidement.
+Les touches "Home" et "Away" vous permettent d'armer/désarmer le système de sécurité et/ou exécuter des scénarios domotiques rapidement.
 En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID devant le clavier pour armer/désarmer le système. Le clavier transmet à votre contrôleur domotique l'identifiant du badge qui a été reconnu. Vous pouvez ainsi facilement créer des scénarios en fonction de la personne qui a utilisé son badge.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -46,38 +46,38 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
 *	Type : Esclave Z-Wave
 *	Alimentation : 2x AA 1,5V batteries
 *	Fréquence : 868.42 MHz
-*	Portée radio : 30m en champ libre
+* Reichweite : 30m im Freien
 *	Protocole RFID : ISO15693, ISO18000-3, Tag-it™, RFID
 *	Buzzer : 60dBa à 10 cm de distance
 *	Température de stockage : -5°C à +65°C
 *	Humidité pour stockage : 10% à 70%
-*	Température de fonctionnement : 10°C à 40°C
+* Betriebstemperatur : 10°C bis 40°C
 *	Humidité en fonctionnement : 30% à 80%
 *	Dimensions : 62 x 62 x 20 mm
 *	Certifications :	Sécurité : UL EMC : FCC, CE RoHS
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Zipato
-* Nom : Zipato Mini Keypad RFID
-* Fabricant ID : 151
-* Type Produit : 24881
-* Produit ID : 17665
+* Name : Zipato Mini Keypad RFID
+* Hersteller-ID : 151
+* Produkttyp : 24881
+* Produkt-ID : 17665
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -95,7 +95,7 @@ image::../images/zipato.minikeypad//inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -103,11 +103,11 @@ image::../images/zipato.minikeypad/information.jpg[align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -115,7 +115,7 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -126,7 +126,7 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -137,8 +137,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -154,7 +154,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -166,7 +166,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -186,7 +186,7 @@ Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé
 
 {nbsp} +
 
-Dans la page de l'équipement il y a un onglet assistant. 
+Dans la page de l'équipement il y a un onglet Assistant. 
 
 {nbsp} +
 
@@ -205,7 +205,7 @@ image::../images/zipato.minikeypad/config2.jpg[align="center"]
 {nbsp} +
 
 * Ce tableau vous permet de visualiser les mémoires occupées sur votre clavier
-* Pour enregistrer un nouveau code cliquez sur le bouton Vert sur la mémoire désirée et suivez les étapes
+* Pour enregistrer un nouveau code cliquez sur le bouton vert sur la mémoire désirée et suivez les étapes
 * Pour supprimer un code il suffit de cliquer sur le bouton rouge.
 * Il est impossible d'enregistrer le même code/badge sur deux mémoires différentes
 * Il est impossible (par mesure de sécurité) de lire la valeur d'un code enregistré
@@ -214,11 +214,11 @@ image::../images/zipato.minikeypad/config2.jpg[align="center"]
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-Pensez à reveiller le module après l'ajout d'un code ou badge.
+Pensez à réveiller le module après l'ajout d'un code ou badge.
 
 {nbsp} +
 
-=== Exemples d'utilisation
+=== Anwendungsbeispiele
 
 {nbsp} +
 
@@ -227,8 +227,8 @@ image::../images/zipato.minikeypad/exemple.jpg[align="center"]
 {nbsp} +
 
 L'élément déclencheur est la commande évènement, en effet celle-ci est mise à jour uniquement lorsqu'un code/badge valide à été présenté.
-Si la valeur est 6 (home) on désactives l'alarme (par exemple), ou allume la multiprise, on allume la lumière en fonction de la luminosité, on envoit une notification pour signaler que quelqu'un est rentré, on lance une synhtèse vocale pour faire un blan météo par exemple.
-Sinon (forcément 5) on active l'alarme, on coupe la multiprise, on envoit une notification pour signaler que la maison est vide.
+Si la valeur est 6 (home) on désactive l'alarme (par exemple), ou allume la multiprise, on allume la lumière en fonction de la luminosité, on envoie une notification pour signaler que quelqu'un est rentré, on lance une synhtèse vocale pour faire un bilan météo par exemple.
+Sinon (forcément 5) on active l'alarme, on coupe la multiprise, on envoie une notification pour signaler que la maison est vide.
 
 {nbsp} +
 
@@ -244,12 +244,12 @@ Le keypad lit les codes/badges de deux manières :
 
 {nbsp} +
 
-* lorsque vous appuyez sur home/away pendant les une à deux premières secondes si vous commencez à taper un code, il lira ce code
+* lorsque vous appuyez sur home/away pendant les 1 à 2 premières secondes si vous commencez à taper un code, il lira ce code
 * si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge, pas avant.
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -257,8 +257,8 @@ Pour réveiller ce module il y a deux façons de procéder :
 
 {nbsp} +
 
-* appuyer sur le bouton tamper puis relacher au bout de 1 à 2 secondes
-* appuyer sur home un chiffre au hasard et enter
+* appuyer sur le bouton tamper puis relâcher au bout de 1 à 2 secondes
+* appuyer sur Home, un chiffre au hasard et Enter
 
 {nbsp} +
 
@@ -269,28 +269,28 @@ Pour réveiller ce module il y a deux façons de procéder :
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
-Ce module se réveille soit en appuyant sur le bouton tamper et en le relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis enter.
+Ce module se réveille en appuyant sur le bouton tamper et en le relachant. Il peut aussi se réveiller en appuyant sur Home puis 1 puis Enter.
 --
 
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

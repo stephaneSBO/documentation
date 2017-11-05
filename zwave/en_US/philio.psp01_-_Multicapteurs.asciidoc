@@ -56,7 +56,7 @@ si vous avez déjà un réseau existant.
 * Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
 * Utilise le SDK Z-Wave 6.02
 * Portée de l'antenne optimisée
-* Utilisation pour des applications domotique ou de sécurité
+* Utilisation pour des applications domotiques ou de sécurité
 * Bouton pour inclure/exclure le détecteur
 * Autoprotection
 * Indication de batterie faible
@@ -66,7 +66,7 @@ si vous avez déjà un réseau existant.
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -135,7 +135,7 @@ image::../images/philio.psp01/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -159,7 +159,7 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-Tous les modules de la gamme ayant les mêmes ids. A vous d'afficher ceux correspondant à votre module.
+Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux correspondant à votre module.
 
 ==== Configuration du module
 
@@ -185,7 +185,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -241,8 +241,8 @@ image::../images/philio.psp01/groupe.jpg[Groupe]
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-Ce module à une particularité, n'ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection.
-Il envoit aussi plusieurs fois le signal de détection de présence à la suite. Il est donc conseillé de cocher la case "Evènement sur changement" sur la présence
+Ce module a une particularité, n'ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection.
+Il envoie aussi plusieurs fois le signal de détection de présence à la suite. Il est donc conseillé de cocher la case "Evènement sur changement" sur la présence
 si vous utilisez cette commande en déclencheur de scénario.
 
 {nbsp} +

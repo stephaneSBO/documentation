@@ -29,7 +29,7 @@ Weiterhin in SSH :
 
 ----
 sudo su -
-php /var/www/html/install/install.php mode=force
+php /var/www/html/install/update.php mode=force
 chmod 775 -R /var/www/html
 chown www-data:www-data -R /var/www/html
 ----

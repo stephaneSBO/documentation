@@ -1,9 +1,9 @@
 :icons:
-== Fibaro FGSD-002 "Smoke Sensor 2"
+== Fibaro FGSD-002 "Rauch-Sensor 2"
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgsd102/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,11 +19,11 @@ image::../images/fibaro.fgsd102/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
-Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multi-couleur et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
+Doté de lignes douces, d'une surface polie et d'une petite taille, ce détecteur de fumée vous permettra d’être alerté d’une menace avec des Leds RGB multicouleurs et une sirène intégrée. Le grand format de la grille permet de détecter la plus petite quantité de fumée afin d’obtenir une réaction rapide. Il trouvera ainsi très facilement sa place dans votre domicile pour préserver la sécurité de toute la famille.
 
 Le détecteur de fumée Fibaro FGSD-002 est un Détecteur Avertisseur Autonome de Fumée (DAAF) conforme à la norme EN 14604:2005. Bien qu'autonome, il est également communiquant grâce à la technologie Z-Wave Plus.
 
@@ -31,7 +31,7 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -49,17 +49,17 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Type de module : Emetteur Z-Wave
 * Alimentation : Batterie Lithium 3V CR123A
-* Autonomie de la batterie : 3 ans
+* Batterielaufzeit  : 3 Jahre
 * Fréquence : 868,42 MHz
 * Distance de transmission : 50m champ libre, 30m en intérieur
 * Dimensions : 65 x 28 mm (diamètre x hauteur)
-* Température de fonctionnement : 0-55°C
+* Betriebstemperatur : 0-55 ° C
 * Humidité de fonctionnement : 0% - 93%
 * Gamme de mesure de la température : -20 à 100°C
 * Sensibilité à la fumée : 1er niveau - 1,20 +/- 0,5% obs/m; 2e niveau - 1,80 +/- 0,5% obs/m; 3e niveau - 2,80 +/- 0,5% obs/m
@@ -70,19 +70,19 @@ Certains matériaux brûlent sans fumer. C'est pourquoi les ingénieurs de Fibar
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
-* Nom : Fibaro Smoke Sensor FGSD-002
-* Fabricant ID : 271
-* Type Produit : 3074
-* Produit ID : 4098
+* Marke : Fibar Group
+* Name : Fibaro Rauch-Sensor FGSD-002
+* Hersteller-ID : 271
+* Produkttyp : 3074
+* Produkt-ID : 4098
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -100,7 +100,7 @@ image::../images/fibaro.fgsd102/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -108,11 +108,11 @@ image::../images/fibaro.fgsd102/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -120,7 +120,7 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -133,7 +133,7 @@ image::../images/fibaro.fgsd102/commandes.jpg[Commandes]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -144,7 +144,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -152,7 +152,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -161,11 +161,11 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
-* Wakeup : c'est l'interval de réveil du module (valeur recommandée 21600)
+* Wakeup : c'est l'intervalle de réveil du module (valeur recommandée 21600)
 * 1: permet de régler la sensibilité de la détection de fumée
 * 2: permet de choisir les notifications qui seront envoyées à Jeedom (conseil : toutes)
 * 3: permet de choisir quelles notifications seront accompagnées d'une indication visuelle
@@ -175,14 +175,14 @@ image::../images/fibaro.fgsd102/config2.jpg[Config2]
 * 12: idem
 * 13: permet de notifier d'autres modules zwave (à désactiver sauf si vous savez pourquoi vous l'activez)
 * 20: durée entre deux rapports de températures
-* 21: différence de température à partir de laquelle, meme si la durée du dessus n'est pas atteinte, la température sera envoyée à Jeedom
+* 21: différence de température à partir de laquelle, même si la durée du dessus n'est pas atteinte, la température sera envoyée à Jeedom
 * 30: température de déclenchement de l'alarme Chaleur
-* 31: intervalle de signalisation des pics de températures
+* 31: intervalle de signalisation des pics de température
 * 32: intervalle de signal si perte de Zwave
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -223,7 +223,7 @@ Pour réveiller ce module il faut appuyer 3 fois sur le bouton central
 {nbsp} +
 
 [panel,primary]
-.J'ai l'impression que le module ne se réveille pas.
+.Ich habe den Eindruck, daß das Modul nicht aufwacht.
 --
 Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 --
@@ -231,22 +231,22 @@ Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

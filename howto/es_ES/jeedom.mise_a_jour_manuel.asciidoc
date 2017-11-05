@@ -13,7 +13,7 @@ Pensez bien à faire et récupérer un backup avant toute mise à jour manuelle.
 
 == Téléchargement et décompression
 
-En ssh, faites : 
+En SSH, faites : 
 
 ----
 sudo su -
@@ -25,11 +25,11 @@ cp -R core-stable/* /var/www/html
 
 == Passage des mises à jour
 
-Toujours en ssh : 
+Toujours en SSH: 
 
 ----
 sudo su -
-php /var/www/html/install/install.php mode=force
+php /var/www/html/install/update.php mode=force
 chmod 775 -R /var/www/html
 chown www-data:www-data -R /var/www/html
 ----

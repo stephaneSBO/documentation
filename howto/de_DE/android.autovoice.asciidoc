@@ -17,7 +17,7 @@ AutoVoice permet de créer ses propres commandes vocales pour Google Now pour au
 
 === Das Prinzip
 
-On va utiliser un profil Tasker sur état. Celui-ci sera une reconaissance vocale de AutoVoice. Ensuite en tâche on demandera à Tasker d'éxécuter 2 actions. La première sera d'appeler Jeedom et lui transmettre le résultat texte de la reconnaissance vocale. La deuxième sera d'énoncer le retour de Jeedom.
+On va utiliser un profil Tasker sur état. Celui-ci sera une reconaissance vocale de AutoVoice. Ensuite en tâche on demandera à Tasker d'exécuter 2 actions. La première sera d'appeler Jeedom et lui transmettre le résultat texte de la reconnaissance vocale. La deuxième sera d'énoncer le retour de Jeedom.
 
 == Profil erstellen
 
@@ -25,7 +25,7 @@ On ajoute un nouveau profil avec en déclencheur un état.
 
 image::../images/android.autovoice1.png[]
 
-On sélectionne "Plugins" sur le premier écran.
+On sélectionne "Plugin" sur le premier écran.
 
 image::../images/android.autovoice2.png[]
 
@@ -66,10 +66,10 @@ Là on va remplir avec les informations Jeedom.
 image::../images/android.autovoice9.png[]
 
 Voici les informations à entrer : 
-* Serveur:Port : `https://mondomain.tld`
+* Server:Port : `https://mondomain.tld`
 * Chemin : `/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1`
 
-Ne pas oublier de mettre votre clef API en lieu et place de la chaine `votreclef`. Il faut bien laisser `%avcommnofilter` à la fin, ce sera remplacé par la retour d'Autovoice.
+Ne pas oublier de mettre votre clef API en lieu et place de la chaine `votreclef`. Il faut bien laisser `%avcommonfilter` à la fin, ce sera remplacé par le retour d'Autovoice.
 
 image::../images/android.autovoice10.png[]
 
@@ -81,11 +81,11 @@ Et on rentre `%HTTPD` dans le champ texte.
 
 image::../images/android.autovoice12.png[]
 
-C'est fini. Sur reconnaissance de texte par AutoVoice, Jeedom sera appelé et vous aurez la réponse configurée dans les interactions qui sera énoncée par votre téléphone. N'oubliez pas de configurer les interactions Jeedom et vous pourrez lui demander tout ce que vous voulez. De "quelle est la température du salon" à "allumes la lumière du salon".
+C'est fini. Sur reconnaissance de texte par AutoVoice, Jeedom sera appelé et vous aurez la réponse configurée dans les interactions qui sera énoncée par votre téléphone. N'oubliez pas de configurer les interactions Jeedom et vous pourrez lui demander tout ce que vous voulez. De "quelle est la température du salon" à "allume la lumière du salon".
 
 [TIP]
-Si cela ne marche pas dès le debut, c'est souvent parce que AutoVoice n'est pas actif.
-Pour cela lancez le, cliquez sur Google Now Integration et sur le premier choix tout en haut et autorisez AutoVoice.
+Si cela ne marche pas dès le début, c'est souvent parce que AutoVoice n'est pas actif.
+Pour cela lancez-le, cliquez sur Google Now Integration et sur le premier choix tout en haut et autorisez AutoVoice.
 
 [TIP]
-Par defaut, AutoVoice désactive la recherche Google Now, il est possible d'annuler ce comportement, pour cela dans Tasker cliquez sur votre profil puis "edition" (petit crayon), puis "advanced" (tout en bas), et decochez "Do Google Now Search" (tout en bas).
+Par défaut, AutoVoice désactive la recherche Google Now, il est possible d'annuler ce comportement, pour cela dans Tasker cliquez sur votre profil puis "edition" (petit crayon), puis "advanced" (tout en bas), et décochez "Do Google Now Search" (tout en bas).

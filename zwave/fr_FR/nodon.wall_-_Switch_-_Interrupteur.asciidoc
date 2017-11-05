@@ -23,9 +23,9 @@ image::../images/nodon.wallswitch/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-L'interrupteur mural NodOn® peut contrôler directement n’importe quel appareil compatible Z-Wave® ou Z- Wave Plus® tel que la prise intelligente NodOn® ou encore déclencher des scènes via une centrale domotique compatible.
+L'interrupteur mural NodOn® peut contrôler directement n’importe quel appareil compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn® ou encore déclencher des scènes via une centrale domotique compatible.
 
-L’interrupteur possède une platine de fixation pour le monter facilement dans la maison: En utilisant les vis d’un pot d’encastrement, en le vissant au mur, ou tout simplement en le collant via les adhésifs double-face présents au dos de la platine.
+L’interrupteur possède une platine de fixation pour le monter facilement dans la maison: en utilisant les vis d’un pot d’encastrement, en le vissant au mur, ou tout simplement en le collant via les adhésifs double-face présents au dos de la platine.
 
 {nbsp} +
 
@@ -41,7 +41,7 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -167,8 +167,8 @@ image::../images/nodon.wallswitch/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-* 1-2 : Permet de choisir le profils des boutons en cas d'usage en central (inutile pour un usage dans jeedom)
-* 3 : Paramètre important pour dire si l'interrupteur doit fonctionne en mode Scene ou Central Scene (Absolument mettre Scene)
+* 1-2 : Permet de choisir le profil des boutons en cas d'usage en central (inutile pour un usage dans Jeedom)
+* 3 : Paramètre important pour dire si l'interrupteur doit fonctionner en mode Scene ou Central Scene (Absolument mettre Scene)
 * 4-7 : Choisir le mode de fonctionnement des boutons (en cas d'associations groupes)
 * 8 : Permet de choisir le mode de fonctionnement de la LED
 
@@ -187,11 +187,11 @@ image::../images/nodon.wallswitch/groupe2.jpg[Groupe]
 {nbsp} +
 
 * Groupe 1 – Lifeline :
-Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au Contrôleur Principal du réseau.
+Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au contrôleur principal du réseau.
 
-* Groupe 2 à 5 – Les appareils dans ces groupes sont contrôllés par le bouton correspondant selon le profil MONO 
+* Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil MONO 
 
-* Groupe 6 à 7 – Les appareils dans ces groupes sont contrôllés par le bouton correspondant selon le profil DUO
+* Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil DUO
 
 {nbsp} +
 
@@ -227,7 +227,7 @@ Pour réveiller ce module il suffit d'appuyer sur un de ces boutons
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
 --
 
 {nbsp} +

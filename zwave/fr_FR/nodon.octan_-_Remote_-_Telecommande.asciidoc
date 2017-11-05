@@ -35,13 +35,13 @@ Son aimant intégré permet de la fixer partout, du radiateur à la porte de 
 
 * Contrôle seul ou avec une centrale domotique
 * Aimant intégré
-* Led de couleurs
+* Led de couleur
 * Platine Murale
 * 2 ans de batterie
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -51,7 +51,7 @@ Son aimant intégré permet de la fixer partout, du radiateur à la porte de 
 * Aimant intégré pour fixation sur surface métallique
 * Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
 * Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.01 Portée: 40m indoor / 80m outdoor
-* Dimension : 80*80*15mm
+* Dimensions : 80*80*15mm
 * Garantie 2 ans
 
 {nbsp} +
@@ -98,7 +98,7 @@ image::../images/nodon.octan/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -115,7 +115,7 @@ image::../images/nodon.octan/commandes.jpg[Commandes,align="center"]
 
 [cols=".^3s,.^3,.^3,.^3,.^3", options="header"]
 |===
-|Boutons|Appui|Appui Long|Relachement|Double appui
+|Boutons|Appui|Appui Long|Relâchement|Double appui
 
 |1|10|12|11|13
 |2|20|22|21|23
@@ -161,8 +161,8 @@ image::../images/nodon.octan/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-* 1-2 : Permet de choisir le profils des boutons en cas d'usage en central (inutile pour un usage dans jeedom)
-* 3 : Paramètre important pour dire si l'interrupteur doit fonctionne en mode Scene ou Central Scene (Absolument mettre Scene)
+* 1-2 : Permet de choisir le profils des boutons en cas d'usage en central (inutile pour un usage dans Jeedom)
+* 3 : Paramètre important pour dire si l'interrupteur doit fonctionner en mode Scene ou Central Scene (Absolument mettre Scene)
 * 4-7 : Choisir le mode de fonctionnement des boutons (en cas d'associations groupes)
 * 8 : Permet de choisir le mode de fonctionnement de la LED
 
@@ -181,11 +181,11 @@ image::../images/nodon.octan/groupe2.jpg[Groupe]
 {nbsp} +
 
 * Groupe 1 – Lifeline :
-Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au Contrôleur Principal du réseau.
+Ce groupe est généralement utilisé pour reporter des informations de la Smart Plug au contrôleur principal du réseau.
 
-* Groupe 2 à 5 – Les appareils dans ces groupes sont contrôllés par le bouton correspondant selon le profil MONO 
+* Groupe 2 à 5 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil MONO 
 
-* Groupe 6 à 7 – Les appareils dans ces groupes sont contrôllés par le bouton correspondant selon le profil DUO
+* Groupe 6 à 7 – Les appareils dans ces groupes sont contrôlés par le bouton correspondant selon le profil DUO
 
 {nbsp} +
 
@@ -202,7 +202,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 
 {nbsp} +
 
-* Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le réveiller 1 ou 2 fois après l'inclusion. Et bien vérifier le groupe d'association.
+* Ce module peut être capricieux à l'inclusion. Ne pas hésiter à le réveiller 1 ou 2 fois après l'inclusion, et bien vérifier le groupe d'association.
 
 {nbsp} +
 
@@ -210,7 +210,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 
 {nbsp} +
 
-Pour réveiller ce module il suffit d'appuyer sur un de ces boutons
+Pour réveiller ce module il suffit d'appuyer sur un des boutons
 
 {nbsp} +
 
@@ -221,7 +221,7 @@ Pour réveiller ce module il suffit d'appuyer sur un de ces boutons
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
 --
 
 {nbsp} +

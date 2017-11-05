@@ -26,8 +26,8 @@ image::../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg[width=200,align="center"]
 Ce détecteur alimenté par pile et compatible Z-Wave dispose d'un capteur reed, un interrupteur de proximité à fonctionnement
 magnétique, qui permet de détecter l'ouverture d'une porte ou d'une fenêtre lorsque les deux éléments sont éloignés.
 
-Le dispositif est constitué d'une partie avec un aimant (la partie mobile), fixé sur la porte ou la fenêtre, ainsi que de
-l'unité principal positionné sur la partie fixe de la fenêtre/porte avec des vis ou un adhésif. Lorsque les deux parties ne
+Le dispositif est constitué d'une partie avec un aimant (la partie mobile), fixée sur la porte ou la fenêtre, ainsi que de
+l'unité principale positionnée sur la partie fixe de la fenêtre/porte avec des vis ou un adhésif. Lorsque les deux parties ne
 sont plus en face, un signal radio Z-Wave est automatiquement envoyé.
 
 De plus, ce détecteur dispose d'une entrée analogique permettant d'y connecter une sonde de température 1-Wire DS18B20.
@@ -55,12 +55,12 @@ déjà un réseau existant.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
 * Type de module : Emetteur Z-Wave
-* Couleur : Blanc
+* Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 * Alimentation : Pile ER14250 (1/2AA) 3,6V
 * Fréquence : 868,42 Mhz
 * Distance de transmission : 50m champ libre, 30m en intérieur
@@ -111,7 +111,7 @@ image::../images/fibaro.fgk101-DS18B20/information.jpg[Plugin Zwave,align="cente
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -151,7 +151,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -165,15 +165,15 @@ image::../images/fibaro.fgk101-DS18B20/config2.jpg[Config2,align="center"]
 {nbsp} +
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
-* 1: permet de régler le délai d'annulation de l'alarme de l'entrée in (contact sec)
+* 1: permet de régler le délai d'annulation de l'alarme de l'entrée IN (contact sec)
 * 2: permet de choisir si la led bleue doit clignoter à l'ouverture et la fermeture de votre porte par exemple
 * 3: permet de définir le type contact relié au bornier (IN)
 * 5: déconseillé de changer ce paramètre sauf si vous savez pourquoi (définit le type de signal envoyé au groupe d'association 1)
 * 7: valeur envoyée au groupe d'association 1
-* 9: permet de régler l'envoi du signal d'annulation entre l'entrée in et le groupe d'association 1
+* 9: permet de régler l'envoi du signal d'annulation entre l'entrée IN et le groupe d'association 1
 * 12: permet de régler la sensibilité au changement de température (si une sonde 1 wire est reliée au module)
-* 13: permet de régler l'envoi en mode broadcast des signaux de températures et de tamper
-* 14: permet d'acitver la fonctionnalité d'activation de scènes
+* 13: permet de régler l'envoi en mode broadcast des signaux de température et de tamper
+* 14: permet d'activer la fonctionnalité d'activation de scènes
 
 {nbsp} +
 
@@ -228,7 +228,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
-Ce module se réveille en appuyant 3 fois sur un des boutons tampers. Mais il faut que l'autre bouton tamper soit enfoncé.
+Ce module se réveille en appuyant 3 fois sur un des boutons tamper. Mais il faut que l'autre bouton tamper soit enfoncé.
 --
 
 {nbsp} +

@@ -36,7 +36,7 @@ Site officiel : http://www.methods.co.nz/asciidoc/
 
 La documentation Jeedom s'appuie sur l'AsciiDoc et sur l'adjonction du bootstap de Laurent Laville : http://laurent-laville.org/asciidoc/bootstrap/
 
-Cette particularité permet d'ajouter des fonctions supplémentaires au fonctions présentes dans l'AsciiDoc. Mais nécessite aussi une compilation particulière pour avoir une visibilité sur le rendu final. {nbsp} +
+Cette particularité permet d'ajouter des fonctions supplémentaires aux fonctions présentes dans l'AsciiDoc. Mais nécessite aussi une compilation particulière pour avoir une visibilité sur le rendu final. {nbsp} +
 Nous détaillerons dans ce document, comment générer vos pages en local pour valider la mise en forme.
 
 === Un peu de syntaxe
@@ -92,11 +92,11 @@ Les fichiers asciidoc inclus sont
 * faq.asciidoc
 
 Ces fichiers correspondent à la base de la structure de la documentation Jeedom.
-Il est possible d'inclure d'autres fichier AsciiDoc.
+Il est possible d'inclure d'autres fichiers AsciiDoc.
 
 === description.asciidoc
 
-Le fichier *description.asciidoc* vous permet de présenter votre votre plugin.
+Le fichier *description.asciidoc* vous permet de présenter votre plugin.
 
 ==== Plugin simple
 
@@ -122,15 +122,15 @@ image:nomduplugin_widget.png[]
 
 Si votre plugin est :
 
-* dépendant d'un équipement tier
-* nécessite quelques présrequis
+* dépendant d'un équipement tiers
+* nécessite quelques prérequis
 * nécessite une explication sur le principe de fonctionnement.
 
-Il est conseillé de créer plusieurs sous-chapitre.
+Il est conseillé de créer plusieurs sous-chapitres.
 
 * *Desciption générale* +
 * *Description marketing :)*
-* *Les présrequis*
+* *Les prérequis*
 * *Principe de fonctionnement*
 
 Exemple de fichier *description.asciidoc* complexe :
@@ -141,33 +141,33 @@ Exemple de fichier *description.asciidoc* complexe :
 
 ==== Générale
 
-Ce Plugin à pour objectif de BLABLABLA.
+Ce Plugin a pour objectif de BLABLABLA.
 
 Une petite copie d'écran du rendu du widget du plugin :
 
 image:nomduplugin_widget.png[]
 
-// Si le plugin est dépendant d'un équipement ou solution logiciel tier, le présenter
+// Si le plugin est dépendant d'un équipement ou solution logicielle tiers, le présenter
 ==== Présentation de l'équipement ou application XXX
 //ajouter une image de l'équipement
 image:nomduplugin_equipementXXX.png[]
 
 Décrire l'équipement, ajouter des liens vers le consructeur ou sites de référence.
-Décrire le niveau d'intégration de l'équipement dans Jeedom (complète, incomplète et quelles fonctionnalités n'est pas implémentées)
+Décrire le niveau d'intégration de l'équipement dans Jeedom (complète, incomplète et quelles fonctionnalités ne sont pas implémentées)
 
-// Si il est nécessaire de présenter le principe de fonctionnement :
+// S'il est nécessaire de présenter le principe de fonctionnement :
 ==== Principe de fonctionnement
 Décrire l'architecture et la philosophie du plugin.
 
-==== Présrequis
-Lister et décrire les présrequis à l'installation et l'utilisation du plugin
+==== Prérequis
+Lister et décrire les prérequis à l'installation et l'utilisation du plugin
 * ex : une clé API à demander
 
 ----
 
 === installation.asciidoc
 
-Si votre plugin n'a aucune spécification sur son installation, ajouter juste un pointeur vers la procédure d'installation d'un plugin décrit dans la documentation du core Jeedom :
+Si votre plugin n'a aucune spécification sur son installation, ajouter juste un pointeur vers la procédure d'installation d'un plugin décrite dans la documentation du core Jeedom :
 
 https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-plugin.html[*Installation d'un plugin*]
  kbd:[Ctrl+mouse clic] (pour ouvrir dans un nouvel onglet)

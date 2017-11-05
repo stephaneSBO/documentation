@@ -20,7 +20,7 @@ include::linkmarket.asciidoc[]
 == Holen Sie sich Ihre direkte Zugangs URL
 include::dnsaccess.asciidoc[]
 
-== Changer le mot de passe par défaut de Jeedom
+== Jeedom Standard Anmeldungskennwort ändern
 include::changeuser.asciidoc[]
 
 == Mein erstes Objekt erstellen

@@ -1,4 +1,4 @@
-= Started with Jeedom
+== Started with Jeedom
 
 Welcome to the first steps of documentation, it will help you set up your Jeedom
 
@@ -20,7 +20,7 @@ include::linkmarket.asciidoc[]
 == Get My direct access URL
 include::dnsaccess.asciidoc[]
 
-== Changer le mot de passe par défaut de Jeedom
+== Change the default password of Jeedom
 include::changeuser.asciidoc[]
 
 == Create my first object

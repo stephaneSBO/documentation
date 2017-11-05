@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/secure.sir321/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/secure.sir321/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -31,7 +31,7 @@ Le SIR 321 prend en charge les capteurs de température externe SES001, SES002 e
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -40,11 +40,11 @@ Le SIR 321 prend en charge les capteurs de température externe SES001, SES002 e
 * Ventilation forcée dans les salles de conférence
 * Mesure de la température de chauffage au sol (avec sondes en option)
 * Simple à utiliser et fiable
-* Réalise des économies d'énergie
+* Realisieren von Energieeinsparung
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -53,22 +53,22 @@ Le SIR 321 prend en charge les capteurs de température externe SES001, SES002 e
 * Alimentation: 230V AC, 50Hz
 * Dimensions 85x85x44mm
 * Indice de protection : IP30
-* Température de fonctionnement: 0°C à 35°C
+* Betriebstemperatur : 0°C bis 35°C
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Horstmann
-* Nom : SIR 321 RF Countdown Timer
-* Fabricant ID : 89
-* Type Produit : 1/2 (en fonction de si il est inclus avec une sonde de température ou non)
+* Name : SIR 321 RF Zeitschaltuhr 
+* Hersteller-ID : 89
+* Produkttyp : 1/2 (je nachdem, ob einTemperatursensor angeschlossen ist oder nicht)
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -86,7 +86,7 @@ image::../images/secure.sir321/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -94,11 +94,11 @@ image::../images/secure.sir321/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -106,7 +106,7 @@ image::../images/secure.sir321/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -116,7 +116,7 @@ image::../images/secure.sir321/commandes.jpg[Commandes]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -129,7 +129,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -137,24 +137,24 @@ image::../images/secure.sir321/config1.jpg[Config1]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
 * 1: Permet d'activer ou non la fonction fail safe timer (se référer à la documentation du module)
 * 2: Permet de régler l'unité de la température
-* 3: Permet de régler l'intervalle de temps d'envoie de la température à Jeedom (en secondes)
+* 3: Permet de régler l'intervalle de temps d'envoi de la température à Jeedom (en secondes)
 * 4: Permet de régler de combien doit varier la température pour que le module l'envoie à Jeedom (par pas de 0.1 10-->0.1)
 * 5: Permet de régler une température de cut off au delà de laquelle le module coupera le relais
 
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède deux groupes d'association si, le premier est indispensable. Le deuxième est actif et est indispensable si une sonde de température est reliée.
+Ce module possède deux groupes d'association. Si le premier est indispensable, le deuxième est actif et est indispensable si une sonde de température est reliée.
 
 {nbsp} +
 

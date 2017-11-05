@@ -38,7 +38,7 @@ image::../images/plugin/inclusion4.jpg[width=756]
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-Il est préférable d’effectuer une exclusion avant une inclusion, pour effectuer l’exclusion rien de bien compliqué,
+Il est préférable d’effectuer une exclusion avant une inclusion. Pour effectuer l’exclusion, rien de bien compliqué,
 il suffit de cliquer sur « Mode exclusion » et d'exclure le module, un message apparaitra vous confirmant l’exclusion du module.
 
 {nbsp} +

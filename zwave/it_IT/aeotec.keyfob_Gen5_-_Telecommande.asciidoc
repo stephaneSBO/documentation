@@ -27,7 +27,7 @@ image::../images/aeotec.keyfob-gen5/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-La télécommande porte clés Aeon Labs au design moderne et agréable dispose de 4 boutons permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc
+La télécommande porte-clés Aeon Labs au design moderne et agréable dispose de 4 boutons permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc.
 
 Avec ses dimensions très réduites, vous pourrez facilement la mettre dans votre poche. Facile à utiliser et élégante, elle est équipée d'un anneau permettant de l'attacher à des clés, ce qui la rend disponible au moment de quitter la maison ou lors du retour à votre domicile.
 
@@ -41,23 +41,23 @@ Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la gamme G
 
 {nbsp} +
 
-* Télécommande porte clés
+* Télécommande porte-clés
 * Contrôleur principal ou secondaire
-* Ultra-compacte et ultra-design
+* Ultra compacte et ultra design
 * 4 boutons configurables
 * Gère jusqu'à 8 périphériques/scènes
 * Volet de protection coulissant
 * Fait partie de la gamme Gen5 de Aeon Labs
 * Sécurité de la communication radio via le chiffrement AES-128
 * Intègre la puce Z-Wave série 500
-* Communication 250% plus rapide comparé à des périphériques Z-Wave standard 
+* Communication 250% plus rapide comparée à des périphériques Z-Wave standard 
 * Optimisation de l'antenne, portée 100 mètres
 * Facilité d'utilisation et d'installation
 
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -117,7 +117,7 @@ image::../images/aeotec.keyfob-gen5/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -138,17 +138,17 @@ image::../images/aeotec.keyfob-gen5/commandes.jpg[Commandes,align="center"]
 
 2 : Bouton 1 appui long
 
-3 : Bouton 2 appui court
+3 : Bouton 2 appuis courts
 
-4 : Bouton 2 appui long
+4 : Bouton 2 appuis longs
 
-5 : Bouton 3 appui court
+5 : Bouton 3 appuis courts
 
-6 : Bouton 3 appui long
+6 : Bouton 3 appuis longs
 
-7 : Bouton 4 appui court
+7 : Bouton 4 appuis courts
 
-8 : Bouton 4 appui long
+8 : Bouton 4 appuis longs
 
 {nbsp} +
 
@@ -175,7 +175,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -252,7 +252,7 @@ Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
 --
 
 {nbsp} +

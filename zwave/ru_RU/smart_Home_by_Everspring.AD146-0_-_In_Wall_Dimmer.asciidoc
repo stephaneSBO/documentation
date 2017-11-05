@@ -56,7 +56,7 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -117,7 +117,7 @@ image::../images/smarthomebyeverspring.AD146-0/information.jpg[Plugin Zwave,alig
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -132,7 +132,7 @@ image::../images/smarthomebyeverspring.AD146-0/commandes.jpg[Commandes,align="ce
 * Intensité : C'est la commande permettant de régler l'intensité de la lumière
 * On : C'est la commande qui permet d'allumer la lumière
 * Off : C'est la commande qui permet d'éteindre la lumière
-* Etat : C'est la commande qui permet de connaitre le statut de la lumière
+* Etat : C'est la commande qui permet de connaître le statut de la lumière
 
 {nbsp} +
 
@@ -167,7 +167,7 @@ image::../images/smarthomebyeverspring.AD146-0/config1.jpg[Config1,align="center
 {nbsp} +
 
 * 1 : Ce paramètre déﬁnit la commande de valeur d'état, il n'est pas conseillé de changer cette valeur.
-* 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
+* 2 : Ce paramètre définit le délai d'envoi du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 * 3 : Ce paramètre permet de définir si l'interrupteur reprendra son statut (ON ou OFF) après une reprise de courant.
 * 4 : Ce paramètre permet de définir le type d'interrupteur (poussoir/bistable)
 * 5 : Ce paramètre permet de définir si l'interrupteur fontionnera en mode variation ou en mode on/off
@@ -213,7 +213,7 @@ image::../images//smarthomebyeverspring.AD146-0/vuewidget.jpg[width=200,align="c
 
 {nbsp} +
 
-Pas de notion de wakeup sur ce module.
+Pas de notion de wake up sur ce module.
 
 {nbsp} +
 

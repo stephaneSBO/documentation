@@ -1,8 +1,6 @@
-Un plugin permet d'ajouter des fonctionalités à Jeedom, il en existe des centaines, certains peuvent être payants. Pour accéder à la page des plugins aller sur Général → Plugins
+Un plugin permet d'ajouter des fonctionnalités à Jeedom, il en existe des centaines, certains peuvent être payants. Pour accéder à la page des plugins aller sur Plugins → Gestion des plugins
 
-image::../images/premier-plugin.png[]
-
-You just have to click on market :
+Il vous suffit ensuite de cliquer sur Market :
 
 image::../images/premier-plugin2.png[]
 
@@ -17,6 +15,6 @@ By clicking on a plugin you will get its plug :
 
 image::../images/premier-plugin4.png[]
 
-Vous avez ici des boutons pour installer le plugin (la version stable est fortement recommandée) ainsi qu'une brève description et surtout un lien vers la documentation du plugin. Il est important de consulter cette documentation car beaucoup de problèmes que vous pourriez rencontrer sont expliqués dans celle-ci.
+Vous avez ici des boutons pour installer le plugin (la version stable est fortement recommandée) ainsi qu'une brève description et surtout un lien vers la documentation du plugin. Il est important de consulter cette documentation car beaucoup des problèmes que vous pourriez rencontrer sont expliqués dans celle-ci.
 
 Pour plus d'informations sur cette page cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-plugin.html[ici]

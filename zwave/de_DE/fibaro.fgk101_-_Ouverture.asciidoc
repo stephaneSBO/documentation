@@ -1,9 +1,9 @@
 :icons:
-== Fibaro Détecteur d'ouverture - FGK-101
+== Fibaro Tür-/Fenster Sensor - FGK-101
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgk101-DS18B20/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -19,15 +19,15 @@ image::../images/fibaro.fgk101-DS18B20/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
 Ce détecteur alimenté par pile et compatible Z-Wave dispose d'un capteur reed, un interrupteur de proximité à fonctionnement
 magnétique, qui permet de détecter l'ouverture d'une porte ou d'une fenêtre lorsque les deux éléments sont éloignés.
 
-Le dispositif est constitué d'une partie avec un aimant (la partie mobile), fixé sur la porte ou la fenêtre, ainsi que de
-l'unité principal positionné sur la partie fixe de la fenêtre/porte avec des vis ou un adhésif. Lorsque les deux parties ne
+Le dispositif est constitué d'une partie avec un aimant (la partie mobile), fixée sur la porte ou la fenêtre, ainsi que de
+l'unité principale positionnée sur la partie fixe de la fenêtre/porte avec des vis ou un adhésif. Lorsque les deux parties ne
 sont plus en face, un signal radio Z-Wave est automatiquement envoyé.
 
 De plus, ce détecteur dispose d'une entrée analogique permettant d'y connecter une sonde de température 1-Wire DS18B20.
@@ -40,7 +40,7 @@ déjà un réseau existant.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -51,37 +51,37 @@ déjà un réseau existant.
 * 1 entrée filaire sans potentiel
 * 1 entrée analogique 1-Wire (pour connecter une sonde de température DS18B20)
 * Très petit, dimensions réduites
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Type de module : Emetteur Z-Wave
-* Couleur : Blanc
+* Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 * Alimentation : Pile ER14250 (1/2AA) 3,6V
 * Fréquence : 868,42 Mhz
 * Distance de transmission : 50m champ libre, 30m en intérieur
 * Dimensions: 76 x 17 x 19 mm
-* Température de fonctionnement : 0-40°C
+* Betriebstemperatur : 0-40 ° C
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
-* Nom : Fibaro FGK-101 avec sonde de température (DS18B20)
-* Fabricant ID : 271
-* Type Produit : 1792
-* Produit ID : 4096
+* Marke : Fibar Group
+* Name : Fibaro FGK-101 mit Temperatursonde (DS18B20)
+* Hersteller-ID : 271
+* Produkttyp : 1792
+* Produkt-ID : 4096
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -99,7 +99,7 @@ image::../images/fibaro.fgk101-DS18B20/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -107,11 +107,11 @@ image::../images/fibaro.fgk101-DS18B20/information.jpg[Plugin Zwave,align="cente
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -119,7 +119,7 @@ image::../images/fibaro.fgk101-DS18B20/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -132,7 +132,7 @@ Vous pouvez masquer ou afficher ces commandes comme vous le souhaitez.
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -142,8 +142,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche „Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -151,7 +151,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -160,28 +160,28 @@ image::../images/fibaro.fgk101-DS18B20/config2.jpg[Config2,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
 * Wakeup : c'est l'interval de réveil du module (valeur recommandée 7200)
-* 1: permet de régler le délai d'annulation de l'alarme de l'entrée in (contact sec)
+* 1: permet de régler le délai d'annulation de l'alarme de l'entrée IN (contact sec)
 * 2: permet de choisir si la led bleue doit clignoter à l'ouverture et la fermeture de votre porte par exemple
 * 3: permet de définir le type contact relié au bornier (IN)
 * 5: déconseillé de changer ce paramètre sauf si vous savez pourquoi (définit le type de signal envoyé au groupe d'association 1)
 * 7: valeur envoyée au groupe d'association 1
-* 9: permet de régler l'envoi du signal d'annulation entre l'entrée in et le groupe d'association 1
+* 9: permet de régler l'envoi du signal d'annulation entre l'entrée IN et le groupe d'association 1
 * 12: permet de régler la sensibilité au changement de température (si une sonde 1 wire est reliée au module)
-* 13: permet de régler l'envoi en mode broadcast des signaux de températures et de tamper
-* 14: permet d'acitver la fonctionnalité d'activation de scènes
+* 13: permet de régler l'envoi en mode broadcast des signaux de température et de tamper
+* 14: permet d'activer la fonctionnalité d'activation de scènes
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède trois groupes d'association, seul le troisième est indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist unerlässlich.
 
 {nbsp} +
 
@@ -203,7 +203,7 @@ Ce module est très capricieux sur les wakeup et nécessite une très forte prox
 
 {nbsp} +
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 
@@ -211,7 +211,7 @@ image::../images/fibaro.fgk101-DS18B20/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -228,7 +228,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
-Ce module se réveille en appuyant 3 fois sur un des boutons tampers. Mais il faut que l'autre bouton tamper soit enfoncé.
+Ce module se réveille en appuyant 3 fois sur un des boutons tamper. Mais il faut que l'autre bouton tamper soit enfoncé.
 --
 
 {nbsp} +
@@ -242,22 +242,22 @@ Ce module à une portée très faible. Il est conseillé de faire l'inclusion au
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

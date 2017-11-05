@@ -1,13 +1,13 @@
-La première chose à faire est de se créer un compte sur le market pour pouvoir enregistrer votre Jeedom sur celui-ci, cliquez link:https://market.jeedom.fr[ici] pour commencer
+La première chose à faire est de se créer un compte sur le Market pour pouvoir enregistrer votre Jeedom sur celui-ci, cliquez link:https://market.jeedom.fr[ici] pour commencer
 
 image::../images/premier-market.png[]
 
-Click on the button save on the top right hand corner :
+Cliquez sur le bouton "S'enregistrer" en haut à droite :
 
 image::../images/premier-market2.png[]
 
-Remplissez les différents champs et valider. Vous tomberez ensuite sur cette page :
+Remplissez les différents champs et validez. Vous tomberez ensuite sur cette page :
 
 image::../images/premier-market3.png[]
 
-Voila votre compte market est créé, pour plus de details sur le market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
+Voila votre compte Market est créé, pour plus de details sur le market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]

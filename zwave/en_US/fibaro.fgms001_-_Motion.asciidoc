@@ -44,7 +44,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 *	Mesure de la température
 *	Mesure de l'intensité lumineuse
 *	Protection contre l'effraction et le vol
-*	Alertes de mouvement et de température signalé par le clignotement de la diode LED
+*	Alertes de mouvement et de température signalées par le clignotement de la diode LED
 *	Mode de détection de tremblement de terre
 *	Bouton pour inclure/exclure le détecteur
 *	Détection pile faible
@@ -54,7 +54,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -119,7 +119,7 @@ image::../images/fibaro.fgms001/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -164,7 +164,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -200,7 +200,7 @@ image::../images/fibaro.fgms001/config4.jpg[Config3,align="center"]
 * 40: permet de dire de combien doit être modifiée la valeur de luminosité pour être envoyée (valeur conseillée 50)
 * 42: permet de donner une durée minimum entre deux envois successifs même si la luminosité n'a pas changée (valeur conseillée 3600)
 * 60: permet de dire de combien doit être modifiée la valeur de température pour être envoyée (valeur conseillée 2  soit 0.2 degrés)
-* 62: permet de donner la fréquence des mesures de températures (valeur conseillée 900)
+* 62: permet de donner la fréquence des mesures de température (valeur conseillée 900)
 * 64: permet de donner une durée minimum entre deux envois successifs même si la température n'a pas changée (valeur conseillée 2700)
 * 66: permet d'ajuster la température
 * 80: permet de choisir la couleur de la led lorsqu'il ya détection de mouvement (voir de la désactiver)
@@ -209,7 +209,7 @@ image::../images/fibaro.fgms001/config4.jpg[Config3,align="center"]
 * 83: permet de régler le seuil maximal de luminosité pour mettre la led à 100% (lié au paramètre 81)
 * 86: température en dessous de laquelle la led s'allumera en bleu (lié au paramètre 81)
 * 87: température au dessus de laquelle la led s'allumera en rouge (lié au paramètre 81)
-* 89: permet de faire clignoter la led en bleu blanc rouge en cas de sabotage
+* 89: permet de faire clignoter la led en bleu/blanc/rouge en cas de sabotage
 
 {nbsp} +
 

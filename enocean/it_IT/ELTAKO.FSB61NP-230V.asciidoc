@@ -4,11 +4,11 @@ image::../images/Eltako-FSB61NP/FSB61NP-230v.png[width=500,align="center"]
 
 == DESCRIPTION:
 
-Cet actionneur radio dispose de la technologie Hybride la plus moderne développée par Eltako : la combinaison d'une électronique sans usure de réception et d'évaluation avec deux relais bistables à commutation en valeur zéro. Ceci élimine toute perte de puissance dans la bobine et par conséquent tout échauffement.
+Cet actionneur radio dispose de la technologie hybride la plus moderne développée par Eltako : la combinaison d'une électronique sans usure de réception et d'évaluation avec deux relais bistables à commutation en valeur zéro. Ceci élimine toute perte de puissance dans la bobine et par conséquent tout échauffement.
 
-En plus d'une commande à travers de l'entrée radio vers une antenne incorporée, il est possible de commander ce télérupteur-relais de groupe à l'aide d'un bouton-poussoir conventionnel local.
+En plus d'une commande au travers de l'entrée radio vers une antenne incorporée, il est possible de commander ce télérupteur relais de groupe à l'aide d'un bouton poussoir conventionnel local.
 
-Il peut être appairé avec jusqu'à 35 émetteurs radio bouton-poussoir, dont un ou plusieurs boutons-poussoirs pour commande centralisée.
+Il peut être appairé avec 35 émetteurs radio boutons poussoirs, dont un ou plusieurs boutons poussoirs pour commande centralisée.
 
 == FONCTIONS:
 
@@ -46,7 +46,7 @@ Ce module est simple à installer:
 * il suffit de raccorder l'arrivée électrique, la phase (L) et le neutre(N) respectivement sur les bornes 3 et 4 du même nom.
 * raccordez aussi le commun de votre moteur sur le neutre de l'arrivée électrique.
 * raccorder ensuite le fil de montée sur la borne 1 et celui de la descente sur la borne 2.
-* Re-vérifiez deux fois le bon raccordement, puis remettez le courant, et c'est fait !
+* Revérifiez deux fois le bon raccordement, puis remettez le courant, et c'est fait !
 
 image::../images/Eltako-FSB61NP/FSB61NP_shemas.jpg[width=262,align="center"]
 
@@ -60,22 +60,22 @@ Avant de faire l'association, vous devez effacer complètement le contenu de la 
 * Placer le sélecteur du bas sur MIN (en butée dans le sens INVERSE des aiguilles d'une montre) en butée à gauche.
 * Mettez le commutateur rotatif du haut sur la position CLR.
 * La LED clignote à une cadence élevée.
-* Dans les 10 secondes suivantes, tournez le commutateur inférieur à 3 reprises vers la buttée droite (dans le sens des aiguilles d'une montre) et puis tournez-le dans le sens inverse à son point de départ (soit 3 aller-retours).
+* Dans les 10 secondes suivantes, tournez le commutateur inférieur à 3 reprises vers la buttée droite (dans le sens des aiguilles d'une montre) et puis tournez-le dans le sens inverse à son point de départ (soit 3 allers-retours).
 * La LED s'éteint immédiatement. 
 * Toutes les associations sont effacées.
 
 ==== ACTIVATION DU RETOUR D’ÉTAT
 
-Par défaut, l'envoi des télégrammes de retour d'état sont désactivés.
+Par défaut, l'envoi des télégrammes de retour d'état est désactivé.
 Afin de pouvoir les recevoir, il faut donc activer cette fonctionnalité :
 
 * Placer le sélecteur du bas sur MAX (en butée dans le sens des aiguilles d'une montre) en butée à droite.
 * Mettez le commutateur rotatif du haut sur la position CLR.
 * La LED clignote à une cadence élevée.
-* Dans les 10 secondes suivantes, tournez le commutateur inférieur à 3 reprises vers la buttée gauche (dans le sens INVERSE des aiguilles d'une montre) et puis tournez-le dans le sens inverse à son point de départ (soit 3 aller-retours).
+* Dans les 10 secondes suivantes, tournez le commutateur inférieur à 3 reprises vers la buttée gauche (dans le sens INVERSE des aiguilles d'une montre) et puis tournez-le dans le sens inverse à son point de départ (soit 3 allers-retours).
 * La LED arrête de clignoter et s'éteint après 2 secondes. 
-* L'envoi des télégrammes est maintenant activée.
-NOTE: en répétant la procédure, vous désactiverez le retour d’état, et dans ce cas, à la fin de la procédure la LED s'éteint IMMÉDIATEMENT (au lieu de rester allumer pendant 2 secondes).
+* L'envoi des télégrammes est maintenant activé.
+NOTE: en répétant la procédure, vous désactiverez le retour d’état, et dans ce cas, à la fin de la procédure la LED s'éteint IMMÉDIATEMENT (au lieu de rester allumée pendant 2 secondes).
 
 
 ==== ASSOCIATION
@@ -83,7 +83,7 @@ NOTE: en répétant la procédure, vous désactiverez le retour d’état, et da
 NOTE: 
 
 * Vous devez être très près de la clef pour faire l'association (idéalement ~5cm).
-* Vous devez impérativement mettre le sélecteur du bas sur la position "MIN" AVANT TOUTE INCLUSION sous peine d'avoir des commandes qui ne fonctiooneront pas normalement, et la seule solution sera alors de faire un reset complet du module !
+* Vous devez impérativement mettre le sélecteur du bas sur la position "MIN" AVANT TOUTE INCLUSION sous peine d'avoir des commandes qui ne fonctionneront pas normalement, et la seule solution sera alors de faire un reset complet du module !
 
 
 ===== ASSOCIATION DIRECTE AVEC UN INTERRUPTEUR:
@@ -101,9 +101,9 @@ Note : Vous pourrez ajuster les temps de descente/montée avec le sélecteur du 
 ====== CONFIGURER LE RETOUR D'ÉTAT AVEC JEEDOM :
 
 * Préparez un petit bout (environ 10cm) de fil électrique rigide, dénudez les extrémités, et courbez le en forme de U.
-* Rendez-vous dans Plugin/Protocole domotique/EnOcean.
+* Rendez-vous dans Plugins/Protocole domotique/EnOcean.
 * Cliquez sur "Mode inclusion"
-* Maintenant shuntez (avec le fil en U) la borne L qui est la 3ème en partant de la gauche (Attention DANGER c'est la PHASE) et la borne  du contact sec qi la 5ème et dernière vis du bornier pendant une seconde environ jusqu’à ce que le volet démarre (en montée ou descente, peu importe).
+* Maintenant shuntez (avec le fil en U) la borne L qui est la 3ème en partant de la gauche (Attention DANGER c'est la PHASE) et la borne  du contact sec qui est la 5ème et dernière vis du bornier pendant une seconde environ jusqu’à ce que le volet démarre (en montée ou descente, peu importe).
 * Jeedom vous annonce l'inclusion d'un nouveau périphérique...
 * On attend qu'il ouvre la fenêtre du nouvel équipement qui est automatiquement reconnu comme étant le Profil 1 : "[F6-02-01] Volet roulant avec retour d'état"
 
@@ -133,8 +133,8 @@ NOTE: Ne pas faire la manip avec un interrupteur EnOcean (que vous auriez par ex
 * Contrôlez en cliquant sur "Tester" du "On" et du "Off".
 Note : Vous pourrez ajuster les temps de descente/montée avec le sélecteur du bas
 * C'est fini!
-* Allez sur le DashBoard, et vous aurez les commandes des volets et les retours d'états...
-* Note, faites une ouverture et fermeture complète la première fois pour que les infos se synchronisent.
+* Allez sur le DashBoard, vous aurez les commandes des volets et les retours d'états...
+* Note: faites une ouverture et fermeture complète la première fois pour que les infos se synchronisent.
 
 image::../images/Eltako-FSB61NP/VoletConfig.png[width=1302,align="center"]
 
@@ -145,16 +145,16 @@ Vidéo : https://www.youtube.com/watch?v=FeMgGRJRfvo
 
 Votre équipement présente maintenant deux retours d'état distinct : Ouvert (0=non, 1=oui) et Entre-Ouvert (0=non, 1=oui). 
 Idéalement il faut regrouper ces deux états afin d'obtenir une seule commande à 4 états. 
-En effet, nous avons la possibilité de d'identifier si le volet est Entre-ouvert lors de la montée ou de la descente
+En effet, nous avons la possibilité d'identifier si le volet est entre-ouvert lors de la montée ou de la descente
 
-* Créez un nouvel équipement Virtuel.
+* Créez un nouvel équipement virtuel.
 * Cliquez sur [Ajouter] pour créer un nouvel équipement
 * Donnez un nom par exemple "MON_VOLET_X" (sans le E_" cette fois)
 * Ajouter une infos virtuelle nommée Etat et de type Numérique (très important)
 * Dans le chams Valeur, saisissez la formule suivante : ( (\#[E_MON_VOLET_X][Ouvert]# +0.1)*0.5)+((\#[E_MON_VOLET_X][Entre-Ouvert]# +0.1) * 1.8)
-* Sauver
-* Cliquez sur la roue dentée (au bout de la ligne de notre Info Etat) pour ouvrir la fenêtre  de configuration de commande,
-* dans l'onglet "Configuration Avancée", saisissez \#value# dans le champs "Formule de calcul (\#value# pour la valeur)" et 0 dans le champs "Arrondi (chiffre après la virgule)".
+* Sauvez
+* Cliquez sur la roue dentée (au bout de la ligne de notre Info Etat) pour ouvrir la fenêtre  de configuration de la commande
+* dans l'onglet "Configuration Avancée", saisissez \#value# dans le champs "Formule de calcul (\#value# pour la valeur)" et 0 dans le champ "Arrondi (chiffre après la virgule)".
 * Allez maintenant dans l'onglet "Affichage avancé", et sélectionnez le Widget "Store_ELTAKO (widget) pour le DashBoard. Si vous ne le trouvez pas dans la liste, vous pourrez le télécharger dans la liste des widgets (je vais l'ajouter rapidement) 
 * Enregistrer et fermez la fenêtre  de configuration de commande
 * Ajouter maintenant les 2 ACTIONS Ouvrir et Fermer et sélectionnez les commandes correspondantes dans le module [E_MON_VOLET_X]

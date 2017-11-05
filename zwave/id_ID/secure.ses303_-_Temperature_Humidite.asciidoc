@@ -49,7 +49,7 @@ On peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -106,7 +106,7 @@ image::../images/secure.ses303/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -158,11 +158,11 @@ image::../images/secure.ses303/config1.jpg[Config1]
 {nbsp} +
 
 * 1: Permet de régler de combien doit varier la température pour que le module l'envoie à Jeedom (par pas de 0.1)
-* 2: Permet de régler l'intervalle de temps d'envoie de la température à Jeedom (en minutes)
+* 2: Permet de régler l'intervalle de temps d'envoi de la température à Jeedom (en minutes)
 * 3: Permet de régler de combien doit varier l'humidité pour que le module l'envoie à Jeedom (par %)
-* 4: Permet de régler l'intervalle de temps d'envoie de l'humidité à Jeedom (en minutes)
+* 4: Permet de régler l'intervalle de temps d'envoi de l'humidité à Jeedom (en minutes)
 
-Tous les autres paramètres sont identiques et correspondent à chaque sondes externes éventuellement branchées
+Tous les autres paramètres sont identiques et correspondent à toutes les sondes externes éventuellement branchées
 
 {nbsp} +
 
@@ -217,7 +217,7 @@ Ce module se réveille en appuyant 1 fois sur son bouton d'inclusion.
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
+Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up.
 --
 
 {nbsp} +
@@ -230,7 +230,7 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 [IMPORTANT]
 [underline]#Il faut réveiller le module :#
  après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+, après un changement de wake up, après un changement des groupes d'association
 
 {nbsp} +
 

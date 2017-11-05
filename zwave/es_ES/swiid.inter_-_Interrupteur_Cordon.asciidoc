@@ -57,7 +57,7 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -119,7 +119,7 @@ image::../images/swiid.inter/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -131,9 +131,9 @@ image::../images/swiid.inter/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-* Etat : C'est la commande qui permet de connaitre le statut de la lumière
-* On : C'est la commande qui permet d'allumer la lumière
-* Off : C'est la commande qui permet d'éteindre la lumière
+* Etat : C'est la commande qui permet de connaître le statut de la lumière
+* ON : C'est la commande qui permet d'allumer la lumière
+* OFF : C'est la commande qui permet d'éteindre la lumière
 
 {nbsp} +
 
@@ -171,9 +171,9 @@ Ce paramètre permet de choisir le comportement lorsque vous associez le swiidin
 {nbsp} +
 
 * Inactif : n'aura aucun effet sur les autres lumières
-* Uniquement Off : sera effectif uniquement pour éteindre les autres lumières
-* Uniquement On : sera effectif uniquement pour allumer les autres lumières
-* On et Off (fully) : sera effectif pour allumer et éteindre les autres lumières
+* Uniquement OFF : sera effectif uniquement pour éteindre les autres lumières
+* Uniquement ON : sera effectif uniquement pour allumer les autres lumières
+* ON et OFF (fully) : sera effectif pour allumer et éteindre les autres lumières
 
 {nbsp} +
 
@@ -199,7 +199,7 @@ Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé
 
 {nbsp} +
 
-Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'allumage d'une autre lumière, il suffit de la rajouter au groupe d'association 1 via l'écran cité au dessus.
+Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'allumage d'une autre lumière, il suffit de la rajouter au groupe d'association 1 via l'écran cité au-dessus.
 
 {nbsp} +
 
@@ -215,11 +215,11 @@ image::../images/swiid.inter/vuewidget.jpg[width=200]
 
 {nbsp} +
 
-=== Wakeup
+=== Wake up
 
 {nbsp} +
 
-Pas de notion de wakeup sur ce module.
+Pas de notion de wake up sur ce module.
 
 {nbsp} +
 
@@ -228,9 +228,9 @@ Pas de notion de wakeup sur ce module.
 {nbsp} +
 
 [panel,primary]
-.Un appui long n'allume pas ma lumière de la pièce ?
+.Un appui long n'allume pas la lumière de la pièce ?
 --
-Avez vous associé les deux modules et avez vous bien configuré la partie spécifique.
+Avez-vous associé les deux modules et avez-vous bien configuré la partie spécifique.
 --
 
 {nbsp} +

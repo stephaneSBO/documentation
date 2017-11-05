@@ -59,7 +59,7 @@ Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la p
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -129,7 +129,7 @@ image::../images/philio.psr04/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -191,8 +191,8 @@ image::../images/philio.psr04/config1.jpg[Config1,align="center"]
 * 1: définit la borne la plus basse (position complètement à gauche)
 * 2 : définit la borne la plus haute (position complètement à droite)
 * 10 : intervalle de temps de remontée de batterie
-* 25 : permet de définir si le module envoie sa positon automatiquement après rotation (1s de délai) ou si il faut appuyer sur le bouton pour valider l'envoie
-* 26 : active l'envoie de scène ou non sur appui du bouton centrale (paramètre non pris en compte dans jeedom)
+* 25 : permet de définir si le module envoie sa positon automatiquement après rotation (1s de délai) ou si il faut appuyer sur le bouton pour valider l'envoi
+* 26 : active l'envoi de scène ou non sur appui du bouton centrale (paramètre non pris en compte dans Jeedom)
 
 {nbsp} +
 
@@ -200,7 +200,7 @@ image::../images/philio.psr04/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-Ce module possède deux groupes d'association, le premier est le seul indispensable. Le deuxième permet de remonter la position à jeedom
+Ce module possède deux groupes d'association, le premier est le seul indispensable. Le deuxième permet de remonter la position à Jeedom
 
 {nbsp} +
 
@@ -248,7 +248,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez le module.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez le module.
 --
 
 {nbsp} +

@@ -6,11 +6,12 @@ Sie finden eine komplette Dokumentation link:https://jeedom.fr/doc[hier] :
 
 image::../images/premier-support1.png[]
 
-Es ist in verschiedene Kategorien unterteilt : ein Teil für den Jeedom "Kern", ein Teil für die Module (zwave, mySensors, rfxcom) und ein letzter Teil für die Dokumentation der Plugins.
+Es ist in verschiedene Kategorien unterteilt : ein Teil für den Jeedom "Kern", ein Teil für die Module (Zwave, mySensors, RFXcom) und ein letzter Teil für die Dokumentation der Plugins.
 
 === Das Forum
 
-Erhältlich link:https://jeedom.fr/forum[hier], das Forum ist sehr aktiv und hat viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht zu fragen, Sie werden eine Antwort in weniger als einer Stunde (im Durchschnitt) haben.
+Erhältlich link:https://jeedom.com/forum[hier], das Forum ist sehr aktiv und hat viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht zu fragen, Sie werden eine Antwort in weniger als einer Stunde (im Durchschnitt) haben.
+Attention, le forum est maintenu par la communauté Jeedom, composée de bénévoles, et non par la société Jeedom.
 
 image::../images/premier-support3.png[]
 
@@ -31,10 +32,10 @@ image::../images/premier-support5.png[]
 
 Jedweder Schriftwechsel erfolgt per E-Mail
 
-Bei der Öffnung des Tickets wurde ein Fehler angezeigt, dass ich meine Quote erreicht habe::
-En effet, en fonction de votre service pack vous êtes limité à un certain nombre de demandes de support par mois :
+Bei der Öffnung des Tickets wurde ein Fehler angezeigt, dass ich meine Quote erreicht habe:
+Je nach Ihrem Service Pack sind Sie nämlich auf eine gewisse Anzahl der Bitten um Unterstützung pro Monat beschränkt : 
 
-- Gemeinschaft (kostenfrei) : 2 Tickets/Monat
+- Community (kostenlos) : 2 Tickets/Monat (nur bei bezahlten Plugins)
 - Power : 10 Tickets/Monat
 - Pro : 100 Tickets/Monat
 

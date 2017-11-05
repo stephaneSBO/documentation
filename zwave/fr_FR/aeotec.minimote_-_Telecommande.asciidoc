@@ -47,7 +47,7 @@ Avec cette télécommande, vous pourrez également inclure/exclure des modules d
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -109,7 +109,7 @@ image::../images/aeotec.minimote/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -130,17 +130,17 @@ image::../images/aeotec.minimote/commandes.jpg[Commandes,align="center"]
 
 2 : Bouton 1 appui long
 
-3 : Bouton 2 appui court
+3 : Bouton 2 appuis courts
 
-4 : Bouton 2 appui long
+4 : Bouton 2 appuis longs
 
-5 : Bouton 3 appui court
+5 : Bouton 3 appuis courts
 
-6 : Bouton 3 appui long
+6 : Bouton 3 appuis longs
 
-7 : Bouton 4 appui court
+7 : Bouton 4 appuis courts
 
-8 : Bouton 4 appui long
+8 : Bouton 4 appuis longs
 
 {nbsp} +
 
@@ -231,7 +231,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 [panel,primary]
 .J'ai l'impression que le module ne se réveille pas.
 --
-Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
+Ce module se réveille en restant appuyé 3 secondes sur le bouton LEARN.
 --
 
 {nbsp} +
@@ -239,7 +239,7 @@ Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
 --
 
 {nbsp} +

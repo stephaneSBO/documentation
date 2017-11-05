@@ -42,7 +42,7 @@ La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour 
 * Fonction ON / OFF pour piloter des lampes ou des appareils (pas de variation)
 * Contrôle de la charge en local via le bouton intégré
 * Technologie Z-Wave Plus
-* Dimensions réduites pour passer presque inaperçue
+* Dimensions réduites pour passer presque inaperçu
 * LED de statut sur le bouton intégré
 * Fonction répéteur Z-Wave
 
@@ -55,7 +55,7 @@ La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour 
 * Type de module : Récepteur Z-Wave
 * Alimentation : 230 V, 50 Hz
 * Consommation : 0.6W
-* Puissance maximum : Charge résistive : 1500W Ampoule à incandesence : 800W Ampoule Fluocompacte : 200W Ampoule Led (non dimmable) : 200W
+* Puissance maximum : Charge résistive : 1500W, Ampoule à incandesence : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) : 200W
 * Fréquence : 868,42 Mhz
 * Portée : jusqu'à  70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
 * Affichage: LED sur le bouton
@@ -124,7 +124,7 @@ image::../images/everspring.AN180-6/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur le même icone.
+A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur la même icône.
 
 {nbsp} +
 

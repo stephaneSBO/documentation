@@ -24,7 +24,7 @@ image::../images/fibaro.fgrgb101/Visuel_jeedom.png[width=200,align="center"]
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclairages basse tension 12/24V (halogène ou LED), un ruban LED RVB ou RVB+blanc ou bien encore de relier des sondes analogiques utilisant la norme 0-10V.
 
-* 4 entrées analogiques 0 à 10V à connecter à de nombreux capteurs compatibles, des potentiometres, des boutons-poussoirs (monostables) ou des commutateurs (bistables).
+* 4 entrées analogiques 0 à 10V à connecter à de nombreux capteurs compatibles, des potentiomètres, des boutons-poussoirs (monostables) ou des commutateurs (bistables).
 
 * 4 sorties variateur (PWM) pour contrôler :
 * * soit 1 canal de LED RVB + Blanc (RGBW) 12/24V
@@ -42,14 +42,14 @@ Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclai
 
 * Commander des éclairages basse tension 12/24V (halogène ou LED)
 * S'installe derrière un interrupteur existant
-* Simulation lumineuse pré-programmée
+* Simulation lumineuse précédemment programmée
 * Fonction ON/OFF et Variation
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 * Alimentation : 12 V ou 24 V continu
 * Puissance maximale de sortie :
@@ -108,7 +108,7 @@ image::../images/fibaro.fgrgb101/configuration.png[Plugin Zwave,align="center"]
 ==== Commandes
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -127,7 +127,7 @@ image::../images/fibaro.fgrgb101/commande_2.png[Commandes,align="center"]
 * RBB : C'est la commande qui permet de simuler une ambiance de flic
 * Blanc Froid : C'est la commande qui permet de simuler d'avoir une couleur type blanc froid, si le bandeau de couleur le permet. (cette commande est non visible par défaut)
 * Blanc Chaud : C'est la commande qui permet de simuler d'avoir une couleur type blanc chaud, si le bandeau de couleur le permet. (cette commande est non visible par défaut) 
-* On : C'est la commande qui permet d'allumer le bandeau sur la derniere couleur choisit apparavant
+* On : C'est la commande qui permet d'allumer le bandeau sur la dernière couleur choisit auparavant
 * Off : C'est la commande qui permet d'éteindre le bandeau
 * Intensité : C'est la commande qui permet de régler l'intensité lumineuse
 
@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ Merci de vous rapporter à la capture d'écran précédente, les paramètres ét
 
 ==== Groupes
 
-Ce module possède cinq groupes d'association, seul le cinquieme est indispensable.
+Ce module possède cinq groupes d'association, seul le cinquième est indispensable.
 
 {nbsp} +
 

@@ -21,18 +21,18 @@ image::../images/Nodon-capteur-porte/widget-defaut.png[align="center"]
 
 * Suivant sa configuration, il déclenchera des actions que le battant soit en position ouverte ou fermée, ou bien à l'ouverture ou la fermeture du battant.
 
-== Caractéristiques Techniques
+== Caractéristiques techniques
 
 
 * Alimentation : Panneau solaire
 
 * Distance de détection : >5mm
 * Montage mural par adhésif double face (inclus) ou vis (non incluses)
-* Pile CR1216 en option (non incluse) pour utilisation en zone sombre (Autonomie 5 ans noir complet)
+* Pile CR1216 en option (non incluse) pour utilisation en zone sombre (Autonomie 5 ans dans le noir complet)
 * Température de fonctionnement : 0°C to 40°C - Altitude : 2000m
 * Protocole Radio EnOcean : 868.3MHz - 
 * Portée: 30m indoor
-* Dimension : 80*26*18mm
+* Dimensions : 80*26*18mm
 * Garantie 3 ans
 * NORMES:
 * EN 301489-3: Vl.4.1; EN 61000-6-1: 2007
@@ -52,7 +52,7 @@ image::../images/Nodon-capteur-porte/widget-defaut.png[align="center"]
 Pour configurer le plugin Enocean et associer un module à Jeedom, référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/enocean/fr_FR/enocean.html[documentation].
 
 [IMPORTANT]
-Pour associer ce module, lancer l'inclusion
+Pour associer ce module, lancez l'inclusion
 
 image::../images/Nodon-capteur-porte/Inclusion.PNG[width=200,align="left"] 
 
@@ -72,7 +72,7 @@ image::../images/Nodon-capteur-porte/Config-ubiwiz-capteur-porte.PNG[width=800,a
 
 
 
-=== Widgets Alternatifs :
+=== Widgets alternatifs :
 
 image::../images/Nodon-capteur-porte/changement-de-widget.png[width=600,align="center"]
 image::../images/Nodon-capteur-porte/widget-porte.png[width=80,align="center"]

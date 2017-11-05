@@ -1,7 +1,7 @@
 = Liste des equipements Z-Wave compatibles 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*43* [green]*marques de modules différentes, soit un total de* [red]*237* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*53* [green]*marques de modules différentes, soit un total de* [red]*340* [green]*modules.*
 
 D'autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -11,22 +11,28 @@ D'autres modules non présents sur cette liste peuvent être compatibles. Pour u
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/aeotec.doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor (DSB04100)|Ouverture| _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor (DSB04100)|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.4_dsb04100_door.window.sensor.json
 
-|image:../images/compatibility_list/aeotec.doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2nd Edition (DSB29)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 2nd Edition (DSB29)|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2340-aeon-labs-detecteur-d-ouverture-z-wave-g2-1220000011830.html++[Acheter^]
 // 134.2.29_dsb29_door.window.sensor.json
 
-|image:../images/compatibility_list/aeotec.doorwindow6.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| _[small]#Piles : Batterie#_| link:++http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.doorwindow6.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor 6 (ZW112)|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/3579-aeon-labs-capteur-pour-porte-et-fenetre-z-wave-dw-sensor-6-1220000013162.html++[Acheter^]
 // 134.2.112_zw112_door.window.sensor6.json
 
-|image:../images/compatibility_list/aeotec.zw120doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor Gen5 (ZW120)|Ouverture| _[small]#Piles : 2×1.5V AAA#_| 
+|image:../images/compatibility_list/aeotec.zw120doorwindow.jpg[width=150,align="center"]|Aeotec|Door/Window Sensor Gen5 (ZW120)|Ouverture| | 
 // 134.2.120_zw120_door.window.sensor.gen5.json
 
-|image:../images/compatibility_list/aeotec.zw097.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| _[small]#Piles : 1×3V CR123A#_| 
+|image:../images/compatibility_list/aeotec.zw097.jpg[width=150,align="center"]|Aeotec|Dry Contact Sensor Gen5 (ZW097)|Ouverture| | 
 // 134.2.97_zw097_dry.contact.sensor.gen5.json
 
-|image:../images/compatibility_list/aeotec.garagedoorcontroller.jpg[width=150,align="center"]|Aeotec|Garage Door Controller Gen5 (ZW062)|Porte| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.zw062_garage_door_controller.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.nanoswitch.jpg[width=150,align="center"]|Aeotec|Dual Nano Switch (ZW132)|Micromodule| | 
+// 134.259.132_zw132.dual.nano.switch.json
+
+|image:../images/compatibility_list/aeotec.nanoswitch.jpg[width=150,align="center"]|Aeotec|Dual Nano Switch (ZW140)|Micromodule| | 
+// 134.259.140_zw140.dual.nano.switch.json
+
+|image:../images/compatibility_list/aeotec.garagedoorcontroller.jpg[width=150,align="center"]|Aeotec|Garage Door Controller Gen5 (ZW062)|Porte| | link:++http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html++[Acheter^]
 // 134.259.62_zw62.garage.door.controller.json
 
 |image:../images/compatibility_list/aeotec.zw078.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch (DSC10)|Prise| | 
@@ -35,9 +41,7 @@ D'autres modules non présents sur cette liste peuvent être compatibles. Pour u
 |image:../images/compatibility_list/aeotec.zw078.jpg[width=150,align="center"]|Aeotec|Heavy Duty Smart Switch Gen5 (ZW078)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html++[Acheter^]
 // 134.259.78_zw078_heavy.duty.smart.switch.gen5.json
 
-|image:../images/compatibility_list/aeotec.hem.jpg[width=150,align="center"]|Aeotec|Home Energy Meter (DSB09104)|Consommation|Remplacé par le Home Energy Meter 2G (DSB28) 
-
-_[small]#Piles : 4x1.5V AAA#_| 
+|image:../images/compatibility_list/aeotec.hem.jpg[width=150,align="center"]|Aeotec|Home Energy Meter (DSB09104)|Consommation|Remplacé par le Home Energy Meter 2G (DSB28) | 
 // 134.2.9_dsb09104_hem_2.json
 
 |image:../images/compatibility_list/aeotec.dsb28.jpg[width=150,align="center"]|Aeotec|Home Energy Meter 2nd Edition (DSB28)|Consommation| | link:++http://www.domadoo.fr/fr/peripheriques/281-aeon-labs-compteur-de-consommation-electrique-z-wave-3c-60a-version-g2-1220000011670.html++[Acheter^]
@@ -46,12 +50,10 @@ _[small]#Piles : 4x1.5V AAA#_|
 |image:../images/compatibility_list/aeotec.zw095.jpg[width=150,align="center"]|Aeotec|Home Energy Meter Gen5 (ZW095)|Consommation| | 
 // 134.2.95_zw095_hem_gen5.json
 
-|image:../images/compatibility_list/aeotec.keyfob.jpg[width=150,align="center"]|Aeotec|Key Fob (DSA22)|Télécommande|Remplacé dans les boutiques par le keyfob Gen5 
-
-_[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.keyfob.jpg[width=150,align="center"]|Aeotec|Key Fob (DSA22)|Télécommande|Remplacé dans les boutiques par le keyfob Gen5 | link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.22_dsA22_key.fob.json
 
-|image:../images/compatibility_list/aeotec.keyfob-gen5.jpg[width=150,align="center"]|Aeotec|Key Fob Gen5 (ZW088)|Télécommande| _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.keyfob_Gen5_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.keyfob-gen5.jpg[width=150,align="center"]|Aeotec|Key Fob Gen5 (ZW088)|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2677-aeon-labs-telecommande-porte-cles-z-wave-plus-4-boutons-gen5.html++[Acheter^]
 // 134.1.88_zw088.key.fob.gen5.json
 
 |image:../images/compatibility_list/aeotec.led-bulb.jpg[width=150,align="center"]|Aeotec|LED Bulb (ZW098)|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2922-aeon-labs-ampoule-led-z-wave-plus-1220000012974.html++[Acheter^]
@@ -84,23 +86,28 @@ _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |image:../images/compatibility_list/aeotec.insert-switch.jpg[width=150,align="center"]|Aeotec|Micro Switch 2nd Edition (DSC26103)|Micromodule| | 
 // 134.3.26_dsc26103_micro.switch.2nd.edition.json
 
-|image:../images/compatibility_list/aeotec.minimote.jpg[width=150,align="center"]|Aeotec|Minimote (DSA03202)|Télécommande| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.minimote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.minimote.jpg[width=150,align="center"]|Aeotec|Minimote (DSA03202)|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/291-aeon-labs-telecommande-z-wave-blanche-1220000010253.html++[Acheter^]
 // 134.1.3_dsa03202_minimote.json
 
-|image:../images/compatibility_list/aeotec.multisensor.jpg[width=150,align="center"]|Aeotec|MultiSensor (DSB05) |Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.multisensor.jpg[width=150,align="center"]|Aeotec|MultiSensor (DSB05) |Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration. Remplacé en boutique par son équivalent Gen5 | link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.5_dsb05_multi.sensor.json
 
-|image:../images/compatibility_list/aeotec.multisensor6.jpg[width=150,align="center"]|Aeotec|MultiSensor 6 (ZW100)|Multicapteurs| _[small]#Piles : 2x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.multisensor6.jpg[width=150,align="center"]|Aeotec|MultiSensor 6 (ZW100)|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/2921-aeon-labs-detecteur-multifonctions-6-en-1-multisensor-z-wave-plus-gen5-1220000013100.html++[Acheter^]
 // 134.2.100_zw100_6in1.multisensor.json
 
-|image:../images/compatibility_list/aeotec.multisensor-gen5.jpg[width=150,align="center"]|Aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration 
-
-_[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.multisensor-gen5.jpg[width=150,align="center"]|Aeotec|MultiSensor Gen5 (ZW074)|Multicapteurs|Attention ce module peut remonter de mauvaises données, il faut bien faire attention à la configuration | link:++http://www.domadoo.fr/fr/peripheriques/2681-aeon-labs-detecteur-multifonction-multisensor-z-wave-plus-gen5-1220000012684.html++[Acheter^]
 // 134.2.74_zw074_multi-sensor.gen5.json
 
-|image:../images/compatibility_list/aeotec.panicbutton.jpg[width=150,align="center"]|Aeotec|Panic Button (DSA38)|Télécommande| _[small]#Piles : 1x3V CR2450#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-aeotec.panic_button_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.nanodimmer.jpg[width=150,align="center"]|Aeotec|Nano Dimmer (ZW111)|Micromodule| | 
+// 134.259.111_zw111.nano.dimmer.json
+
+|image:../images/compatibility_list/aeotec.nanoswitch.jpg[width=150,align="center"]|Aeotec|Nano Switch (ZW116)|Micromodule| | 
+// 134.259.116_zw116.nano.switch.json
+
+|image:../images/compatibility_list/aeotec.nanoswitch.jpg[width=150,align="center"]|Aeotec|Nano Switch (ZW139)|Micromodule| | 
+// 134.3.139_zw139.nano.switch.json
+
+|image:../images/compatibility_list/aeotec.panicbutton.jpg[width=150,align="center"]|Aeotec|Panic Button (DSA38)|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/278-aeon-labs-telecommande-z-wave-porte-cles-1-bouton.html++[Acheter^]
 // 134.1.38_dsa38_panic.button.json
 
 |image:../images/compatibility_list/aeotec.extender.jpg[width=150,align="center"]|Aeotec|Range Extender (DSD37)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau | link:++http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html++[Acheter^]
@@ -109,10 +116,10 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/compatibility_list/aeotec.zw117.jpg[width=150,align="center"]|Aeotec|Range Extender (ZW117)|Répéteur|Module sans fonctionnalité hors mis le fait de relayer les infos du réseau | 
 // 134.260.117_zw117.range.extender.6.json
 
-|image:../images/compatibility_list/aeotec.dsb54.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor (DSB54)|Ouverture| _[small]#Piles : 1x3V CR2#_| 
+|image:../images/compatibility_list/aeotec.dsb54.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor (DSB54)|Ouverture| | 
 // 134.2.54_dsb54_recessed.door.sensor.json
 
-|image:../images/compatibility_list/aeotec.zw089.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.zw089.jpg[width=150,align="center"]|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html++[Acheter^]
 // 134.2.89_zw089_recessed.door.sensor.json
 
 |image:../images/compatibility_list/aeotec.zw080.jpg[width=150,align="center"]|Aeotec|Siren Gen5 (ZW080)|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html++[Acheter^]
@@ -136,10 +143,17 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/268
 |image:../images/compatibility_list/aeotec.zw075.jpg[width=150,align="center"]|Aeotec|Smart Switch Gen5 (ZW075)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html++[Acheter^]
 // 134.259.75_zw075_switch.json
 
-|image:../images/compatibility_list/aeotec.dsb45.jpg[width=150,align="center"]|Aeotec|Water Sensor (DSB45)|Fuite|Paramètre 121 doit être forcé a 4113 
+|image:../images/compatibility_list/aeotec.zw129.jpg[width=150,align="center"]|Aeotec|WallMote Duo (ZW129)|Télécommande|Partiellement compatible: Fonctionne en association directe seulement  | 
+// 134.258.129_zw129_wallmote.duo.json
 
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html++[Acheter^]
+|image:../images/compatibility_list/aeotec.zw130.jpg[width=150,align="center"]|Aeotec|WallMote Quad (ZW130)|Télécommande|Partiellement compatible: Fonctionne en association directe seulement  | 
+// 134.258.130_zw130_wallmote.quad.json
+
+|image:../images/compatibility_list/aeotec.dsb45.jpg[width=150,align="center"]|Aeotec|Water Sensor (DSB45)|Fuite|Paramètre 121 doit être forcé a 4113 | link:++http://www.domadoo.fr/fr/peripheriques/3182-aeon-labs-capteur-d-eau-z-wave-1220000012486.html++[Acheter^]
 // 134.2.45_dsb45_water.sensor.json
+
+|image:../images/compatibility_list/aeotec.dsb122.jpg[width=150,align="center"]|Aeotec|Water Sensor 6 (ZW122)|Fuite| | 
+// 134.2.122_zw122_water.sensor6.json
 
 |image:../images/compatibility_list/aeotec.zw090.jpg[width=150,align="center"]|Aeotec|Z-Stick Gen5 (ZW090)|Contrôleur| | link:++http://www.domadoo.fr/fr/peripheriques/2917-aeon-labs-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html++[Acheter^]
 // 134.1.90_zw090.z-stick-gen5.json
@@ -156,6 +170,33 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/318
 
 |===
 
+== Assa Abloy
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/assa_abloy.YRD240.jpg[width=150,align="center"]|Assa Abloy|Yale Key Free Touchscreen Deadbolt (YRD240)|Serrure|Inclusion en mode sécurisé | 
+// 297.6.0_yrd240.doorlock.json
+
+|image:../images/compatibility_list/assa_abloy.ysl.jpg[width=150,align="center"]|Assa Abloy|Yale Keyless Connected Smart Lock (YSL)|Serrure|Inclusion en mode sécurisé | 
+// 297.7.0_ysl.doorlock.json
+
+|image:../images/compatibility_list/assa_abloy.YRD210.jpg[width=150,align="center"]|Assa Abloy|Yale Push Button Deadbolt (YRD210)|Serrure|Inclusion en mode sécurisé | 
+// 297.4.0_yrd210.doorlock.json
+
+|image:../images/compatibility_list/assa_abloy.YRL210.jpg[width=150,align="center"]|Assa Abloy|Yale Push Button Lever Lock (YRL210)|Serrure|Inclusion en mode sécurisé | 
+// 297.3.0_yrl210.doorlock.json
+
+|image:../images/compatibility_list/assa_abloy.YRD220.jpg[width=150,align="center"]|Assa Abloy|Yale Touchscreen Deadbolt (YRD220)|Serrure|Inclusion en mode sécurisé | 
+// 297.2.0_yrd220.doorlock.json
+
+|image:../images/compatibility_list/assa_abloy.yale.jpg[width=150,align="center"]|Assa Abloy|Yale Touchscreen Lever (YRL220)|Serrure|Inclusion en mode sécurisé | 
+// 297.1.0_yrl220.doorlock.json
+
+
+|===
+
 == Benext
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -165,27 +206,28 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/318
 |image:../images/compatibility_list/benext.builtin-dimmer.jpg[width=150,align="center"]|Benext|Built In Dimmer|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2346-benext-module-variateur-z-wave-encastrable-avec-mesure-d-energie-0632181493762.html++[Acheter^]
 // 138.13.256_built.in.dimmer.json
 
-|image:../images/compatibility_list/benext.door.jpg[width=150,align="center"]|Benext|Door sensor|Ouverture| _[small]#Piles : 2x1.5V AAA#_| 
+|image:../images/compatibility_list/benext.door.jpg[width=150,align="center"]|Benext|Door sensor|Ouverture| | 
 // 138.4.256_door.sensor.json
 
-|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato 
+|image:../images/compatibility_list/benext.heatingControl.jpg[width=150,align="center"]|Benext|Heating Control|Micromodule| | 
+// 138.33.1_heating.control.json
 
-_[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Benext|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 138.7.256_minikeypad.json
 
-|image:../images/compatibility_list/benext.molite.jpg[width=150,align="center"]|Benext|MoLite Sensor|Multicapteurs| _[small]#Piles : 2x1.5V AAA#_| 
-// 138.3.257_zw-snmt-01.multi.sensor.json
+|image:../images/compatibility_list/benext.molite.jpg[width=150,align="center"]|Benext|MoLite Sensor|Multicapteurs| | 
+// 138.3.256_zw-snmt-01.multi.sensor.json
 
-|image:../images/compatibility_list/benext.panicbutton.jpg[width=150,align="center"]|Benext|Panic Button|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2349-benext-telecommande-bouton-d-urgence-z-wave-0632181493731.html++[Acheter^]
+|image:../images/compatibility_list/benext.panicbutton.jpg[width=150,align="center"]|Benext|Panic Button|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2349-benext-telecommande-bouton-d-urgence-z-wave-0632181493731.html++[Acheter^]
 // 138.20.257_panic.button.json
 
-|image:../images/compatibility_list/benext.panicwatch.jpg[width=150,align="center"]|Benext|Panic Watch|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html++[Acheter^]
+|image:../images/compatibility_list/benext.panicwatch.jpg[width=150,align="center"]|Benext|Panic Watch|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2350-benext-bracelet-bouton-d-urgence-z-wave-0632181493748.html++[Acheter^]
 // 138.21.257_panic.watch.json
 
 |image:../images/compatibility_list/benext.plugin-dimmer.jpg[width=150,align="center"]|Benext|Plug In Dimmer|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2347-benext-module-prise-variateur-z-wave-avec-mesure-d-energie-0632181493779.html++[Acheter^]
 // 138.24.256_plug.in.dimmer.json
 
-|image:../images/compatibility_list/benext.scene-controller.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande|Télécommande non fonctionnelle, fonctionne cependant en association avec d'autres modules | link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
+|image:../images/compatibility_list/benext.scene-controller.jpg[width=150,align="center"]|Benext|Scene Controller 7 boutons|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2534-benext-telecommande-7-boutons-z-wave-scene-controller-0632181493786.html++[Acheter^]
 // 138.23.256_scene.controller.json
 
 
@@ -197,14 +239,10 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/chromagic.hsm02.jpg[width=150,align="center"]|Chromagic|HSM02|Ouverture|Ce module est actuellement vendu sous la marque Everspring 
-
-_[small]#Piles : 1x3V CR2450#_| link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
+|image:../images/compatibility_list/chromagic.hsm02.jpg[width=150,align="center"]|Chromagic|HSM02|Ouverture|Ce module est actuellement vendu sous la marque Everspring | link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
 // 278.2.1_chromagic.opening.detector.hsm02.json
 
-|image:../images/compatibility_list/chromagic.hsp02.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring 
-
-_[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
+|image:../images/compatibility_list/chromagic.hsp02.jpg[width=150,align="center"]|Chromagic|HSP02|Multicapteurs|Ce module est actuellement vendu sous la marque Everspring | link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
 // 278.1.1_chromagic.hsp02.json
 
 
@@ -216,11 +254,53 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/danfoss.room-sensor.jpg[width=150,align="center"]|Danfoss|RS Room Sensor|Thermostat| _[small]#Piles : 2x1.5V AA#_| link:++http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html++[Acheter^]
-// 2.3.32784_danfoss.rs.room.sensor.json
+|image:../images/compatibility_list/danfoss.devoloz.jpg[width=150,align="center"]|Danfoss|Devolo Home Control Radiator Thermostat|Thermostat| | 
+// 2.5.373_thermostat.devolo.json
 
-|image:../images/compatibility_list/danfoss.living-connect.jpg[width=150,align="center"]|Danfoss|Thermostat Living Connect|Thermostat| _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html++[Acheter^]
-// 2.5.3_danfoss.danfoss.thermostat.living.connect.json
+|image:../images/compatibility_list/danfoss.living-connect.jpg[width=150,align="center"]|Danfoss|Living Connect Radiator Thermostat|Thermostat| | 
+// 2.32773.1_living.connect.json
+
+|image:../images/compatibility_list/danfoss.living-connect.jpg[width=150,align="center"]|Danfoss|Popp Radiator Thermostat|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/3683-popp-tete-thermostatique-sans-fil-z-wave-0019962010101.html++[Acheter^]
+// 2.277.40976_pop.radiator.thermostat.json
+
+|image:../images/compatibility_list/danfoss.ra.plus-w.jpg[width=150,align="center"]|Danfoss|RA Plus-W Radiator Thermostat|Thermostat| | 
+// 2.100.1_ra.plus-w.radiator.thermostat.json
+
+|image:../images/compatibility_list/danfoss.room-sensor.jpg[width=150,align="center"]|Danfoss|RS Room Sensor|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html++[Acheter^]
+// 2.3.32784_rs.room.sensor.json
+
+|image:../images/compatibility_list/danfoss.living-connect.jpg[width=150,align="center"]|Danfoss|Thermostat Living Connect|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html++[Acheter^]
+// 2.5.3_thermostat.living.connect.json
+
+
+|===
+
+== Devolo
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/devolo.mt02648.jpg[width=150,align="center"]|Devolo|Door/Window Contact MT02648|Ouverture| | 
+// 373.2.14_mt02648.contact.door.json
+
+|image:../images/compatibility_list/develo.mt2653.jpg[width=150,align="center"]|Devolo|Keyfob (MT2653)|Télécommande| | 
+// 373.256.258_mt2653.keyfob.json
+
+|image:../images/compatibility_list/devolo.mt02646.jpg[width=150,align="center"]|Devolo|Metering Plug (MT02646)|Prise| | 
+// 373.1.17_mt02646.metering.plug.json
+
+|image:../images/compatibility_list/devolo.mt02647.jpg[width=150,align="center"]|Devolo|Motion Sensor MT02647|Multicapteurs| | 
+// 373.2.13_mt02647.motion.sensor.json
+
+|image:../images/compatibility_list/develo.scene_switch_2652.jpg[width=150,align="center"]|Devolo|Scene Switch MT 2652|Télécommande| | 
+// 373.256.257_mt2652.scene_switch.json
+
+|image:../images/compatibility_list/devolo.mt02758.jpg[width=150,align="center"]|Devolo|Siren MT02758|Sirène| | 
+// 373.4.10_mt02758.siren.json
+
+|image:../images/compatibility_list/devolo.mt02792.jpg[width=150,align="center"]|Devolo|Smart Metering Plug (MT02792)|Prise| | 
+// 373.1.18_mt02792.metering.plug.json
 
 
 |===
@@ -231,10 +311,10 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/dlink.dchz110.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-dlink.dchz110_-_3en1_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3692-d-link-capteur-de-portefenetre-z-wave-3-en-1-790069409844.html++[Acheter^]
+|image:../images/compatibility_list/dlink.dchz110.jpg[width=150,align="center"]|Dlink|DCH-Z110|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/3692-d-link-capteur-de-portefenetre-z-wave-3-en-1-790069409844.html++[Acheter^]
 // 264.2.14_dchz110.doorsensor.json
 
-|image:../images/compatibility_list/dlink.dchz120.jpg[width=150,align="center"]|Dlink|DCH-Z120|Présence| _[small]#Piles : 1x3V CR123A#_| 
+|image:../images/compatibility_list/dlink.dchz120.jpg[width=150,align="center"]|Dlink|DCH-Z120|Présence| | 
 // 264.2.13_dchz120.3in1.sensor.json
 
 |image:../images/compatibility_list/dlink.dchz510.jpg[width=150,align="center"]|Dlink|DCH-Z510|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html++[Acheter^]
@@ -255,6 +335,39 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 
 |===
 
+== Domux
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/domux.dx1caz.jpg[width=150,align="center"]|Domux|CO Sensor (DX1CA-Z)|CO| | 
+// 540.32773.4096_dx1caz_co_sensor.json
+
+|image:../images/compatibility_list/domux.dx1dsz.jpg[width=150,align="center"]|Domux|Door Sensor (DX1DS-Z)|Ouverture| | 
+// 540.360.360_dx1dsz_door_sensor.json
+
+|image:../images/compatibility_list/domux.dx1wlz.jpg[width=150,align="center"]|Domux|Flood Sensor (DX1WL-Z)|Fuite| | 
+// 540.32772.4096_dx1wlz_flood_sensor.json
+
+|image:../images/compatibility_list/domux.dx1msz.jpg[width=150,align="center"]|Domux|Motion Sensor (DX1MS-Z)|Multicapteurs| | 
+// 540.32769.4096_dx1msz_motion_sensor.json
+
+|image:../images/compatibility_list/domux.dx2skz.jpg[width=150,align="center"]|Domux|Smart Metering Plug (DX2SK-Z)|Prise| | 
+// 540.32774.4096_dx2skz_wallplug.json
+
+|image:../images/compatibility_list/domux.dx2skz.jpg[width=150,align="center"]|Domux|Smart Plug (DX2SK-Z)|Prise| | 
+// 540.32776.4096_dx2skz_wallplug.json
+
+|image:../images/compatibility_list/domux.dx1saz.jpg[width=150,align="center"]|Domux|Smart Smoke Sensor (DX1SA-Z)|Fumée| | 
+// 540.32770.4096_dx1saz_smoke_sensor.json
+
+|image:../images/compatibility_list/domux.dx1htz.jpg[width=150,align="center"]|Domux|Temperature & Humidity Sensor (DX1HT-Z)|Multicapteurs| | 
+// 540.32775.4096_dx1htz_2in1_sensor.json
+
+
+|===
+
 == Duwi
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -267,15 +380,16 @@ _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-e
 |image:../images/compatibility_list/duwi.duro-2000.jpg[width=150,align="center"]|Duwi|Interrupteur Variateur Duro 2000|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/758-duwi-interrupteur-variateur-duro-2000-z-wave-4008297054580.html++[Acheter^]
 // 100.5002.0_duro.2000.json
 
-|image:../images/compatibility_list/duwi.rzwfb.jpg[width=150,align="center"]|Duwi|Wireless remote control 10-channel|Télécommande|Remplacé par la Z-WAVE.ME RC2 
+|image:../images/compatibility_list/duwi.5443.jpg[width=150,align="center"]|Duwi|Wireless Flush Mounted Switch (5443)|Télécommande| | 
+// 100.20482.0_wireless.flush.mounted.switch.json
 
-_[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
+|image:../images/compatibility_list/duwi.rzwfb.jpg[width=150,align="center"]|Duwi|Wireless remote control 10-channel|Télécommande|Remplacé par la Z-WAVE.ME RC2 | link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
 // 100.20481.0_zwfb.json
 
 |image:../images/compatibility_list/duwi.edan-300.jpg[width=150,align="center"]|Duwi|ZW EDAN 300 Dimmer|Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/749-duwi-interrupteur-variateur-everlux-z-wave-4008297054337.html++[Acheter^]
 // 100.1.0_zw.edan.300.flush.mounted.dimmer.json
 
-|image:../images/compatibility_list/duwi.05436.jpg[width=150,align="center"]|Duwi|ZW ESJ Blind Control|Volets| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-duwi.05436_-_Volets.html++[Documentation^] 
+|image:../images/compatibility_list/duwi.05436.jpg[width=150,align="center"]|Duwi|ZW ESJ Blind Control|Volets| | 
 // 100.16385.0_zw.esj.blind.control.json
 
 |image:../images/compatibility_list/duwi.zwzs-3500.jpg[width=150,align="center"]|Duwi|ZW ZS 3500 Plugin Switch|Prise|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/752-duwi-module-prise-on-off-z-wave-pour-l-exterieur-4008297054382.html++[Acheter^]
@@ -283,6 +397,18 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 
 |image:../images/compatibility_list/duwi.zwes-1000.jpg[width=150,align="center"]|Duwi|ZW_ES_1000 Wall Plug |Interrupteur|Il faut activer le polling pour avoir une remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/748-duwi-interrupteur-on-off-everlux-z-wave-4008297054313.html++[Acheter^]
 // 100.8193.0_zw.es.1000.flush.mounted.switch.json
+
+
+|===
+
+== Ecolink
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/ecolink.doorwindow.jpg[width=150,align="center"]|Ecolink|Door/Window Sensor|Ouverture| | 
+// 330.1.2_door.window.sensor.json
 
 
 |===
@@ -304,6 +430,9 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/eurotronic.stellaz.jpg[width=150,align="center"]|Eurotronic|Vanne Thermostatique Z-Wave StellaZ|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/2361-eurotronic-vanne-thermostatique-z-wave-stellaz.html++[Acheter^]
+// 328.1.1_eur_stellaz.json
 
 |image:../images/compatibility_list/eurotronic.cometz.jpg[width=150,align="center"]|Eurotronic|Vanne thermostatique Z-Wave+ Comet|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/3228-eurotronic-vanne-thermostatique-z-wave-comet-4260012711011.html++[Acheter^]
 // 328.2.1_eur_cometz.json
@@ -338,37 +467,40 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 |image:../images/compatibility_list/everspring.han02.jpg[width=150,align="center"]|Everspring|HAN02|Micromodule| | 
 // 96.17.2_han02.in-wall.remote.json
 
-|image:../images/compatibility_list/everspring.hsp02.jpg[width=150,align="center"]|Everspring|HSP02 Motion Detector|Multicapteurs| _[small]#Piles : 1x3V CR2#_| link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
+|image:../images/compatibility_list/everspring.hsm02.jpg[width=150,align="center"]|Everspring|HSM02|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html++[Acheter^]
+// 96.2.1_hsm02.json
+
+|image:../images/compatibility_list/everspring.hsp02.jpg[width=150,align="center"]|Everspring|HSP02 Motion Detector|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/842-everspring-detecteur-de-mouvement-z-wave-hsp02-3700946500165.html++[Acheter^]
 // 96.1.1_hsp02.motion.detector.json
 
-|image:../images/compatibility_list/everspring.AD147-6.jpg[width=150,align="center"]|Everspring|Miniplug Dimmer|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AD147-6_-_Miniplug_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2687-everspring-mini-prise-variateur-z-wave-plus-ad147-6-prise-francaise-3700946500370.html++[Acheter^]
+|image:../images/compatibility_list/everspring.AD147-6.jpg[width=150,align="center"]|Everspring|Miniplug Dimmer|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2687-everspring-mini-prise-variateur-z-wave-plus-ad147-6-prise-francaise-3700946500370.html++[Acheter^]
 // 96.3.3_ad147.miniplug.dimmer.json
 
-|image:../images/compatibility_list/everspring.AN180-6.jpg[width=150,align="center"]|Everspring|Miniplug On/Off|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-everspring.AN180-6_-_Miniplug_On-Off.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2684-everspring-mini-prise-onoff-z-wave-plus-an180-6-prise-francaise-3700946500400.html++[Acheter^]
+|image:../images/compatibility_list/everspring.AN180-6.jpg[width=150,align="center"]|Everspring|Miniplug On/Off|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2684-everspring-mini-prise-onoff-z-wave-plus-an180-6-prise-francaise-3700946500400.html++[Acheter^]
 // 96.4.7_an180.miniplug.onoff.json
 
-|image:../images/compatibility_list/everspring.se812.jpg[width=150,align="center"]|Everspring|SE812|Sirène| _[small]#Piles : 4xLR14#_| link:++http://www.domadoo.fr/fr/peripheriques/845-everspring-sirene-z-wave-se812-3700946500189.html++[Acheter^]
+|image:../images/compatibility_list/everspring.se812.jpg[width=150,align="center"]|Everspring|SE812|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/845-everspring-sirene-z-wave-se812-3700946500189.html++[Acheter^]
 // 96.12.1_se812.siren.json
 
-|image:../images/compatibility_list/everspring.sm103.jpg[width=150,align="center"]|Everspring|SM103|Ouverture| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html++[Acheter^]
+|image:../images/compatibility_list/everspring.sm103.jpg[width=150,align="center"]|Everspring|SM103|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html++[Acheter^]
 // 96.2.1_sm103.json
 
-|image:../images/compatibility_list/everspring.sp103.jpg[width=150,align="center"]|Everspring|SP103|Mouvement| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/854-everspring-detecteur-de-mouvement-pir-z-wave-sp-103-3700946500257.html++[Acheter^]
+|image:../images/compatibility_list/everspring.sp103.jpg[width=150,align="center"]|Everspring|SP103|Mouvement| | link:++http://www.domadoo.fr/fr/peripheriques/854-everspring-detecteur-de-mouvement-pir-z-wave-sp-103-3700946500257.html++[Acheter^]
 // 96.257.1_sp103.pir.motion.json
 
-|image:../images/compatibility_list/everspring.sp814.jpg[width=150,align="center"]|Everspring|SP814 Motion Detector|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/857-everspring-detecteur-de-presence-z-wave-sp814-3700946500288.html++[Acheter^]
+|image:../images/compatibility_list/everspring.sp814.jpg[width=150,align="center"]|Everspring|SP814 Motion Detector|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/857-everspring-detecteur-de-presence-z-wave-sp814-3700946500288.html++[Acheter^]
 // 96.1.2_sp814.motion.detector.json
 
-|image:../images/compatibility_list/everspring.st812.jpg[width=150,align="center"]|Everspring|ST812|Fuite| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/860-everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html++[Acheter^]
+|image:../images/compatibility_list/everspring.st812.jpg[width=150,align="center"]|Everspring|ST812|Fuite| | link:++http://www.domadoo.fr/fr/peripheriques/860-everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html++[Acheter^]
 // 96.11.1_st812.flood.detector.json
 
-|image:../images/compatibility_list/everspring.st814.jpg[width=150,align="center"]|Everspring|ST814|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html++[Acheter^]
+|image:../images/compatibility_list/everspring.st814.jpg[width=150,align="center"]|Everspring|ST814|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html++[Acheter^]
 // 96.6.1_st814.temperature.and.humidity.sensor.json
 
-|image:../images/compatibility_list/everspring.st815.jpg[width=150,align="center"]|Everspring|ST815|Luminosité| _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html++[Acheter^]
+|image:../images/compatibility_list/everspring.st815.jpg[width=150,align="center"]|Everspring|ST815|Luminosité| | link:++http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html++[Acheter^]
 // 96.7.1_st815.json
 
-|image:../images/compatibility_list/everspring.tse03.jpg[width=150,align="center"]|Everspring|TSE03 Door Bell|Carillon| _[small]#Piles : 3xAA + 2x1.5V AAA#_| 
+|image:../images/compatibility_list/everspring.tse03.jpg[width=150,align="center"]|Everspring|TSE03 Door Bell|Carillon| | 
 // 96.9.1_tse03.door.bell.json
 
 
@@ -387,7 +519,7 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 // 133.3.1_zws12.json
 
 |image:../images/compatibility_list/fakro.zws230.jpg[width=150,align="center"]|Fakro|ZWS230 Chain actuator 230VAC|Volets|Nécessite une inclusion en mode sécurisé | link:++http://www.domadoo.fr/fr/peripheriques/2362-fakro-moteur-pour-fenetre-de-toit-z-wave-zws230-5900988500378.html++[Acheter^]
-// 133.3.2_zws230.json
+// 133.2.5_zws230.json
 
 
 |===
@@ -401,59 +533,65 @@ _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/307
 |image:../images/compatibility_list/fibaro.fgbs001.jpg[width=150,align="center"]|Fibaro|FGBS-001 Universal Relay|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html++[Acheter^]
 // 271.1281.16386_fgbs001.universal.binary.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgd211.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd211_-_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgcd001.jpg[width=150,align="center"]|Fibaro|FGCD-001 CO Sensor|Fumée| | 
+// 271.4609.4096_fgcd001.co.sensor.json
+
+|image:../images/compatibility_list/fibaro.fgd211.jpg[width=150,align="center"]|Fibaro|FGD-211 Dimmer|Micromodule|Ce module est remplacé dans les boutiques par le FGD-212 | link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.256.12298_fgd211.universal.dimmer.500w.json
 
-|image:../images/compatibility_list/fibaro.fgd212.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgd212_-_Dimmer2.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgd212.jpg[width=150,align="center"]|Fibaro|FGD-212 Dimmer 2|Micromodule|Remplace le FGD-211 | link:++http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html++[Acheter^]
 // 271.258.4096_fgd212.dimmer.json
 
-|image:../images/compatibility_list/fibaro.fgfs101.jpg[width=150,align="center"]|Fibaro|FGFS-101 Flood Sensor|Fuite| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgfs101_-_FloodSensors.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgdw2.jpg[width=150,align="center"]|Fibaro|FGDW-002 Door Sensor 2|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/4105-fibaro-detecteur-d-ouverture-z-wave-doorwindow-sensor-2-blanc-5902701700348.html++[Acheter^]
+// 271.1794.4096_fgdw2.door.opening.sensor2.json
+
+|image:../images/compatibility_list/fibaro.fgfs101.jpg[width=150,align="center"]|Fibaro|FGFS-101 Flood Sensor|Fuite| | link:++http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html++[Acheter^]
 // 271.2816.12289_fgfs101.flood.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgfs101zw5.jpg[width=150,align="center"]|Fibaro|FGFS-101 ZW5 Flood Sensor|Fuite| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgfs101_-_FloodSensors.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3582-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528357.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgfs101zw5.jpg[width=150,align="center"]|Fibaro|FGFS-101 ZW5 Flood Sensor|Fuite| | link:++http://www.domadoo.fr/fr/peripheriques/3582-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528357.html++[Acheter^]
 // 271.2817.4098_fgfs101zw5.flood.sensor.json
 
-|image:../images/compatibility_list/fibaro.fggc001.jpg[width=150,align="center"]|Fibaro|FGGC-001 Swipe|Contrôleur gestuel|Partiellement compatible: Fonctionne en association directe seulement 
-
-_[small]#Piles : 4x1.5V AA#_| link:++http://www.domadoo.fr/fr/peripheriques/3423-fibaro-controleur-gestuel-z-wave-swipe-blanc-fggc-001-5902020528821.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fggc001.jpg[width=150,align="center"]|Fibaro|FGGC-001 Swipe|Contrôleur gestuel| | link:++http://www.domadoo.fr/fr/peripheriques/3423-fibaro-controleur-gestuel-z-wave-swipe-blanc-fggc-001-5902020528821.html++[Acheter^]
 // 271.3329.4096_fggc001.swipe.json
 
-|image:../images/compatibility_list/fibaro.fgk101-DS18B20.jpg[width=150,align="center"]|Fibaro|FGK-101 Door Sensor|Ouverture| _[small]#Piles : 1x3.6V ER14250#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/922-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528111.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgk101-DS18B20.jpg[width=150,align="center"]|Fibaro|FGK-101 Door Sensor|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/922-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528111.html++[Acheter^]
 // 271.1792.16384_fgk101.door.opening.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgk101zw5.jpg[width=150,align="center"]|Fibaro|FGK-101 ZW5 Door Sensor|Ouverture| _[small]#Piles : 1x3.6V ER14250#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgk101_-_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3608-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528364.html++[Acheter^]
-// 271.1793.4097_fgk101zw5.door.opening.sensor.json
+|image:../images/compatibility_list/fibaro.fgk101zw5.jpg[width=150,align="center"]|Fibaro|FGK-101 ZW5 Door Sensor|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/3608-fibaro-detecteur-d-ouverture-z-wave-avec-entree-contact-sec-blanc-5902020528364.html++[Acheter^]
+// 271.1793.12289_fgk101zw5.door.opening.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgms001.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement 
+|image:../images/compatibility_list/fibaro.fgkf601.jpg[width=150,align="center"]|Fibaro|FGKF-601 Keyfob|Télécommande|Télécommande en mode scène non fonctionnelle, fonctionne cependant en association avec d’autres modules | link:++http://www.domadoo.fr/fr/peripheriques/3994-fibaro-telecommande-porte-cles-z-wave-fibaro-keyfob-fgkf-601-5905279987562.html++[Acheter^]
+// 271.4097.4096_fgkf601.keyfob.json
 
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgms001.jpg[width=150,align="center"]|Fibaro|FGMS-001 Motion Sensor|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement | link:++http://www.domadoo.fr/fr/peripheriques/2535-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528258.html++[Acheter^]
 // 271.2048.16385_fgms001.motion.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgms001zw5.jpg[width=150,align="center"]|Fibaro|FGMS-001-ZW5 Motion Sensor ZWave+|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement. Faire les associations à jeedom pour les groupes 1, 4 et 5 
+|image:../images/compatibility_list/fibaro.fgms001zw5.jpg[width=150,align="center"]|Fibaro|FGMS-001-ZW5 Motion Sensor ZWave+|Multicapteurs|Par défaut possède une configuration très économique. Lire la documentation pour le configurer correctement. Faire les associations à jeedom pour les groupes 1, 4 et 5 | link:++http://www.domadoo.fr/fr/peripheriques/3422-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528579.html++[Acheter^]
+// 271.2049.12289_fgms001.motion.sensor.plus.json
 
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgms001ZW5_-_Motion.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3422-fibaro-detecteur-de-mouvement-multifonctions-z-wave-fgms-001-5902020528579.html++[Acheter^]
-// 271.2049.4097_fgms001.motion.sensor.plus.json
+|image:../images/compatibility_list/fibaro.fgpb101.jpg[width=150,align="center"]|Fibaro|FGPB101 Button|Contrôleur|Partiellement compatible: Fonctionne en association directe seulement | link:++http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html++[Acheter^]
+// 271.3841.4096_fgpb101.button.json
 
-|image:../images/compatibility_list/fibaro.fgr222.jpg[width=150,align="center"]|Fibaro|FGR-222 Volet roulant|Volets|Nouveau nom du module FGR-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgr222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgr222.jpg[width=150,align="center"]|Fibaro|FGR-222 Volet roulant|Volets|Nouveau nom du module FGR-221 | link:++http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html++[Acheter^]
 // 271.770.4096_fgr222.roller.shutter.controller.json
 
-|image:../images/compatibility_list/fibaro.fgrgb101.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW 25.25|RGBW|Peut aussi servir de capteurs multisondes |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrgb101_-_RGVBControler.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgrgb101.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW 25.25|RGBW|Peut aussi servir de capteurs multisondes | link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
 // 271.2304.16384_fgrgbwm441.rgbw.controller.25.25.json
 
-|image:../images/compatibility_list/fibaro.fgrgb101.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrgb101_-_RGVBControler.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgrgb101.jpg[width=150,align="center"]|Fibaro|FGRGB-101 RGBW|RGBW|Peut aussi servir de capteurs multisondes | link:++http://www.domadoo.fr/fr/peripheriques/2367-fibaro-controleur-rgbw-z-wave-fgrgb-101-5902020528159.html++[Acheter^]
 // 271.2304.16384_fgrgbwm441.rgbw.controller.json
 
 |image:../images/compatibility_list/fibaro.fgrm222.jpg[width=150,align="center"]|Fibaro|FGRM-221 Volet roulant|Volets|Module équivalent au FGRM-222 | link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
 // 271.768.260_fgr221.roller.shutter.controller.json
 
-|image:../images/compatibility_list/fibaro.fgrm222.jpg[width=150,align="center"]|Fibaro|FGRM-222 Volet roulant|Volets|Nouveau nom du module FGRM-221 |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgrm222_-_Volets.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgrm222.jpg[width=150,align="center"]|Fibaro|FGRM-222 Volet roulant|Volets|Nouveau nom du module FGRM-221 | link:++http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html++[Acheter^]
 // 271.769.4097_fgrm222.roller.shutter.controller.json
 
 |image:../images/compatibility_list/fibaro.fgs211.jpg[width=150,align="center"]|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
 // 271.1024.260_fgs211.switch.3kw.json
 
 |image:../images/compatibility_list/fibaro.fgs212.jpg[width=150,align="center"]|Fibaro|FGS-212 Simple Charge|Micromodule|Remplace le FGS-211 | link:++http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html++[Acheter^]
-// 271.1026.4098_fgs212.simple.relay.json
+// 271.1026.12290_fgs212.simple.relay.json
 
 |image:../images/compatibility_list/fibaro.fgs213.jpg[width=150,align="center"]|Fibaro|FGS-213 Switch|Micromodule|Les notification de scènes ne sont pas remontées, elles requièrent le support de la CC Central Scene | link:++http://www.domadoo.fr/fr/peripheriques/3727-fibaro-micromodule-commutateur-z-wave-fgs-213-5902020528722.html++[Acheter^]
 // 271.1027.4096_fgs213.switch.json
@@ -465,17 +603,18 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 // 271.514.4098_fgs-222.double.charge.json
 
 |image:../images/compatibility_list/fibaro.fgs223.jpg[width=150,align="center"]|Fibaro|FGS-223 Double charge|Micromodule|Le rafraîchissement manuel est requis sur l'instance 1 (Switch S2) pour la remonté de puissance et l'état du S2. Les notification de scènes ne sont pas remontées, elles requièrent le support de la CC Central Scene. | link:++http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html++[Acheter^]
-// 271.515.4096_fgs233.double.switch.json
+// 271.515.4096_fgs223.double.switch.json
 
-|image:../images/compatibility_list/fibaro.fgsd102.jpg[width=150,align="center"]|Fibaro|FGSD-002 Smoke Sensor CE|Fumée| _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgsd102_-_Fumees.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgsd102.jpg[width=150,align="center"]|Fibaro|FGSD-002 Smoke Sensor CE|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
 // 271.3074.4098_fgsd002.smoke.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgss001.jpg[width=150,align="center"]|Fibaro|FGSS-001 Smoke Sensor|Fumée|Remplacé par son équivalent aux normes le FGSD-002 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgss001.jpg[width=150,align="center"]|Fibaro|FGSS-001 Smoke Sensor|Fumée|Remplacé par son équivalent aux normes le FGSD-002 | link:++http://www.domadoo.fr/fr/peripheriques/2751-fibaro-detecteur-de-fumee-z-wave-plus-fgsd-002-5902020528265.html++[Acheter^]
 // 271.3072.4096_fgss101.smoke.sensor.json
 
-|image:../images/compatibility_list/fibaro.fgwpe101.jpg[width=150,align="center"]|Fibaro|FGWPE/FGWPF Wall Plug|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-fibaro.fgwpe101_-_Wall_Plug.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2934-fibaro-module-prise-commutateur-z-wave-avec-mesure-d-energie-fgwpf-102-schuko-5902020528302.html++[Acheter^]
+|image:../images/compatibility_list/fibaro.fgwpe101zw5.jpg[width=150,align="center"]|Fibaro|FGWPE/FGWPF Wall Plug Gen5|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/3909-fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko-5902020528647.html++[Acheter^]
+// 271.1538.4097_fgwpe.wall.plug.zw5.json
+
+|image:../images/compatibility_list/fibaro.fgwpe101.jpg[width=150,align="center"]|Fibaro|FGWPE/FGWPF Wall Plug|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2934-fibaro-module-prise-commutateur-z-wave-avec-mesure-d-energie-fgwpf-102-schuko-5902020528302.html++[Acheter^]
 // 271.1536.4096_fgwpe.wall.plug.json
 
 
@@ -499,6 +638,9 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |image:../images/compatibility_list/fortrezz.wv01.jpg[width=150,align="center"]|Fortrezz|Automated Water Shut-Off Valve (WV-01)|Valve| | link:++http://www.domadoo.fr/fr/peripheriques/2957-fortrezz-vanne-d-arret-d-eau-34-z-wave-661799486057.html++[Acheter^]
 // 132.577.768_wv01_water_valve.json
 
+|image:../images/compatibility_list/fortrezz.ssa01.jpg[width=150,align="center"]|Fortrezz|SSA-01|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/979-fortrezz-sirene-z-wave-flash-clair-ssa1-0661799486033.html++[Acheter^]
+// 132.785.265_ssa1.json
+
 |image:../images/compatibility_list/fortrezz.ssa02.jpg[width=150,align="center"]|Fortrezz|SSA-02|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/980-fortrezz-sirene-z-wave-flash-rouge-ssa2-0661799486026.html++[Acheter^]
 // 132.785.265_ssa2.json
 
@@ -514,11 +656,29 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/compatibility_list/ge.12344.jpg[width=150,align="center"]|Ge|12344 In-Wall Smart Dimmer|Micromodule| | 
+// 99.18756.12344_12344.dimmer.json
+
 |image:../images/compatibility_list/ge.12722.jpg[width=150,align="center"]|Ge|12722 On/Off Relay Switch|Micromodule| | 
 // 99.18770.12338_relay.json
 
 |image:../images/compatibility_list/ge.12724.jpg[width=150,align="center"]|Ge|12724 3 Way Dimmer|Micromodule| | 
 // 99.18756.12337_12724.dimmer.json
+
+|image:../images/compatibility_list/ge.12730.jpg[width=150,align="center"]|Ge|12730 Smart Fan Control|Micromodule| | 
+// 99.18756.12340_smart.fan.control.json
+
+
+|===
+
+== Gig
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/gig.ct101.jpg[width=150,align="center"]|Gig|CT101 Thermostat Iris|Thermostat| | 
+// 152.25857.12_ct101.thermostat.iris.json
 
 
 |===
@@ -544,11 +704,71 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/greenwave.Powernode1.jpg[width=150,align="center"]|Greenwave|Powernode 1|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.Powernode1_-_Prise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2857-greenwave-module-prise-z-wave-powernode-schuko-8886464000235.html++[Acheter^]
+|image:../images/compatibility_list/greenwave.Powernode1.jpg[width=150,align="center"]|Greenwave|Powernode 1|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2857-greenwave-module-prise-z-wave-powernode-schuko-8886464000235.html++[Acheter^]
 // 153.2.2_powernode.1.port.json
 
-|image:../images/compatibility_list/greenwave.powernode.jpg[width=150,align="center"]|Greenwave|Powernode 6 prises|Multiprise|Bien lire la documentation pour la remontée automatique des consommations |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-greenwave.powernode_-_Multiprise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html++[Acheter^]
+|image:../images/compatibility_list/greenwave.powernode.jpg[width=150,align="center"]|Greenwave|Powernode 6 prises|Multiprise|Bien lire la documentation pour la remontée automatique des consommations | link:++http://www.domadoo.fr/fr/peripheriques/2728-greenwave-multiprise-z-wave-6-ports-powernode-schuko--8886464000242.html++[Acheter^]
 // 153.3.4_powernode.6.port.json
+
+
+|===
+
+== Hank
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/hank.doorwindow.jpg[width=150,align="center"]|Hank|Door/Window Sensor (HKZW-DWS01)|Ouverture| | 
+// 520.512.8_hkzw-dws01.window.sensor.json
+
+|image:../images/compatibility_list/hank.multiSensor01.jpg[width=150,align="center"]|Hank|MultiSensor (HKZW-MS01)|Multicapteurs| | 
+// 520.512.6_hkzw-ms01.multisensor.json
+
+|image:../images/compatibility_list/520.512.9_scene-controller-1.jpg[width=150,align="center"]|Hank|Scene Controller 1|Contrôleur portable| | 
+// 520.512.9_scene-controller-1.json
+
+|image:../images/compatibility_list/520.512.11_scene-controller-4.jpg[width=150,align="center"]|Hank|Scene Controller 4|Contrôleur portable| | 
+// 520.512.11_scene-controller-4.json
+
+|image:../images/compatibility_list/hank.smartplug001.jpg[width=150,align="center"]|Hank|Smart Plug (HKZW-SO01)|Prise| | 
+// 520.257.5_hkzw-so01.json
+
+|image:../images/compatibility_list/hank.smartplug005.jpg[width=150,align="center"]|Hank|Smart Plug (HKZW-SO05)|Prise| | 
+// 520.256.10_hkzw-so05.json
+
+
+|===
+
+== Heiman
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/heiman.hs1caz.jpg[width=150,align="center"]|Heiman|CO Sensor (HS1CA-Z)|CO| | 
+// 608.32773.4096_dx1caz_co_sensor.json
+
+|image:../images/compatibility_list/heiman.hs1dsz.jpg[width=150,align="center"]|Heiman|Door Sensor (HS1DS-Z)|Ouverture| | 
+// 608.360.360_dx1dsz_door_sensor.json
+
+|image:../images/compatibility_list/heiman.hs1wlz.jpg[width=150,align="center"]|Heiman|Flood Sensor (HS1WL-Z)|Fuite| | 
+// 608.32772.4096_dx1wlz_flood_sensor.json
+
+|image:../images/compatibility_list/heiman.hs1msz.jpg[width=150,align="center"]|Heiman|Motion Sensor (HS1MS-Z)|Multicapteurs| | 
+// 608.32769.4096_dx1msz_motion_sensor.json
+
+|image:../images/compatibility_list/heiman.hs2skz.jpg[width=150,align="center"]|Heiman|Smart Metering Plug (HS2SK-Z)|Prise| | 
+// 608.32774.4096_dx2skz_wallplug.json
+
+|image:../images/compatibility_list/heiman.hs2skz.jpg[width=150,align="center"]|Heiman|Smart Plug (HS2SK-Z)|Prise| | 
+// 608.32776.4096_dx2skz_wallplug.json
+
+|image:../images/compatibility_list/heiman.hs1saz.jpg[width=150,align="center"]|Heiman|Smart Smoke Sensor (HS1SA-Z)|Fumée| | 
+// 608.32770.4096_dx1saz_smoke_sensor.json
+
+|image:../images/compatibility_list/heiman.hs1htz.jpg[width=150,align="center"]|Heiman|Temperature & Humidity Sensor (HS1HT-Z)|Multicapteurs| | 
+// 608.32775.4096_dx1htz_2in1_sensor.json
 
 
 |===
@@ -559,10 +779,10 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/homeseer.ezmotion3en1.jpg[width=150,align="center"]|Homeseer|EZMotion 3in1|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| 
+|image:../images/compatibility_list/homeseer.ezmotion3en1.jpg[width=150,align="center"]|Homeseer|EZMotion 3in1|Multicapteurs| | 
 // 30.2.1_hsm100.ez.motion.3in1.json
 
-|image:../images/compatibility_list/homeseer.ezmotion3en1.jpg[width=150,align="center"]|Homeseer|EZMotion+ 3in1|Multicapteurs| _[small]#Piles : 3x1.5V AAA#_| 
+|image:../images/compatibility_list/homeseer.ezmotion3en1.jpg[width=150,align="center"]|Homeseer|EZMotion+ 3in1|Multicapteurs| | 
 // 30.2.2_hsm100.ez.motion.3in1.json
 
 
@@ -574,36 +794,38 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/27
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/horstmann.hrt4.jpg[width=150,align="center"]|Horstmann|HRT4-ZW Transmitter|Thermostat|Module vendu sous la marque Secure SRT321 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.hrt4.jpg[width=150,align="center"]|Horstmann|HRT4-ZW Transmitter|Thermostat|Module vendu sous la marque Secure SRT321 | link:++http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html++[Acheter^]
 // 89.1.3_hrt4_srt321.json
 
-|image:../images/compatibility_list/horstmann.scs317.jpg[width=150,align="center"]|Horstmann|SCS317, 7 Day Programmable Room Thermostat|Thermostat|Module vendu sous la marque Secure 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.scs317.jpg[width=150,align="center"]|Horstmann|SCS317, 7 Day Programmable Room Thermostat|Thermostat|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html++[Acheter^]
 // 89.4.1_scsc17.json
 
-|image:../images/compatibility_list/horstmann.ses302.jpg[width=150,align="center"]|Horstmann|SES 302 Temperature Sensor|Température|Module vendu sous la marque Secure 
-
-_[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-secure.ses302_-_Temperature.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.ses302.jpg[width=150,align="center"]|Horstmann|SES 302 Temperature Sensor|Température|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html++[Acheter^]
 // 89.13.2_ses302.json
 
-|image:../images/compatibility_list/horstmann.ses303.jpg[width=150,align="center"]|Horstmann|SES 303 Temperature and Humidity Sensor|Multicapteurs|Module vendu sous la marque Secure 
-
-_[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-secure.ses303_-_Temperature_Humidite.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.ses303.jpg[width=150,align="center"]|Horstmann|SES 303 Temperature and Humidity Sensor|Multicapteurs|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html++[Acheter^]
 // 89.13.3_ses303.json
 
-|image:../images/compatibility_list/horstmann.sir321.jpg[width=150,align="center"]|Horstmann|SIR 321 RF Countdown Timer|Timer|Pas de gestion de Schedule, pas de remonté d'état |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-secure.sir321_-_Timer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.sir321.jpg[width=150,align="center"]|Horstmann|SIR 321 RF Countdown Timer|Timer|Pas de gestion de Schedule, pas de remonté d'état | link:++http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html++[Acheter^]
 // 89.16.1_sir321.json
 
-|image:../images/compatibility_list/horstmann.srt323.jpg[width=150,align="center"]|Horstmann|SRT 323 Electronic Room Thermostat and Temperature|Thermostat|Module vendu sous la marque Secure SRT323 
-
-_[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-secure.srt323_-_Thermostat.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html++[Acheter^]
+|image:../images/compatibility_list/horstmann.srt323.jpg[width=150,align="center"]|Horstmann|SRT 323 Electronic Room Thermostat and Temperature|Thermostat|Module vendu sous la marque Secure SRT323 | link:++http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html++[Acheter^]
 // 89.1.4_srt323.json
 
 |image:../images/compatibility_list/horstmann.asrzw.jpg[width=150,align="center"]|Horstmann|SSR303 ASR-ZW Receiver|Thermostat|Module vendu sous la marque Secure | link:++http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html++[Acheter^]
 // 89.3.1_ssr303.json
+
+
+|===
+
+== Kaipule
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/kaipule.im20.jpg[width=150,align="center"]|Kaipule|IM20 Magnetic Contact|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/3871-kaipule-detecteur-d-ouverture-portefenetre-z-wave.html++[Acheter^]
+// 532.2.1_im20.door.window.sensor.json
 
 
 |===
@@ -635,6 +857,9 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/compatibility_list/mcohome.mh9co2.jpg[width=150,align="center"]|Mco|CO2 Monitor (MH9-CO2-WD)|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html++[Acheter^]
+// 351.2309.513_c02.monitor.json
+
 |image:../images/compatibility_list/mco.mhp210.jpg[width=150,align="center"]|Mco|MH-P210 Mini Energy Dimmer|Micromodule|Vendu sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html++[Acheter^]
 // 351.8458.4866_mh.p210.dimmer.json
 
@@ -643,6 +868,36 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 
 |image:../images/compatibility_list/mco.mhs411.jpg[width=150,align="center"]|Mco|MH-S411 Simple|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html++[Acheter^]
 // 351.16642.513_mco.home.mh-s411.simple.json
+
+|image:../images/compatibility_list/mco.home.mh8-fc.jpg[width=150,align="center"]|Mco|Thermostat MH8-FC-EU|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html++[Acheter^]
+// 351.2049.12546_mco.home.mh8-fc.thermostat.json
+
+|image:../images/compatibility_list/mco.home.mh8-fc.jpg[width=150,align="center"]|Mco|Thermostat MH8-FC4-EU|Thermostat| | link:++http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html++[Acheter^]
+// 351.2050.12546_mco.home.mh8-fc4.thermostat.json
+
+
+|===
+
+== Neocoolcam
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/shenzen_neo.nas-ds01z.jpg[width=150,align="center"]|Neocoolcam|Door Sensor|Ouverture| | 
+// 600.3.4226_nas-ds01z.json
+
+||Neocoolcam|Flood Sensor|Fuite| | 
+// 600.3.4229_nas.ws02z.json
+
+|image:../images/compatibility_list/shenzen_neo.nas-pd01z.jpg[width=150,align="center"]|Neocoolcam|PIR Sensor|Multicapteurs| | 
+// 600.3.131_nas-pd01z.json
+
+||Neocoolcam|Siren Alarm NAS-AB01Z|Sirène| | 
+// 600.3.136_ab01z.siren.json
+
+||Neocoolcam|Smart Power Plug NAS-WR01ZE|Prise| | 
+// 600.3.4231_nas.wr01ze.power.plug.json
 
 
 |===
@@ -656,22 +911,16 @@ _[small]#Piles : 2x1.5V AAA#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |image:../images/compatibility_list/nodon.microsmartplug.jpg[width=150,align="center"]|Nodon|MicroSmartplug|Prise| | 
 // 357.1.3_micro.smartplug.nodon.json
 
-|image:../images/compatibility_list/nodon.octan.jpg[width=150,align="center"]|Nodon|Octan Remote|Télécommande|Fonctionne en mode scene et non central scene 
-
-_[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.octan_-_Remote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html++[Acheter^]
+|image:../images/compatibility_list/nodon.octan.jpg[width=150,align="center"]|Nodon|Octan Remote|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2939-nodon-octan-telecommande-murale-z-wave-3700313920282.html++[Acheter^]
 // 357.2.1_nodon.crc.3.1.00.octan.remote.json
 
-|image:../images/compatibility_list/nodon.smartplug.jpg[width=150,align="center"]|Nodon|Smartplug|Prise| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.smartplug_-_Prise.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2892-nodon-prise-intelligente-z-wave-type-schuko-3700313920206.html++[Acheter^]
+|image:../images/compatibility_list/nodon.smartplug.jpg[width=150,align="center"]|Nodon|Smartplug|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2892-nodon-prise-intelligente-z-wave-type-schuko-3700313920206.html++[Acheter^]
 // 357.1.1_smartplug.nodon.json
 
-|image:../images/compatibility_list/nodon.softremote.jpg[width=150,align="center"]|Nodon|Soft Remote|Télécommande|Fonctionne en mode scene et non central scene 
-
-_[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.Soft_-_Remote_-_Telecommande.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2979-nodon-soft-remote-z-wave-plus-wasabi-3700313920336.html++[Acheter^]
+|image:../images/compatibility_list/nodon.softremote.jpg[width=150,align="center"]|Nodon|Soft Remote|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2979-nodon-soft-remote-z-wave-plus-wasabi-3700313920336.html++[Acheter^]
 // 357.2.2_nodon.cr.3.6.04.soft.remote.json
 
-|image:../images/compatibility_list/nodon.wallswitch.jpg[width=150,align="center"]|Nodon|Wall Switch|Interrupteur|Fonctionne en mode scene et non central scene 
-
-_[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-nodon.wall_-_Switch_-_Interrupteur.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html++[Acheter^]
+|image:../images/compatibility_list/nodon.wallswitch.jpg[width=150,align="center"]|Nodon|Wall Switch|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html++[Acheter^]
 // 357.2.3_nodon.cws.3.1.01.wall.switch.json
 
 
@@ -683,14 +932,10 @@ _[small]#Piles : 1x3V CR2032#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/northq.nq9121.jpg[width=150,align="center"]|Northq|NQ-9121 Gaz Meter|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/northq.nq9121.jpg[width=150,align="center"]|Northq|NQ-9121 Gaz Meter|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Gaz pour avoir les rapports | link:++http://www.domadoo.fr/fr/peripheriques/1539-northq-compteur-optique-de-consommation-de-gaz-z-wave.html++[Acheter^]
 // 150.16.1_nq-9121.gaz.meter.json
 
-|image:../images/compatibility_list/northq.powerreader.jpg[width=150,align="center"]|Northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/northq.powerreader.jpg[width=150,align="center"]|Northq|Power Reader|Compteur|Activer le rafraichissement manuel à 5 minutes sur la valeur Energy pour avoir les rapports | link:++http://www.domadoo.fr/fr/peripheriques/1537-northq-compteur-optique-de-consommation-z-wave.html++[Acheter^]
 // 150.1.2_nq-9021.power.reader.json
 
 
@@ -717,43 +962,34 @@ _[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/153
 |image:../images/compatibility_list/philio.pan08.jpg[width=150,align="center"]|Philio|PAN08-1 In Wall Roller Shutter Controller|Volets| | 
 // 316.1.21_pan08-1.in.wall.roller.shutter.json
 
-|image:../images/compatibility_list/philio.phpat02b.jpg[width=150,align="center"]|Philio|PAT02-B 2in1 Multi Sensor|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_| 
+|image:../images/compatibility_list/philio.phpat02b.jpg[width=150,align="center"]|Philio|PAT02-B 2in1 Multi Sensor|Multicapteurs|La première valeur d'humidité peut mettre un certain temps à remonter. Vendu aussi sous la marque Zipato | 
 // 316.2.32_phpat02b.multisensor.2in1.json
 
-|image:../images/compatibility_list/philio.phpat02.jpg[width=150,align="center"]|Philio|PAT02-C Flood Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html++[Acheter^]
+|image:../images/compatibility_list/philio.phpat02.jpg[width=150,align="center"]|Philio|PAT02-C Flood Sensor|Multicapteurs|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/3152-zipato-detecteur-d-inondation-3-en-1-z-wave-plus-3858890733112.html++[Acheter^]
 // 316.2.31_phpat02a.flood.3in1.json
 
-|image:../images/compatibility_list/philio.pse02.jpg[width=150,align="center"]|Philio|PH-PSE02 Sirène Z-Wave+|Sirène|Sélection du son présentement non supporté | link:++http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html++[Acheter^]
+|image:../images/compatibility_list/philio.pse02.jpg[width=150,align="center"]|Philio|PH-PSE02 Sirène Z-Wave+|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2960-zipato-sirene-d-interieur-z-wave-3858890733310.html++[Acheter^]
 // 316.4.10_pse02.indoor.siren.json
 
-|image:../images/compatibility_list/philio.phpsg01.jpg[width=150,align="center"]|Philio|PH-PSG01 Smoke Sensor|Fumée| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3149-zipato-capteur-de-fumee-z-wave--3858890733051.html++[Acheter^]
+|image:../images/compatibility_list/philio.phpsg01.jpg[width=150,align="center"]|Philio|PH-PSG01 Smoke Sensor|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/3149-zipato-capteur-de-fumee-z-wave--3858890733051.html++[Acheter^]
 // 316.2.30_phpsg01.smoke.detector.json
 
-|image:../images/compatibility_list/philio.psp01.jpg[width=150,align="center"]|Philio|PSP01/PSM02|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psp01_-_Multicapteurs.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
+|image:../images/compatibility_list/philio.psp01.jpg[width=150,align="center"]|Philio|PSP01/PSM02|Multicapteurs|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
 // 316.2.2_psm02-1.slim.multi-sensor.json
 
-|image:../images/compatibility_list/philio.psr04.jpg[width=150,align="center"]|Philio|PSR04 Smart Color Button|Interrupteur| _[small]#Piles : Batterie#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.psr04_-_Smart_Color_Button.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html++[Acheter^]
+|image:../images/compatibility_list/philio.psp05.jpg[width=150,align="center"]|Philio|PSP05 B, C & D version|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/4108-philio-detecteur-de-mouvement-exterieur-z-wave-4713698573508.html++[Acheter^]
+// 316.2.80_psp05.motionsensor.json
+
+|image:../images/compatibility_list/philio.psr04.jpg[width=150,align="center"]|Philio|PSR04 Smart Color Button|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html++[Acheter^]
 // 316.9.34_psr04.smart.color.button.json
 
-|image:../images/compatibility_list/philio.pst02a.jpg[width=150,align="center"]|Philio|PST02-A 4in1 Multi-Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02a_-_4_en_1.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
+|image:../images/compatibility_list/philio.pst02a.jpg[width=150,align="center"]|Philio|PST02-A 4in1 Multi-Sensor|Multicapteurs|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2608-zipato-detecteur-z-wave-4-en-1-mouvement-ouverture-luminosite-tem-3858890730425.html++[Acheter^]
 // 316.2.12_pst02-a.4.in.1.json
 
-|image:../images/compatibility_list/philio.pst021b.jpg[width=150,align="center"]|Philio|PST02-B PIR/Motion 3in1 Sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
+|image:../images/compatibility_list/philio.pst021b.jpg[width=150,align="center"]|Philio|PST02-B PIR/Motion 3in1 Sensor|Multicapteurs|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/3067-philio-detecteur-z-wave-3-en-1-mouvement-luminosite-temperature-4713698570170.html++[Acheter^]
 // 316.2.13_pst02-b.pirmotion.3.in.1.json
 
-|image:../images/compatibility_list/philio.pst02c.jpg[width=150,align="center"]|Philio|PST02-C Door/Window 3in1 sensor|Multicapteurs|Vendu aussi sous la marque Zipato 
-
-_[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-philio.pst02c_-_3_en_1_Ouverture.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2606-zipato-detecteur-z-wave-3-en-1-ouverture-luminosite-temperature-3858890730371.html++[Acheter^]
+|image:../images/compatibility_list/philio.pst02c.jpg[width=150,align="center"]|Philio|PST02-C Door/Window 3in1 sensor|Multicapteurs|Vendu aussi sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2606-zipato-detecteur-z-wave-3-en-1-ouverture-luminosite-temperature-3858890730371.html++[Acheter^]
 // 316.2.14_pst02-c.doorwindow.3.in.1.json
 
 
@@ -765,19 +1001,16 @@ _[small]#Piles : 1x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/polycontrol.danalock.jpg[width=150,align="center"]|Polycontrol|Danalock V2 BTZE|Serrure|Inclusion en mode sécurisé 
-
-_[small]#Piles : 4x3V CR123A#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.danalock-v2_-_Serrure.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/3175-danalock-serrure-connectee-bluetooth-et-z-wave-modele-circulaire-5712560000264.html++[Acheter^]
+|image:../images/compatibility_list/polycontrol.danalock.jpg[width=150,align="center"]|Polycontrol|Danalock V2 BTZE|Serrure|Inclusion en mode sécurisé | link:++http://www.domadoo.fr/fr/peripheriques/3175-danalock-serrure-connectee-bluetooth-et-z-wave-modele-circulaire-5712560000264.html++[Acheter^]
 // 270.8.2_danalock.v2.json
 
-|image:../images/compatibility_list/polycontrol.danalock.jpg[width=150,align="center"]|Polycontrol|Danalock|Serrure|Inclusion en mode sécurisé 
+|image:../images/compatibility_list/polycontrol.danalock.jpg[width=150,align="center"]|Polycontrol|Danalock V3 BTZE|Serrure|Inclusion en mode sécurisé | link:++http://www.domadoo.fr/fr/peripheriques/4197-danalock-serrure-connectee-bluetooth-et-z-wave-danalock-v3-5712560000462.html++[Acheter^]
+// 270.9.1_danalock.v3.json
 
-_[small]#Piles : 1xER26500M#_| 
+|image:../images/compatibility_list/polycontrol.danalock.jpg[width=150,align="center"]|Polycontrol|Danalock|Serrure|Inclusion en mode sécurisé | 
 // 270.3.2_danalock.json
 
-|image:../images/compatibility_list/polycontrol.polylock.jpg[width=150,align="center"]|Polycontrol|Polylock|Serrure|Inclusion en mode sécurisé 
-
-_[small]#Piles : 1xER26500M#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-polycontrol.polylock_-_Serrure.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/1752-poly-control-serrure-motorisee-poly-lock-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/polycontrol.polylock.jpg[width=150,align="center"]|Polycontrol|Polylock|Serrure|Inclusion en mode sécurisé | link:++http://www.domadoo.fr/fr/peripheriques/1752-poly-control-serrure-motorisee-poly-lock-z-wave.html++[Acheter^]
 // 270.1.1_polylock.json
 
 
@@ -792,17 +1025,29 @@ _[small]#Piles : 1xER26500M#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |image:../images/compatibility_list/popp.009105.jpg[width=150,align="center"]|Popp|009105 Wall Plug Switch Schuko (IP44)|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/3070-popp-z-wave-plugin-switch-ip44-outdoor-use.html++[Acheter^]
 // 340.3.1_009105.wall.plug.switch.json
 
-|image:../images/compatibility_list/popp.009303.jpg[width=150,align="center"]|Popp|009303 Z-Wave Plus Battery Wall Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/popp.009303.jpg[width=150,align="center"]|Popp|009303 Z-Wave Plus Battery Wall Controller|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html++[Acheter^]
 // 340.256.257_009303_wall_controller.json
 
-||Popp|KFOB-C|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html++[Acheter^]
+|image:../images/compatibility_list/popp.009402.smoke-detector.jpg[width=150,align="center"]|Popp|10-Year Smoke Detector (009402)|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/3636-popp-detecteur-de-fumee-z-wave-avec-autonomie-10-ans-0019962009402.html++[Acheter^]
+// 340.4.4_popp.smoke.sensor.json
+
+|image:../images/compatibility_list/popp.keyfob.jpg[width=150,align="center"]|Popp|KFOB-C|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html++[Acheter^]
 // 340.256.259_key.fob.json
 
-|image:../images/compatibility_list/popp.smoke-detector.jpg[width=150,align="center"]|Popp|Smoke Detector and Siren|Fumée| _[small]#Piles : 1x9V#_| link:++http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html++[Acheter^]
+|image:../images/compatibility_list/popp.004407.jpg[width=150,align="center"]|Popp|POPE004407 CO Detector|CO| | link:++http://www.domadoo.fr/fr/peripheriques/3852-popp-detecteur-de-monoxyde-de-carbone-z-wave-0019962004407.html++[Acheter^]
+// 340.4.3_co_detector.json
+
+|image:../images/compatibility_list/popp.rainsensor.jpg[width=150,align="center"]|Popp|Pluviomètre|Pluviomètre| | link:++http://www.domadoo.fr/fr/peripheriques/4094-popp-pluviometre-z-wave-z-rain-4251295700168.html++[Acheter^]
+// 340.4.17_rainsensor.json
+
+|image:../images/compatibility_list/popp.smoke-detector.jpg[width=150,align="center"]|Popp|Smoke Detector and Siren|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html++[Acheter^]
 // 340.256.513_popp.smoke.sensor.json
 
-|image:../images/compatibility_list/popp.solar-siren.jpg[width=150,align="center"]|Popp|Solar Powered Outdoor Siren|Sirène| _[small]#Piles : Batterie#_| link:++http://www.domadoo.fr/fr/peripheriques/3180-popp-sirene-exterieure-solaire-z-wave-0019962005107.html++[Acheter^]
+|image:../images/compatibility_list/popp.solar-siren.jpg[width=150,align="center"]|Popp|Solar Powered Outdoor Siren|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/3180-popp-sirene-exterieure-solaire-z-wave-0019962005107.html++[Acheter^]
 // 340.4.2_popp.solar.siren.json
+
+|image:../images/compatibility_list/popp.zweather.jpg[width=150,align="center"]|Popp|Z-Weather Wind and Weather Sensor|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html++[Acheter^]
+// 340.256.1024_zweather.json
 
 
 |===
@@ -813,8 +1058,14 @@ _[small]#Piles : 1xER26500M#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/compatibility_list/qees.reto-pluginswitch.jpg[width=150,align="center"]|Qees|Reto plug in Switch|Interrupteur| | 
+// 149.12547.1_reto.plug-in.switch.plus.json
+
+|image:../images/compatibility_list/qees.turtle-switch.jpg[width=150,align="center"]|Qees|Turtle Dimmer|Variateur| | 
+// 149.12545.1_turtle.dimmer.json
+
 |image:../images/compatibility_list/qees.turtle-switch.jpg[width=150,align="center"]|Qees|Turtle Switch|Interrupteur| | 
-// 149.12545.1_qees.qees.turtle.switch.json
+// 149.12545.1_turtle.switch.json
 
 
 |===
@@ -824,6 +1075,9 @@ _[small]#Piles : 1xER26500M#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/qubino.zmnhwd1.jpg[width=150,align="center"]|Qubino|Variateur RGBW|RGBW| | link:++http://www.domadoo.fr/fr/peripheriques/3990-qubino-micromodule-variateur-rgbw-z-wave.html++[Acheter^]
+// 345.1.84_zmnhwd1_flush_rgbw_dimmer.json
 
 |image:../images/compatibility_list/qubino.zmnhaa2.jpg[width=150,align="center"]|Qubino|ZMNHAA2 Simple Charge|Micromodule|Remplacé par ZMNHAD1 | link:++http://www.domadoo.fr/fr/peripheriques/3060-qubino-micromodule-commutateur-1-relai-et-consometre-z-wave-zmnhad1-3830062070102.html++[Acheter^]
 // 345.2.2_zmnhaa2.flush.1.relay.json
@@ -897,14 +1151,10 @@ _[small]#Piles : 1xER26500M#_|link:++https://jeedom.fr/doc/documentation/zwave-m
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/remotec.zrc90.jpg[width=150,align="center"]|Remotec|ZRC-90|Contrôleur portable|Partiellement compatible: Fonctionne en association directe seulement 
-
-_[small]#Piles : 2x1.5V AAA#_| 
+|image:../images/compatibility_list/remotec.zrc90.jpg[width=150,align="center"]|Remotec|ZRC-90|Contrôleur portable| | 
 // 21076.1.34064_zrc-90.json
 
-|image:../images/compatibility_list/remotec.zxt120.jpg[width=150,align="center"]|Remotec|ZXT-120|Thermostat|Pose soucis sur des réseaux avec d'autres modules 
-
-_[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/826-remotec-zxt-120-passerelle-z-wave-vers-ir-pour-climatiseur-ac.html++[Acheter^]
+|image:../images/compatibility_list/remotec.zxt120.jpg[width=150,align="center"]|Remotec|ZXT-120|Thermostat|Pose soucis sur des réseaux avec d'autres modules | link:++http://www.domadoo.fr/fr/peripheriques/826-remotec-zxt-120-passerelle-z-wave-vers-ir-pour-climatiseur-ac.html++[Acheter^]
 // 21076.257.33655_zxt-120.json
 
 
@@ -916,9 +1166,7 @@ _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/826
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Schlage|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato 
-
-_[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Schlage|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. Ce module est actuellement vendu sous la marque Zipato | link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
 // 151.24881.17665_mini.keypad.rfid.json
 
 |image:../images/compatibility_list/taphome.onwallpowersocket.jpg[width=150,align="center"]|Schlage|On-Wall Power Socket|Prise|Ce module est actuellement vendu sous la marque TapHome | 
@@ -957,11 +1205,23 @@ _[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-mo
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/smarthomebyeverspring.AD146-0.jpg[width=150,align="center"]|Smarthome By Everspring|AD146-0 Variateur|Micromodule| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html++[Acheter^]
+|image:../images/compatibility_list/smarthomebyeverspring.AD146-0.jpg[width=150,align="center"]|Smarthome By Everspring|AD146-0 Variateur|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2688-smarthome-europe-micromodule-variateur-mural-z-wave-plus-ad146-3700946500356.html++[Acheter^]
 // 96.3.2_ad.146.in.wall.dimmer.json
 
-|image:../images/compatibility_list/smarthomebyeverspring.AN179-0.jpg[width=150,align="center"]|Smarthome By Everspring|AN179-0 On/Off|Micromodule| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html++[Acheter^]
+|image:../images/compatibility_list/smarthomebyeverspring.AN179-0.jpg[width=150,align="center"]|Smarthome By Everspring|AN179-0 On/Off|Micromodule| | link:++http://www.domadoo.fr/fr/peripheriques/2689-smarthome-europe-micromodule-mural-onoff-z-wave-plus-an179-3700946500387.html++[Acheter^]
 // 96.4.8_an.179.in.wall.on.off.json
+
+
+|===
+
+== Stelpro
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/stelpro.stzw402.jpg[width=150,align="center"]|Stelpro|STZW402+ Electronic Thermostat|Thermostat| | 
+// 569.1.1_STZW402.plus.electronic.thermostat.json
 
 
 |===
@@ -972,7 +1232,7 @@ _[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-mo
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/swiid.inter.jpg[width=150,align="center"]|Swiid|SwiidInter|Interrupteur| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-swiid.inter_-_Interrupteur_Cordon.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2675-swiid-interrupteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html++[Acheter^]
+|image:../images/compatibility_list/swiid.inter.jpg[width=150,align="center"]|Swiid|SwiidInter|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2675-swiid-interrupteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html++[Acheter^]
 // 358.256.256_swiid.inter.json
 
 |image:../images/compatibility_list/swiid.plug.jpg[width=150,align="center"]|Swiid|SwiidPlug|Prise| | link:++http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html++[Acheter^]
@@ -999,28 +1259,28 @@ _[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-mo
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/compatibility_list/vision.zf5201.jpg[width=150,align="center"]|Vision Security|Flood-Sensor (ZF5201)|Fuite| | 
+// 265.8220.7169_zf5201.water.sensor.json
+
 |image:../images/compatibility_list/vision.zu1401.jpg[width=150,align="center"]|Vision Security|USB Stick ZU 1401|Contrôleur| | 
 // 265.4097.257_zu1401.z-wave.usb.stick.json
 
-|image:../images/compatibility_list/vision.zd2102.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato. 
-
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
+|image:../images/compatibility_list/vision.zd2102.jpg[width=150,align="center"]|Vision Security|ZD2102|Ouverture|Vendu aussi sous la marque Zipato. | link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
 // 265.8193.257_zd2102.us.doorwindow.sensor.json
 
-|image:../images/compatibility_list/vision.zd2201.jpg[width=150,align="center"]|Vision Security|ZD2201 Multisensor 4in1|Ouverture|Vendu aussi sous la marque Zipato. 
-
-_[small]#Piles : 2x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3150-zipato-detecteur-z-wave-plus-4-en-1-3858890732931.html++[Acheter^]
+|image:../images/compatibility_list/vision.zd2201.jpg[width=150,align="center"]|Vision Security|ZD2201 Multisensor 4in1|Ouverture|Vendu aussi sous la marque Zipato. | link:++http://www.domadoo.fr/fr/peripheriques/3150-zipato-detecteur-z-wave-plus-4-en-1-3858890732931.html++[Acheter^]
 // 265.8223.7952_zd2201.multisensor.4in1.json
 
-|image:../images/compatibility_list/vision.zg8101.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garage-z-wave-zg8101-0696859123412.html.html++[Acheter^]
+|image:../images/compatibility_list/vision.zd2301.jpg[width=150,align="center"]|Vision Security|ZD2301 Multisensor 4in1|Ouverture|Vendu aussi sous la marque Zipato. | link:++http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-en-1-3858890732153.html++[Acheter^]
+// 265.8223.7968_zd2301.multisensor.4in1.json
+
+|image:../images/compatibility_list/vision.zg8101.jpg[width=150,align="center"]|Vision Security|ZG8101|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2434-vision-security-detecteur-de-porte-de-garage-z-wave-zg8101-0696859123412.html.html++[Acheter^]
 // 265.8202.2562_zg8101.garage.door.detector.json
 
-|image:../images/compatibility_list/vision.zm1601eu5.jpg[width=150,align="center"]|Vision Security|ZM1601EU5|Sirène| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie-0019962005404.html++[Acheter^]
+|image:../images/compatibility_list/vision.zm1601eu5.jpg[width=150,align="center"]|Vision Security|ZM1601EU5|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2435-vision-security-sirene-z-wave-zm1601-alimentee-sur-batterie-0019962005404.html++[Acheter^]
 // 265.8197.1288_zm1601eu5.battery.operated.siren.json
 
-|image:../images/compatibility_list/vision.zm1601.jpg[width=150,align="center"]|Vision Security|ZM1601|Sirène|Remplacé par la ZM1601EU5 
-
-_[small]#Piles : 4x1.5V AAA#_| 
+|image:../images/compatibility_list/vision.zm1601.jpg[width=150,align="center"]|Vision Security|ZM1601|Sirène|Remplacé par la ZM1601EU5 | 
 // 265.8197.1283_zm1601.battery.operated.siren.json
 
 |image:../images/compatibility_list/vision.zm1602.jpg[width=150,align="center"]|Vision Security|ZM1602+|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur-0019962005602.html++[Acheter^]
@@ -1029,18 +1289,25 @@ _[small]#Piles : 4x1.5V AAA#_|
 |image:../images/compatibility_list/vision.zm1602.jpg[width=150,align="center"]|Vision Security|ZM1602|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/2436-vision-security-sirene-z-wave-zm1602-alimentee-sur-secteur.html++[Acheter^]
 // 265.8201.2307_zm1602.json
 
-|image:../images/compatibility_list/vision.zp3102.jpg[width=150,align="center"]|Vision Security|ZP3102|Multicapteurs|Vendu aussi sous la marque Zipato. 
+|image:../images/compatibility_list/vision.zm1701.jpg[width=150,align="center"]|Vision Security|ZM1701 Door Lock without Handle|Serrure|Inclusion en mode sécurisé | 
+// 265.8198.1552_zw1701_doorlock.json
 
-_[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
+|image:../images/compatibility_list/vision.zm1702.jpg[width=150,align="center"]|Vision Security|ZM1702 Door Lock|Serrure|Inclusion en mode sécurisé | 
+// 265.8198.1568_zm1702.electronic.deadbolt.door.lock.json
+
+|image:../images/compatibility_list/vision.zp3102.jpg[width=150,align="center"]|Vision Security|ZP3102|Multicapteurs|Vendu aussi sous la marque Zipato. | link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
 // 265.8194.513_zp3102.eu.pir.motion.sensor.json
 
-|image:../images/compatibility_list/vision.zs6301.jpg[width=150,align="center"]|Vision Security|ZS 6301 Wireless CO Detector|CO| _[small]#Piles : 3x1.5V AA#_| link:++http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/vision.zs6301.jpg[width=150,align="center"]|Vision Security|ZS 6301 Wireless CO Detector|CO| | link:++http://www.domadoo.fr/fr/peripheriques/2159-vision-security-detecteur-de-monoxyde-de-carbone-z-wave.html++[Acheter^]
 // 265.8207.3842_zs6301.co.detector.json
 
-|image:../images/compatibility_list/vision.zs5101.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/vision.zs51015.jpg[width=150,align="center"]|Vision Security|ZS5101 Détecteur de choc ZWave+|Vibration| | link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave-0019962005503.html++[Acheter^]
+// 265.8195.774_zs51015.shock.and.vibration.sensor.json
+
+|image:../images/compatibility_list/vision.zs5101.jpg[width=150,align="center"]|Vision Security|ZS5101|Vibration| | link:++http://www.domadoo.fr/fr/peripheriques/2157-vision-security-detecteur-de-choc-z-wave.html++[Acheter^]
 // 265.8195.769_zs5101.shock.and.vibration.sensor.json
 
-|image:../images/compatibility_list/vision.zs6101.jpg[width=150,align="center"]|Vision Security|ZS6101 Smoke Detector |Fumée| _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/2158-vision-security-detecteur-de-fumee-z-wave-0696859123443.html++[Acheter^]
+|image:../images/compatibility_list/vision.zs6101.jpg[width=150,align="center"]|Vision Security|ZS6101 Smoke Detector |Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/2158-vision-security-detecteur-de-fumee-z-wave-0696859123443.html++[Acheter^]
 // 265.8196.1027_zs6101.smoke.detector.json
 
 
@@ -1061,9 +1328,7 @@ _[small]#Piles : 1x3V CR123A#_| link:++http://www.domadoo.fr/fr/peripheriques/26
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/everspring.st812.jpg[width=150,align="center"]|Wenzhou|ST812|Fuite|Vendu sous la marque Everspring 
-
-_[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/860-everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html++[Acheter^]
+|image:../images/compatibility_list/everspring.st812.jpg[width=150,align="center"]|Wenzhou|ST812|Fuite|Vendu sous la marque Everspring | link:++http://www.domadoo.fr/fr/peripheriques/860-everspring-detecteur-d-eau-z-wave-st-812-3700946500318.html++[Acheter^]
 // 280.11.1_st812.flood.detector.json
 
 |image:../images/compatibility_list/tkb.tz55.jpg[width=150,align="center"]|Wenzhou|TZ55|Interrupteur|Le deuxième Bouton sert uniquement en association direct | 
@@ -1117,13 +1382,35 @@ _[small]#Piles : 3x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/860
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
+|image:../images/compatibility_list/zipato.bulb.jpg[width=150,align="center"]|Zipato|Bulb 2|Ampoule|Onglet Système, modifier Color Channels avec la valeur 31 pour avoir des rapports de couleurs cohérents | link:++http://www.domadoo.fr/fr/peripheriques/4111-zipato-ampoule-led-rgbw-z-wave-v2-3858890733464.html++[Acheter^]
+// 305.2.3_rgbw_bulb2.json
+
 |image:../images/compatibility_list/zipato.bulb.jpg[width=150,align="center"]|Zipato|Bulb RGBW|Ampoule| | link:++http://www.domadoo.fr/fr/peripheriques/2541-zipato-ampoule-led-rgbw-z-wave-3858890731026.html++[Acheter^]
-// 305.2.2_zipato_rgbw_bulb.json
+// 305.2.2_rgbw_bulb.json
 
-|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Zipato|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. 
+|image:../images/compatibility_list/zipato.dx1caz.jpg[width=150,align="center"]|Zipato|CO Sensor (HS1CA-Z)|CO| | link:++http://www.domadoo.fr/fr/peripheriques/4151-zipato-capteur-de-monoxyde-de-carbone-z-wave-3858890733563.html++[Acheter^]
+// 305.32773.4096_hs1caz_co_sensor.json
 
-_[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-zipato.minikeypad_-_Clavier_Rfid.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
-// 305.24881.17665_zipato.zipato.mini.keypad.json
+|image:../images/compatibility_list/zipato.dx1wlz.jpg[width=150,align="center"]|Zipato|Flood Sensor (HS1WL-Z)|Fuite| | link:++http://www.domadoo.fr/fr/peripheriques/4159-zipato-capteur-d-inondation-z-wave--3858890733624.html++[Acheter^]
+// 305.32772.4096_hs1wlz_flood_sensor.json
+
+|image:../images/compatibility_list/zipato.minikeypad.jpg[width=150,align="center"]|Zipato|Mini Keypad RFID|Clavier RFID|Le badge utilisé ne remonte pas. | link:++http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html++[Acheter^]
+// 305.24881.17665_mini.keypad.json
+
+|image:../images/compatibility_list/shenzen_neo.nas-pd01z.jpg[width=150,align="center"]|Zipato|PIR Sensor|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/4160-zipato-capteur-de-mouvement-pir-z-wave-3858890733341.html++[Acheter^]
+// 305.3.4227_nas-pd01z.json
+
+|image:../images/compatibility_list/zipato.dx1saz.jpg[width=150,align="center"]|Zipato|Smart Smoke Sensor (HS1SA-Z)|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/4149-zipato-capteur-de-fumee-z-wave--3858890733594.html++[Acheter^]
+// 305.32770.4096_hs1saz_smoke_sensor.json
+
+|image:../images/compatibility_list/zipato.vszd2102.jpg[width=150,align="center"]|Zipato|VS-ZD2102 Door/Window Sensor|Ouverture| | link:++http://www.domadoo.fr/fr/peripheriques/2609-zipato-detecteur-d-ouverture-z-wave-3858890730470.html++[Acheter^]
+// 305.8193.262_vszd2102.eu.doorwindow.sensor.json
+
+|image:../images/compatibility_list/zipato.zd2301.jpg[width=150,align="center"]|Zipato|ZD2301 Multisensor 4in1|Ouverture|Vendu aussi sous la marque Vision. | link:++http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-en-1-3858890732153.html++[Acheter^]
+// 305.8223.7968_zd2301.multisensor.4in1.json
+
+|image:../images/compatibility_list/vision.zp3102.jpg[width=150,align="center"]|Zipato|ZP3102|Multicapteurs| | link:++http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html++[Acheter^]
+// 305.8194.517_zp3102.eu.pir.motion.sensor.json
 
 
 |===
@@ -1134,39 +1421,65 @@ _[small]#Piles : 2x1.5V AA#_|link:++https://jeedom.fr/doc/documentation/zwave-mo
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/popp.smoke-detector.jpg[width=150,align="center"]|Zwaveme|004308 Smoke Detector|Fumée|Détecté comme le Zwave-me USB Stick. Pas d'assistant pour les parametrès. 
-
-_[small]#Piles : 1xCR123A#_| 
+|image:../images/compatibility_list/popp.smoke-detector.jpg[width=150,align="center"]|Zwaveme|004308 Smoke Detector|Fumée|Détecté comme le Zwave-me USB Stick. Pas d'assistant pour les parametrès. | 
 // 277.1.1_pop_004308.json
 
-|image:../images/compatibility_list/zwaveme.keyfob4.jpg[width=150,align="center"]|Zwaveme|KFOB Key Chain Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html++[Acheter^]
+|image:../images/compatibility_list/zwaveme.binary.jpg[width=150,align="center"]|Zwaveme|Binary Sensor|Multicapteurs| | 
+// 277.513.3_binary.sensor.json
+
+|image:../images/compatibility_list/zwaveme.zme064435.jpg[width=150,align="center"]|Zwaveme|Double Paddle Wall Controller (ZME WCD2)|Telecommande| | 
+// 277.256.4_zme_wcd2.double.paddle.wall.controller.json
+
+|image:../images/compatibility_list/zwaveme.itemp.jpg[width=150,align="center"]|Zwaveme|Itemp Temperature Sensor|Multicapteurs| | 
+// 277.512.1_itemp.temperature.sensor.json
+
+|image:../images/compatibility_list/zwaveme.keyfob4.jpg[width=150,align="center"]|Zwaveme|KFOB Key Chain Controller|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/2311-z-waveme-telecommande-porte-cles-4-boutons-z-wave-0696859123344.html++[Acheter^]
 // 277.256.1_kfob_4.json
 
-|image:../images/compatibility_list/zwaveme.keyfobs4.jpg[width=150,align="center"]|Zwaveme|KFOB Secure 4 Button Key Chain Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| 
+|image:../images/compatibility_list/zwaveme.keyfobs4.jpg[width=150,align="center"]|Zwaveme|KFOB Secure 4 Button Key Chain Controller|Télécommande| | 
 // 277.256.258_kfob_s4.json
 
-|image:../images/compatibility_list/zwaveme.keyfob1.jpg[width=150,align="center"]|Zwaveme|KFOB|Télécommande| _[small]#Piles : 1x3V CR2032#_| 
+|image:../images/compatibility_list/zwaveme.keyfob1.jpg[width=150,align="center"]|Zwaveme|KFOB|Télécommande| | 
 // 277.1.105_key.fob_1.json
 
-|image:../images/compatibility_list/zwaveme.keyfobc.jpg[width=150,align="center"]|Zwaveme|Popp KFOB-C Remote Control|Télécommande| _[small]#Piles : 1x3V CR2032#_| link:++http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html++[Acheter^]
+|image:../images/compatibility_list/zwaveme.zme06436.jpg[width=150,align="center"]|Zwaveme|Micro Motor Controller (ZME06436)|Volets| | 
+// 277.4096.3_zme_06436.motor.control.json
+
+|image:../images/compatibility_list/zwaveme.plugin.jpg[width=150,align="center"]|Zwaveme|Plugin Dimmer|Prise| | 
+// 277.4352.2_plug-in.dimmer.json
+
+|image:../images/compatibility_list/zwaveme.keyfobc.jpg[width=150,align="center"]|Zwaveme|Popp KFOB-C Remote Control|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave.html++[Acheter^]
 // 277.256.259_popp_kfob_c.json
 
-|image:../images/compatibility_list/zwaveme.rc2.jpg[width=150,align="center"]|Zwaveme|Remote Control 2|Télécommande| _[small]#Piles : 4x1.5V AAA#_| link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
+|image:../images/compatibility_list/zwaveme.rc2.jpg[width=150,align="center"]|Zwaveme|Remote Control 2|Télécommande| | link:++http://www.domadoo.fr/fr/peripheriques/3075-z-waveme-telecommande-z-wave-10-canaux.html++[Acheter^]
 // 277.4096.768_zme_rc2.json
 
-|image:../images/compatibility_list/zwaveme.wallcs.jpg[width=150,align="center"]|Zwaveme|Secure Wall Controller|Télécommande| _[small]#Piles : 1x3V CR2032#_| 
+|image:../images/compatibility_list/zwaveme.wallcs.jpg[width=150,align="center"]|Zwaveme|Secure Wall Controller|Télécommande| | 
 // 277.256.257_wall-s.json
+
+|image:../images/compatibility_list/zwaveme.smoke-sensor.jpg[width=150,align="center"]|Zwaveme|Smoke Sensor|Fumée| | 
+// 277.256.512_smoke.detector.json
 
 |image:../images/compatibility_list/zwaveme.uzb.jpg[width=150,align="center"]|Zwaveme|USB Stick|Contrôleur| | 
 // 277.1.1_usb stick.json
 
+|image:../images/compatibility_list/zwaveme.zme064435.jpg[width=150,align="center"]|Zwaveme|Wall Controller (ZME064435)|Telecommande| | 
+// 277.4096.4_zme_064435.wall.controller.json
+
 |image:../images/compatibility_list/zwaveme.zuno.jpg[width=150,align="center"]|Zwaveme|Z-Uno|Carte de développeur| | 
 // 277.272.1_z-uno.json
 
-|image:../images/compatibility_list/popp.zweather.jpg[width=150,align="center"]|Zwaveme|Z-Weather Wind and Weather Sensor|Multicapteurs|Vendu sous le nom POPP - Station météo Z-Wave+ Z-Weather 
+|image:../images/compatibility_list/zwaveme.thermostat.jpg[width=150,align="center"]|Zwaveme|Z-Wave thermostat|Thermostat| | 
+// 277.513.2_thermostat.json
 
-_[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html++[Acheter^]
+|image:../images/compatibility_list/popp.zweather.jpg[width=150,align="center"]|Zwaveme|Z-Weather Wind and Weather Sensor|Multicapteurs|Vendu sous le nom POPP - Station météo Z-Wave+ Z-Weather | link:++http://www.domadoo.fr/fr/peripheriques/2961-popp-station-meteo-z-wave-z-weather.html++[Acheter^]
 // 277.256.1024_zweather.json
+
+|image:../images/compatibility_list/zwaveme.zme06433.jpg[width=150,align="center"]|Zwaveme|ZME 06433 Dimmer|Micromodule| | 
+// 277.4096.2_zme_06433.wall.flush-mountable.dimmer.json
+
+|image:../images/compatibility_list/zwaveme.zme054313.jpg[width=150,align="center"]|Zwaveme|ZME-054313 Flush mountable switch|Micromodule| | 
+// 277.4096.1_zme_054313z.flush-mountable.switch.json
 
 |image:../images/compatibility_list/zwaveme.uzb1.jpg[width=150,align="center"]|Zwaveme|ZME_UZB1 USB Stick|controleur| | link:++http://www.domadoo.fr/fr/peripheriques/2669-z-waveme-mini-controleur-usb-z-wave-plus-0019962006500.html++[Acheter^]
 // 277.1024.1_ZME_UZB1 USB Stick.json
@@ -1195,19 +1508,17 @@ _[small]#Piles : Cellule solaire#_| link:++http://www.domadoo.fr/fr/peripherique
 |===
 |Image|Marque|Nom|Type|Remarque|Lien
 
-|image:../images/compatibility_list/aeotec.zw130.jpg[width=150,align="center"]|Aeotec|WallMote Quad (ZW130)|Télécommande| _[small]#Piles : Batterie#_| 
-// 134.2.130_zw130_wallmote.quad.json
+|image:../images/compatibility_list/domux.dx1cgz.jpg[width=150,align="center"]|Domux|Gaz Sensor (DX1CG-Z)|Gaz|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible | 
+// 540.32771.4096_dx1cgz_gaz_sensor.json
 
-|image:../images/compatibility_list/everspring.sf812.jpg[width=150,align="center"]|Everspring|SF812|Fumée| _[small]#Piles : 1x9V#_| link:++http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html++[Acheter^]
+|image:../images/compatibility_list/everspring.sf812.jpg[width=150,align="center"]|Everspring|SF812|Fumée| | link:++http://www.domadoo.fr/fr/peripheriques/848-everspring-detecteur-de-fumee-z-wave-sf812-3700946500219.html++[Acheter^]
 // 96.13.1_sf812.smoke.alarm.json
 
-|image:../images/compatibility_list/fibaro.fgpb101.jpg[width=150,align="center"]|Fibaro|FGPB101 Button|Contrôleur|Partiellement compatible: Fonctionne en association directe seulement 
-
-_[small]#Piles : 1X ER14250 3,6V#_| link:++http://www.domadoo.fr/fr/peripheriques/3701-fibaro-bouton-de-commande-the-button-z-wave-blanc--5902020528968.html++[Acheter^]
-// 271.3841.4096_fgpb101.button.json
-
-|image:../images/compatibility_list/firstalert.zcombo.jpg[width=150,align="center"]|Firstalert|ZCombo Smoke and Carbon Monoxide Detector|Fumée| _[small]#Piles : 1x9V#_| 
+|image:../images/compatibility_list/firstalert.zcombo.jpg[width=150,align="center"]|Firstalert|ZCombo Smoke and Carbon Monoxide Detector|Fumée| | 
 // 312.1.2_zcombo.json
+
+|image:../images/compatibility_list/heiman.hs1cgz.jpg[width=150,align="center"]|Heiman|Gaz Sensor (HS1CG-Z)|Gaz|Pas de remontée d'alerte au contrôleur. Sonne sur détection de gaz combustible | 
+// 608.32771.4096_dx1cgz_gaz_sensor.json
 
 |image:../images/compatibility_list/kwikset.smartcode912.jpg[width=150,align="center"]|Kwikset|Electronic Deadbolt Smartcode|Serrure| | 
 // 144.1.1_smartcode912.json
@@ -1218,7 +1529,7 @@ _[small]#Piles : 1X ER14250 3,6V#_| link:++http://www.domadoo.fr/fr/peripherique
 |image:../images/compatibility_list/mco.mhs314.jpg[width=150,align="center"]|Mco|MH-S314 Four-load|Interrupteur| | 
 // 351.12546.516_mco.home.mh-s314.four.load.json
 
-|image:../images/compatibility_list/mco.mhs412.jpg[width=150,align="center"]|Mco|MH-S412 Double|Interrupteur| |link:++https://jeedom.fr/doc/documentation/zwave-modules/fr_FR/doc-zwave-modules-mco.MH-S412_Double_-_Interrupteur.html++[Documentation^] link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
+|image:../images/compatibility_list/mco.mhs412.jpg[width=150,align="center"]|Mco|MH-S412 Double|Interrupteur| | link:++http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html++[Acheter^]
 // 351.16642.514_mco.home.mh-s412.double.json
 
 |image:../images/compatibility_list/vitrum.zwe060.jpg[width=150,align="center"]|Vitrum|ZWE060 6 boutons|Interrupteur| | 

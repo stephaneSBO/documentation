@@ -5,7 +5,7 @@
 Hier sind einige nützliche Pakete, die auf eine unberührte Installation nachinstalliert werden können :  
 
 ----
-apt-get install -y vim fail2ban
+apt-get install -y vim fail2ban net-tools dos2unix
 ----
 
 Wenn Sie auf VMware sind : 
@@ -19,11 +19,12 @@ apt-get install -y open-vm-tools
 ----
 rm -rf /root/.bashrc
 wget https://raw.githubusercontent.com/jeedom/core/stable/install/bashrc -O /root/.bashrc
+dos2unix /root/.bashrc
 ----
 
 == Eine root Verbindung in SSH erlauben 
 
-Man muss die Datei /etc/ssh/sshd_config editieren und ändern : 
+Il faut éditer le fichier /etc/ssh/sshd_config et changer : 
 
 ----
 PermitRootLogin without-password
@@ -61,13 +62,73 @@ Zusatz der Montage in /etc/fstab
 Vous devez changer les TODO pour user et password par rapport à votre configuration
 
 == Umstellung von Jessie in Stretch
+Pour avoir testé l'upgrade et l'installation Stretch avec restauration d'un backup, je confirme que l'installation de Stretch par écrasement vous fera gagner du temps. Voir méthode 2.
 
-Man muß die /etc/apt/sources.list Datei editieren, alle "jessie" Wörter durch "stretch" ersetzen und danach folgendes machen : 
+=== Méthode 1 : Upgrade (peu de chance de succès)
+Il faut éditer le fichier /etc/apt/sources.list et remplacer tous les Jessie par Stretch, puis faire : 
 
 ---- 
 apt-get update
 apt-get dist-upgrade
 ----
-
 [IMPORTANT]
-Stretch ist keine stabile Version von debian, bei Problemen kann das Jeedom-Team jede Supportanfrage ablehnen
+Private Tmp : Si vous passez de Jessie à Stretch sans refaire l'installation de Jeedom il faut désactiver le 'private tmp' d'apache sinon Jeedom ne marchera pas : 
+
+----
+mkdir /etc/systemd/system/apache2.service.d
+echo -e "[Service]\nPrivateTmp=no" > /etc/systemd/system/apache2.service.d/privatetmp.conf
+systemctl daemon-reload
+----
+=== Méthode 2 : Installation sur Strech et restauration de sauvegarde
+
+Avant de commencer, réaliser une sauvegarde complète via Jeedom de votre installation sous Jessie, puis exporter la sauvegarde sur un autre support de stockage.
+
+[CONSEIL] Télécharger la sauvegarde autrement que par l'interface web (ssh, ftp, samba, autres de votre choix), car si votre archive est volumineuse elle peut facilement se corrompre via un téléchargement Http. Si elle fait moins de 100Mo, c'est jouable.
+
+- Installer Debian Strech sur votre box.
+- Reconfigurer votre réseau local, vérifier que votre machine est opérationnelle et à jour.
+- Installer Jeedom en suivant la doc : https://github.com/jeedom/documentation/blob/master/installation/fr_FR/other.asciidoc 
+
+[ATTENTION] MariaDB n'autorise plus l'accès au profil 'root', ce qui peut bloquer la restauration d'une base de donnée dont vous auriez changé le nom (comme moi) donc on ne restaure pas tout de suite le backup. Si l'utilisateur 'jeedom' n'a pas les bonnes permissions, la restauration échoue.
+
+Référence : http://jc.etiemble.free.fr/abc/index.php/realisations/trucs-astuces/deb9php7 (chapitre 5a)
+
+En bref, 2 lignes de commande pour autorisé l'utilisateur 'root' dans mysql sous Stretch :
+----
+mysql -u root -p mysql
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 2
+Server version: 10.1.21-MariaDB-5 Debian 9.0
+Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [mysql]> 
+MariaDB [mysql]> GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'monpass';
+Query OK, 0 rows affected (0.00 sec)
+MariaDB [mysql]> exit;
+Bye
+----
+[NOTE] remplacer 'monpass' par votre mot de passe MYSQL utilisé pour le compte root sous "Debian 8 - Jessie". Je donne les droits a root notamment pour gérer mes bases avec 'PHPMYADMIN', mais les donner à 'jeedom' doit suffire.
+
+A vous d'adapter cette commande en fonction de votre configuration précédente :
+----
+GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'monpass';
+ou
+GRANT ALL PRIVILEGES ON *.* TO jeedom@'localhost' IDENTIFIED BY 'monpass';
+(Remplacer 'monpass' par le mot de passe disponible dans Jeedom > Configuration > OS/DB > Base de données)
+----
+- Copier votre sauvegarde dans le dossier /var/www/html/backup
+- Donner les droits à www-data : chown -R www-data: /var/www/html/backup/*
+- Lancer la restauration via l'interface de Jeedom (Sauvegardes > Sauvegardes Locales)
+- Patienter pendant la restauration
+- Redonner les droits à www-data sur tout jeedom 
+----
+chown -R www-data: /var/www/html/
+----
+- Redémarrer la box
+- Connexion à Jeedom avec vos anciens identifiants
+- Passer sur chaque plugin pour réinstaller les dépendances (notamment sur ceux ou le daemon est "NOK" KO).
+
+Voilà !
+Méthode une demi-journée à essuyer les bugs, méthode 2 : 1 a 2 heures grand max, et surtout un os cleaned.

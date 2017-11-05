@@ -29,7 +29,7 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 |image:../images/compatibility_list/recepteur_dimmer_eltako_dimmer_sans_neutre.jpg[width=150,align="center"]|Eltako|Actionneur radio télévariateur universel sans neutre - FUD61NP-230V|RECEPTEUR DIMMER|Micromodule|Bien activer le retour d'état sur le module en suivant la documentation du fabricant. Le module envoit son état 1 seconde après la fin du changement |Mettre jeedom en inclusion et actionner le module. Choisir le profil. Ensuite mettre le module en learn sur la position 2 puis cliquez sur tester sur la commande learn de Jeedom| link:++http://www.domadoo.fr/fr/peripheriques/2424-eltako-actionneur-radio-variateur-rlc-encastrable-sans-neutre-4010312300183.html++[Acheter^]
 // 
 
-|image:../images/compatibility_list/recepteur_volet_eltako.jpg[width=150,align="center"]|Eltako|Actionneur radio, commande de stores et rideaux à rouleaux, encastrable FSB61NP-230V|RECEPTEUR VOLET|Micromodule|Module récepteur seulement ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn sur la position 2 puis cliquez sur tester sur la commande learn de Jeedom| link:++http://www.domadoo.fr/fr/peripheriques/1935-eltako-actionneur-radio-commande-de-stores-et-rideaux-a-rouleaux-4010312300213.html++[Acheter^]
+|image:../images/compatibility_list/recepteur_volet_eltako.jpg[width=150,align="center"]|Eltako|Actionneur radio, commande de stores et rideaux à rouleaux, encastrable FSB61NP-230V|RECEPTEUR VOLET|Micromodule|Module récepteur seulement. Ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn sur la position 2 puis cliquez sur tester sur la commande learn de Jeedom| link:++http://www.domadoo.fr/fr/peripheriques/1935-eltako-actionneur-radio-commande-de-stores-et-rideaux-a-rouleaux-4010312300213.html++[Acheter^]
 // 
 
 |image:../images/compatibility_list/recepteur_dimmer_eltako_dimmer.jpg[width=150,align="center"]|Eltako|Actionneur radio, variateur universel, encastrable - FUD61NPN-230V|RECEPTEUR DIMMER|Micromodule|Bien activer le retour d'état sur le module en suivant la documentation du fabricant. Le module envoit son état 1 seconde après la fin du changement |Mettre jeedom en inclusion et actionner le module. Choisir le profil. Ensuite mettre le module en learn sur la position 2 puis cliquez sur tester sur la commande learn de Jeedom| link:++http://www.domadoo.fr/fr/peripheriques/1936-eltako-actionneur-radio-variateur-rlcesl-et-led-encastrable-4010312300299.html++[Acheter^]
@@ -228,10 +228,10 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/recepteur_1_canal_trio2sys_recepteur_1_canal.jpg[width=150,align="center"]|Trio2sys|Récepteur 1 canal O2line|RECEPTEUR 1 CANAL|Micromodule|Module récepteur seulement ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON dans jeedom| 
+|image:../images/compatibility_list/recepteur_1_canal_trio2sys_recepteur_1_canal.jpg[width=150,align="center"]|Trio2sys|Récepteur 1 canal O2line|RECEPTEUR 1 CANAL|Micromodule|Module récepteur seulement. Ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON dans jeedom| 
 // 
 
-|image:../images/compatibility_list/recepteur_2_canaux_trio2sys_recepteur_2_canaux.jpg[width=150,align="center"]|Trio2sys|Récepteur 2 canaux O2line|RECEPTEUR 2 CANAUX|Micromodule|Module récepteur seulement ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn sur le canal 1 puis cliquez sur tester ON-1 dans jeedom, répétez l'opération avec ON-2 pour le deuxième canal| 
+|image:../images/compatibility_list/recepteur_2_canaux_trio2sys_recepteur_2_canaux.jpg[width=150,align="center"]|Trio2sys|Récepteur 2 canaux O2line|RECEPTEUR 2 CANAUX|Micromodule|Module récepteur seulement. Ne s'inclue pas mais s'appaire |Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn sur le canal 1 puis cliquez sur tester ON-1 dans jeedom, répétez l'opération avec ON-2 pour le deuxième canal| 
 // 
 
 

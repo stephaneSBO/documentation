@@ -12,7 +12,7 @@ image::../images/etc4/vue_default.jpg[align="center"]
 
 La mini télécommande e-Trendy de 4 canaux est simple, robuste et design, elle a été crée pour plaire. Elle se relie facilement aux récepteurs et peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations, stores, volets, portails, portes de garage. Elle comporte deux modes de programmation.
 
-De plus, l'interaction avec d'autres protocoles est possible, il peut interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais aussi par n'importe quel récepteur Z-Wave de votre réseau.
+De plus, l'interaction avec d'autres protocoles est possible, elle peut interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais aussi par n'importe quel récepteur Z-Wave de votre réseau.
  
 == Fonctions
 
@@ -21,7 +21,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut interagir 
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-== Caractéristiques Techniques
+== Caractéristiques techniques
 
 * Type de module : Emetteur Edisio
 * Alimentation : 3VDC (Pile Lithium CR2430)
@@ -45,7 +45,7 @@ Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez pas d'ac
 
 === Les modes
 
-Contrôler et centraliser vos éclairages Marche/Arrêt et variateur, ouvrants, moteurs, sur la même touche ou sur 2 boutons séparés.
+Contrôler et centraliser vos éclairages Marche/Arrêt et variateurs, ouvrants, moteurs, sur la même touche ou sur 2 boutons séparés.
 Les télécommandes e-Trendy ont 2 modes de fonctionnements, MODE 1 et MODE 2 :
 
 * MODE 1 : Contrôle sur 1 touche : Marche/Arrêt, Ouvrir/Fermer, Variation+/Variation-, Impulsionnel
@@ -56,7 +56,7 @@ Les télécommandes e-Trendy ont 2 modes de fonctionnements, MODE 1 et MODE 2 :
 
 == Diagramme de fonctionnement
 
-Suivant si votre émetteur est configuré en mode "1 touche" ou "2 touches", voici le fonctionnement de la télécommande :
+Selon que votre émetteur est configuré en mode "1 touche" ou "2 touches", voici le fonctionnement de la télécommande :
 
 image::../images/etc4/diagramme.jpg[align="center"]
 
@@ -76,7 +76,7 @@ image::../images/etc4/mode2.jpg[align="center"]
 
 == Association de la télécommande à Jeedom
 
-L'association d'un émetteur Edisio, ce fait simplement et automatiquement. Il suffit juste d'appuyer sur chaque touches que vous souhaitez avoir dans votre Jeedom.
+L'association d'un émetteur Edisio se fait simplement et automatiquement. Il suffit juste d'appuyer sur chaque touche que vous souhaitez avoir dans votre Jeedom.
 
 Une fois, votre équipement associé, vous devriez obtenir ceci :
 
@@ -84,7 +84,7 @@ image::../images/etc4/asso_equip.jpg[align="center"]
 
 === Commandes
 
-Une fois votre équipement crée, vous devriez obtenir les commandes associées au module :
+Une fois votre équipement créé, vous devriez obtenir les commandes associées au module :
 
 image::../images/etc4/commandes.jpg[Commandes,align="center"]
 
@@ -102,14 +102,14 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 
 image::../images/etc4/infos.jpg[Commandes,align="center"]
 
-* Création : Indique la date à laquelle l'équipement à était crée
+* Création : Indique la date à laquelle l'équipement à été créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie pour les modules à piles
 * Status : Retourne le status du module
 
 === Utilisation
 
-Une fois que votre télécommande est configurée, vous pouvez avec le plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom.
+Une fois que votre télécommande est configurée, vous pouvez avec le plugin Scénario de Jeedom interagir avec votre télécommande sur Jeedom.
 
 [NOTE]
 Chaque touche à un retour d'état binaire. 
@@ -117,6 +117,6 @@ Chaque touche à un retour d'état binaire.
 == F.A.Q.
 
 Comment effacer l'association d'une touche à un récepteur ?::
-Appuyez 5 sec sur le "R" du récepteur, un simple bip sonore signale le mode déprogrammation activé. Appuyez sur la touche "C" à est effacer. Recommencez cette opération pour toutes les touches à effacer.
+Appuyez 5 sec sur le "R" du récepteur, un simple bip sonore signale le mode déprogrammation activé. Appuyez sur la touche "C" à effacer. Recommencez cette opération pour toutes les touches à effacer.
 
 #_@Jamsta_#

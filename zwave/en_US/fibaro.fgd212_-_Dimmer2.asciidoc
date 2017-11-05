@@ -37,7 +37,7 @@ Il est compatible avec tout type de lampes supportant la variation ou non. En pl
 
 {nbsp} +
 
-* Commandez un éclairage à distance
+* Commander un éclairage à distance
 * S'installe derrière un interrupteur existant
 * Fonction ON/OFF et Variation
 * Utilisation en mode 2 fils (neutre pas nécessaire)
@@ -58,7 +58,7 @@ Il est compatible avec tout type de lampes supportant la variation ou non. En pl
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -111,7 +111,7 @@ image::../images/fibaro.fgd212/inclusion.jpg[width=350,align="center"]
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux aller retour sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.
+Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en faisant de nombreux allers-retours sur l'interrupteur ou de nombreux appuis si vous avez un interrupteur sur bouton poussoir.
 
 {nbsp} +
 
@@ -209,8 +209,7 @@ Le paramètre le plus important de la configuration est le 20. Il permet de choi
 
 {nbsp} +
 
-Si vous voulez exclure/inclure le module sans démonter votre interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur (ou faire des allers retours en cas
-d'interrupteur bi stable)
+Si vous voulez exclure/inclure le module sans démonter votre interrupteur, vous pouvez appuyer plusieurs fois sur votre interrupteur (ou faire des allers-retours en cas d'interrupteur bistable)
 
 {nbsp} +
 
@@ -235,7 +234,7 @@ Pas de notion de wakeup sur ce module.
 {nbsp} +
 
 [panel,primary]
-.Suis je obligé de démonter ma prise pour l'inclure ou l'exclure.
+.Suis-je obligé de démonter ma prise pour l'inclure ou l'exclure ?
 --
 Non. ce module peut s'inclure ou s'exclure en appuyant plusieurs fois sur l'interrupteur.
 --

@@ -1,29 +1,97 @@
-If you want you can also discover Jeedom virtualize on your computer, here are the steps to follow :
+Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser sur votre PC, voici la démarche à suivre. Vous ne prenez aucun risque dans une VM, l'intégrité de votre Pc est protégé :
 
 === Step 1 : Download and install VMware Player
 
-Download VMware Player link:https://download3.vmware.com/software/player/file/VMware-player-12.0.0-2985596.exe[here] then install it on your PC
+Vous devez télécharger le logicel Virtual Box 
+http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.exe[ICI]
 
-=== Step 2 : Download VM Jeedom
+=== Etape 2 : Téléchargement d'une image Debian strecht - netinstall
 
-You have to click  link:https://app.box.com/s/ijyxkntjjip9x4oue2xqdi53r4sh8ent[here], then in drive "Images" take the Jeedom's image jeedom-#x64#-X.xxx.rar or jeedom-#x86#-X.xxx.rar
+Télécharger une image minimaliste debian 9 Strecht https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso[Ici] 
 
-=== Step 3 : Decompress the VM image
+Télécharger le pack d'extensions, et installez-le.
+http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack[ICI]
 
-Decompress the VM image of Jeedom (if you have nothing to decompress you can install link:http://www.win-rar.com/download.html[winrar])
+
+
+=== Etape 3 : Configuration de l'environnement de la VM
+
+Cliquez sur nouvelle et renseignez les champs comme ci dessous :
+
+image::../images/VirtualBox1.png[]
+
+* Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
+* Cliquez sur suivant, créer un disque virtuel maintenant
+* Cliquez sur Créer, choisissez VDI
+* Cliquez sur suivant, dynamiquement alloué
+* Cliquez sur suivant, Choisissez une taille pour l'espace (4Go suffisent)
+* Cliquez sur créer
 
 === Step 4 : Launching the VM
 
-Go to the image folder of the decompressed VM and run file "Jeedom.vmx" : 
+* Cliquez sur configuration
+* Sélectionner stockage
+* Ajouter un lecteur optique
+* Choisir un disque
 
-image::../images/installation_vmware1.jpg[]
+image::../images/VirtualBox2.png[]
 
-Click "Play Virtual Machine", answer yes to all questions (if he asks you if you just move or copy machine, tell moving), wait until the machine starts, you should have : 
+* Indiquez l'image précédemment téléchargée
 
-image::../images/installation_vmware2.jpg[]
+* Sélectionner ensuite réseau et choisir "accès par pont" dans le mode d'accès réseau.
 
-[TIP]
-SSH identifiers are jeedom/Mjeedom96 or root/Mjeedom96
-User root cannot be used for remote login
 
-For the rest you can follow the documentation https://www.jeedom.fr/doc/documentation/premiers-pas/en_US/doc-premiers-pas.html[Getting Started with Jeedom]
+image::../images/VirtualBox3.png[]
+
+* Cliquez sur OK
+*Cliquez sur démarrer
+
+=== Etape 5 : Installation de debian 9
+C'est du classique ...
+
+image::../images/VirtualBox4.png[]
+* Choisir Graphical install
+* Installer la debian de préférence sans interface graphique car inutile. Le nom d'utilisateur n'a aucune importance. Dans la plupart des écrans il suffit de valider le choix par défaut. Vous pouvez laissez des champs vides ce n'est pas bloquant.
+* Pour la sélection des logiciels :
+
+image::../images/VirtualBox5.png[]
+
+* Pour Grub, pas d'inquiétude, le secteur de démarrage est celui de la VM, pas celui de votre PC. Aucun risque de casser quoi que ce soit.
+
+=== Etape 6 : Installation de jeedom
+* Lancez votre VM
+* Identifiez-vous avec l'utilisateur et le mot de passe choisis pendant l'installation
+* Passer en root
+
+[source,]
+----
+su
+----
+* Saisissez le mot de passe root défini pendant l'installation
+* Récupérer le script jeedom, le rendre exécutable, le lancer
+
+[source,]
+----
+wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
+
+chmod +x install.sh
+
+./install.sh
+----
+
+* et laissez faire...
+
+=== Etape 7 : Lancement de jeedom
+* Pour connaitre l'adresse Ip Lan de la VM
+
+[source,]
+----
+ip -s -c -h a
+----
+Votre adresse Ip, type 192.168.0.XX apparait en rouge. Il vous suffit de la saisir dans votre navigateur.
+[WARNING]
+====
+Si cela ne fonctionne pas, vous n'avez pas configurer votre carte réseau en Pont réseau comme indiquée au départ.
+====
+Ensuite vous pouvez suivre la documentation https://github.com/jeedom/documentation/blob/master/premiers-pas/fr_FR/index.asciidoc[Premier pas avec Jeedom]
+

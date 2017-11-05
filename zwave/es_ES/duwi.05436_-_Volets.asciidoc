@@ -28,11 +28,11 @@ Le module volet roulant DUWI 05436 permet de contrôler des volets roulants dans
 
 Ses principales caractéristiques sont :
 
-- La possibilité d'utiliser un 'Commun' sur lequel commuter la montée ou la descente. Du coup il est possible commander les deux directions avec n'importe quel type de tension, voire un neutre.
+- La possibilité d'utiliser un 'Commun' sur lequel commuter la montée ou la descente. Du coup il est possible de commander les deux directions avec n'importe quel type de tension, voire un neutre.
 
 - La possibilité d'envoyer un signal montée / descente en continu sans limite de temps.
 
-Attention : ce module n'envoie pas son état au contrôleur z-wave lorsque l'utilisateur appuie directement sur les boutons. Il faut faire un 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir plus loin).
+Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque l'utilisateur appuie directement sur les boutons. Il faut faire un 'Refresh' sur sa position pour mettre à jour, ou régler le Poll (voir plus loin).
 
 {nbsp} +
 
@@ -45,7 +45,7 @@ Attention : ce module n'envoie pas son état au contrôleur z-wave lorsque l'uti
 * Un fil commun qui sera commuté sur montée ou descente
 * Nécessite le neutre pour fonctionner
 * Protection par fusible
-* Temps de montée et de descente réglable par paramètre ou par apprentissage sur le module
+* Temps de montée et de descente réglables par paramètrage ou par apprentissage sur le module
 * L'interrupteur est fourni avec le module, non interchangeable
 
 {nbsp} +
@@ -77,7 +77,7 @@ Attention : ce module n'envoie pas son état au contrôleur z-wave lorsque l'uti
 
 {nbsp} +
 
-=== Connection
+=== Connexion
 
 image::../images/duwi.05436/2-Montage.PNG[width=712,align="center"]
 
@@ -110,7 +110,7 @@ image::../images/duwi.05436/3-Inclusion.PNG[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -128,7 +128,7 @@ image::../images/duwi.05436/4-Commandes.PNG[Commandes,align="center"]
 * Descendre : commande pour descendre complètement
 * Monter : commande pour monter complètement
 * Stop : arrêt immédiat du mouvement
-* Rafraichir : rafraichir l'état actuel du module
+* Rafraîchir : rafraichîr l'état actuel du module
 * Niveau : slider pour positionner une ouverture partielle
 
 {nbsp} +
@@ -215,7 +215,7 @@ image::../images/duwi.05436/6-Groupes.PNG[Groupe]
 
 {nbsp} +
 
-* Comme précisé au début, le module ne reporte pas les changements de positions fait par l'utilisateur en appuyant directement sur l'interrupteur. Pour avoir un retour d'état, il faut donc :
+* Comme précisé au début, le module ne reporte pas les changements de positions faits par l'utilisateur en appuyant directement sur l'interrupteur. Pour avoir un retour d'état, il faut donc :
 
  o soit configurer un poll à 5 minutes dans la configuration, onglet 'valeurs'
 

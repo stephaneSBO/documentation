@@ -27,11 +27,11 @@ image::../images/aeotec.panicbutton/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-Cette télécommande porte clés au design moderne et agréable dispose d'un bouton permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc
+Cette télécommande porte-clés au design moderne et agréable dispose d'un bouton permettant de contrôler tout type de dispositifs Z-Wave tels que des lampes, stores, etc.
 
 Avec ses dimensions très réduites, vous pourrez facilement la mettre dans votre poche. Facile à utiliser et élégante, elle est équipée d'un anneau permettant de l'attacher à des clés, ce qui la rend disponible au moment de quitter la maison ou lors du retour à votre domicile.
 
-Le bouton permet de contrôler deux dispositifs ou scènes grâce à la gestion des appuis courts et longs. Cette télécommande peut être aussi bien utilisée comme contrôleur principal ou secondaire.
+Le bouton permet de contrôler deux dispositifs ou scènes grâce à la gestion des appuis courts et longs. Cette télécommande peut être aussi bien utilisée comme contrôleur principal que secondaire.
 
 Cette télécommande peut également être utilisée comme un bouton d'urgence ou de panique. En cas de détresse ou lorsque son détenteur se trouve face à une autre situation d’urgence, il lui suffit d'appuyer sur le bouton et un signal Z-Wave sera émis. Dans ce cas, ce périphérique peut aussi être utilisé comme un médaillon autour du cou.
 
@@ -41,9 +41,9 @@ Cette télécommande peut également être utilisée comme un bouton d'urgence o
 
 {nbsp} +
 
-* Télécommande porte clés
+* Télécommande porte-clés
 * Contrôleur principal ou secondaire
-* Ultra-compacte et ultra-design
+* Ultra compacte et ultra design
 * 1 bouton configurable
 * Gère jusqu'à 2 périphériques/scènes
 * Peut être utilisé comme un bouton d'urgence/panique
@@ -53,7 +53,7 @@ Cette télécommande peut également être utilisée comme un bouton d'urgence o
 {nbsp} +
 
 
-=== Caractéristiques Techniques
+=== Caractéristiques techniques
 
 {nbsp} +
 
@@ -112,7 +112,7 @@ image::../images/aeotec.panicbutton/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -158,7 +158,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
 
 {nbsp} +
 
@@ -203,9 +203,9 @@ Pour utiliser ce module en télécommande il faut procéder comme suit :
 
 * 1 : Inclure la télécommande
 * 2 : Réveiller la télécommande
-* 3 : Changer le paramètre 250 à true (bien le faire même si il apparait déjà à true)
+* 3 : Changer le paramètre 250 à true (bien le faire même s'il apparait déjà à true)
 * 4 : Réveiller la télécommande et s'assurer que le changement à été pris en compte
-* 5 : Changer le mode de focntionnement de la télécommande en restant appuyer sur les deux boutons au dos pendant 3 secondes.
+* 5 : Changer le mode de focntionnement de la télécommande en restant appuyé sur les deux boutons au dos pendant 3 secondes.
 
 === Wakeup
 
@@ -235,7 +235,7 @@ Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
 [panel,primary]
 .J'ai changé la configuration mais elle n'est pas prise en compte.
 --
-Ce module est un module sur batterie, la nouvelle configuration sera prise en compte que si vous réveillez la télécommande.
+Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
 --
 
 {nbsp} +

@@ -23,7 +23,7 @@ image::../images/doc-presentation-maj.png[Page Mise à jour]
 image::../images/doc-presentation-sauvegarde.png[Page Sauvegarde]
 
 
-Alrededor de este núcleo se injertan plugins de cualquier tipo:
+Autour de ce noyau viennent se greffer des plugins qui peuvent être de toutes sortes :
 
 - protocolo domótico (Z-Wave, RFXcom, EnOcean...),
 - protocolo IP (KNX,xPL...),
@@ -33,7 +33,7 @@ Alrededor de este núcleo se injertan plugins de cualquier tipo:
 - organización (agenda, Google calendar),
 - desarrollo (script).
 
-Estos plugins pueden ser devueltos a través del market y permiten ampliar las posibilidades de Jeedom.
+Ces plugins peuvent être récupérés via Market et permettent d'étendre les possibilités de Jeedom.
 
 image::../images/doc-presentation-market.png[Page Market]
 

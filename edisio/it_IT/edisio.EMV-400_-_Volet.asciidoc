@@ -10,7 +10,7 @@ image::../images/emv.400/vue_default.jpg[align="center"]
 
 == Résumé
 
-Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou appareillages électriques. Il permet le contrôle de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
+Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou des appareillages électriques. Il permet le contrôle de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
 
 De plus, l'interaction avec d'autres protocoles est possible, il est contrôlable par des interrupteurs et/ou télécommandes de la marque Edisio, directement depuis Jeedom, mais aussi par n'importe quel émetteur Z-Wave de votre réseau.
  
@@ -35,7 +35,7 @@ Le neutre est nécessaire que pour le mode "Volet"
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-== Caractéristiques Techniques
+== Caractéristiques techniques
 
 * Type de module: Récepteur Edisio
 * Alimentation: 230VAC, 50Hz
@@ -120,14 +120,14 @@ Pour associer un module récepteur Edisio à Jeedom, il faut créer manuellement
 
 image::../images/emv.400/ajout_equip.jpg[align="center"]
 
-Une fois, votre équipement crée, vous devriez obtenir ceci :
+Une fois, votre équipement créé, vous devriez obtenir ceci :
 
 image::../images/emv.400/crea_equip.jpg[align="center"]
 
 [NOTE]
 Pensez à activer votre nouvel équipement.
 
-Dans la liste d'équipement, à droite, sélectionner "Micro-module volet roulant" :
+Dans la liste d'équipements, à droite, sélectionner "Micro-module volet roulant" :
 
 image::../images/emv.400/infos_equip.jpg[align="center"]
 
@@ -142,7 +142,7 @@ image::../images/emv.400/commande.jpg[Commandes,align="center"]
 * Etat : C'est la commande qui permet de simuler le retour d'état 
 * Monter : C'est la commande qui permet d'ouvrir le volet
 * Stop : C'est la commande qui permet de stopper le mouvement du volet
-* Descendre : C'est la commande qui permet fermer le volet
+* Descendre : C'est la commande qui permet de fermer le volet
 * E : C'est la commande qui permet de se servir du mode déporté
 
 [IMPORTANT]
@@ -154,14 +154,14 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 
 image::../images/emv.400/infos_moteur.jpg[Commandes,align="center"]
 
-* Création : Indique la date à laquelle l'équipement à était crée
+* Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie pour les modules à piles
 * Status : Retourne le status du module
 
 == Association du micromodule à Jeedom
 
-Afin, que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio.
+Afin que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio.
 
 [NOTE]
 Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir plusieurs émetteurs associés
@@ -176,7 +176,7 @@ Chaque sortie est à associer à une commande Jeedom:
 - Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour valider l'association, le bip sonore s'arrête.
 
 * Associer la sortie 2 :
-- Appuyez 2x sur le "R" du récepteur, double bip sonore (court en répétition) signalent la programmation de la sortie 2 activée.
+- Appuyez 2x sur le "R" du récepteur, double bip sonore (court en répétition) signale la programmation de la sortie 2 activée.
 - Dans les 10 sec, appuyez sur "Tester" de la commande "Fermer" dans Jeedom, un bip sonore en continu signale l'association de la sortie 2 à Jeedom.
 - Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour valider l'association, le bip sonore s'arrête.
 
@@ -185,10 +185,10 @@ Il n'y a pas besoin d'associer la commande "Stop", celle-ci se fait automatiquem
 
 === Méthode déportée
 
-Nous en avons parlé au début de cette documentation. Dans le cas, de modules déjà encastrés, dans les faux-plafonds ou même les combles. Cette méthode permet l'ajout d'un nouvel émetteur sans accéder au "R" du récepteur.
+Nous en avons parlé au début de cette documentation, dans le cas de modules déjà encastrés dans les faux-plafonds ou même les combles. Cette méthode permet l'ajout d'un nouvel émetteur sans accéder au "R" du récepteur.
 
 * Associer le bouton "R" :
-- Appuyez 3x sur "R" du récepteur, triple bip sonore (court en répétition) signalent le mode de programmation activé.
+- Appuyez 3x sur "R" du récepteur, triple bip sonore (court en répétition) signale le mode de programmation activé.
 - Dans les 10 sec, appuyez sur "Tester" de la commande "E" dans Jeedom, un bip sonore en continu signale l'association à Jeedom.
 - Dans les 10 sec, appuyez à nouveau sur "E" du récepteur, pour valider l'association, le bip sonore s'arrête.
 
@@ -201,12 +201,12 @@ C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace d�
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
 
 ** Sortie 2 :
-*** Appuyez 2x sur "Tester" de la commande "E" dans Jeedom, double bip sonores (court en répétition) signale la programmation de la sortie 2 activée.
+*** Appuyez 2x sur "Tester" de la commande "E" dans Jeedom, double bip sonore (court en répétition) signale la programmation de la sortie 2 activée.
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 2.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
 
 [NOTE]
-Vous pouvez recommencer autant de fois que vous voulez associer d'émetteur au récepteur
+Vous pouvez recommencer autant de fois que vous voulez associer d'émetteurs au récepteur
 
 == Visuel alternatif
 

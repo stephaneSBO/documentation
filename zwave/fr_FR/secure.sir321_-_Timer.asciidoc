@@ -98,7 +98,7 @@ image::../images/secure.sir321/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Une fois le module reconnu, les commandes associées au module seront disponibles.
 
 {nbsp} +
 
@@ -143,7 +143,7 @@ image::../images/secure.sir321/config1.jpg[Config1]
 
 * 1: Permet d'activer ou non la fonction fail safe timer (se référer à la documentation du module)
 * 2: Permet de régler l'unité de la température
-* 3: Permet de régler l'intervalle de temps d'envoie de la température à Jeedom (en secondes)
+* 3: Permet de régler l'intervalle de temps d'envoi de la température à Jeedom (en secondes)
 * 4: Permet de régler de combien doit varier la température pour que le module l'envoie à Jeedom (par pas de 0.1 10-->0.1)
 * 5: Permet de régler une température de cut off au delà de laquelle le module coupera le relais
 
@@ -154,7 +154,7 @@ image::../images/secure.sir321/config1.jpg[Config1]
 
 {nbsp} +
 
-Ce module possède deux groupes d'association si, le premier est indispensable. Le deuxième est actif et est indispensable si une sonde de température est reliée.
+Ce module possède deux groupes d'association. Si le premier est indispensable, le deuxième est actif et est indispensable si une sonde de température est reliée.
 
 {nbsp} +
 

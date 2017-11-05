@@ -1,4 +1,4 @@
-= Sauvegarde - Comment faire ?
+= Backup - Wie wird es gemacht ?
 
 == Beschreibung
 
@@ -20,7 +20,7 @@ La procédure de restauration de la carte microSD peut-être utile pour restaure
 fournie par l'équipe voir https://www.jeedom.fr/doc/documentation/installation/fr_FR/doc-installation.html[ici]. 
 
 
-== Sauvegarde/Restauration de Jeedom
+== Sicherung/Wiederherstellen von Jeedom
 
 Afin de gérer et paramétrer les sauvegardes, il faut se rendre dans le menu _Général > Administration > Sauvegardes_.
 
@@ -28,7 +28,7 @@ Afin de gérer et paramétrer les sauvegardes, il faut se rendre dans le menu _G
 
 . [underline]#Paramètres Généraux#
 
-* Fréquence des sauvegardes ° : Permet de définir la fréquence à laquelle Jeedom va automatiquement lancer une sauvegarde de lui même. Exemple : `00 02 * * *` : Lance une sauvegarde tous les jours à 02h00 du matin.
+* Fréquence des sauvegardes ° : Permet de définir la fréquence à laquelle Jeedom va automatiquement lancer une sauvegarde de lui-même. Exemple : `00 02 * * *` : Lance une sauvegarde tous les jours à 02h00 du matin.
 * Sauvegardes : Le bouton _Lancer_ permet de lancer manuellement une sauvegarde de Jeedom.
 * Emplacement des sauvegardes ° : Permet de modifier le répertoire de destination des fichiers de sauvegarde. (Par défaut : `backup`) Le chemin est relatif par rapport à l'arborescence de Jeedom (`/usr/share/nginx/www/jeedom/`)
 * Nombre de jour(s) de conservation des sauvegardes ° : Permet de définir le temps de rétention des fichiers de sauvegarde. Les fichiers de sauvegarde plus vieux que ce paramètre seront automatiquement supprimés.
@@ -37,7 +37,7 @@ Afin de gérer et paramétrer les sauvegardes, il faut se rendre dans le menu _G
 
 Ne pas oublier de cliquer sur le bouton vert _Sauvegarder_ afin d'enregistrer les changements de configuration.
 
-_Rmq : Les paramètres suivis d'un ° sont uniquement disponibles en mode expert._
+_Remarque: Les paramètres suivis d'un ° sont uniquement disponibles en mode expert._
 
 image::../images/save-restore02.jpg[align="center"]
 
@@ -52,11 +52,11 @@ il y a une case à cocher (_"Faire une sauvegarde avant la mise à jour"_) dans 
 * Restaurer la sauvegarde : Le bouton _Restaurer_ permet de lancer une restauration de Jeedom en utilisant le fichier de sauvegarde sélectionné dans la liste _Sauvegardes disponibles_.
 * Supprimer la sauvegarde : Le bouton _Supprimer_ permet de supprimer le fichier de sauvegarde sélectionné dans la liste _Sauvegardes disponibles_.
 * Télécharger la sauvegarde : Le bouton _Télécharger_ permet de récupérer sur son ordinateur le fichier de sauvegarde sélectionné dans la liste _Sauvegardes disponibles_.
-* Envoyer une sauvegarde : Permet de re-injecter dans Jeedom un fichier de sauvegarde que vous auriez téléchargé sur votre ordinateur, afin de pouvoir l'utiliser pour restaurer Jeedom.
+* Envoyer une sauvegarde : Permet de réinjecter dans Jeedom un fichier de sauvegarde que vous auriez téléchargé sur votre ordinateur, afin de pouvoir l'utiliser pour restaurer Jeedom.
 +
 image::../images/save-restore03.jpg[align="center"]
 
-. [underline]#Sauvegardes cloud#
+. [underline]#Cloud Backups#
 
 * Sauvegardes disponibles : Permet de voir et sélectionner le fichier de sauvegarde disponible sur le cloud qui sera utilisé pour la restauration.
 * Restaurer la sauvegarde : Le bouton _Restaurer_ permet de lancer une restauration de Jeedom en utilisant le fichier de sauvegarde sélectionné dans la liste _Sauvegardes disponibles_.
@@ -90,7 +90,7 @@ Pour une restauration à partir d'une sauvegarde présente, sélectionner le fic
 puis cliquer sur _Restaurer_, et attendre que Jeedom vous annonce par un bandeau vert 
 que la restauration s'est bien terminée. Un log, sur la droite de la page, vous permet de suivre l'avancement.
 
-Si vous venez de ré-installer complètement votre mini+ (Par exemple à partir d'une image microSD vierge), 
+Si vous venez de réinstaller complètement votre mini+ (Par exemple à partir d'une image microSD vierge), 
 avant de lancer une restauration vous devez au préalable envoyer un fichier de sauvegarde de votre 
 ordinateur vers Jeedom en utilisant la fonction _Envoyer une sauvegarde_ de la section _Sauvegardes locales_.
 
@@ -109,7 +109,7 @@ Et cliquer sur Éteindre
 
 image::../images/save-restore07.jpg[align="center"]
 
-Ensuite, il faut sortir la carte microSD de la mini+ et la connecter à votre ordinateur via un adapateur/lecteur de carte/...
+Ensuite, il faut sortir la carte microSD de la mini+ et la connecter à votre ordinateur via un adaptateur/lecteur de carte/...
 
 image::../images/save-restore08.jpg[align="center"]
 
@@ -150,7 +150,7 @@ image::../images/save-restore11.jpg[align="center"]
 image::../images/save-restore12.jpg[align="center"]
 ** Lancer la création de l'image en saisissant la commande : _sudo dd if=/dev/rdisk1 of=~/Desktop/Backup_Jeedom.img bs=1m_
 
-_Rmq : Dans cet exemple, le nom du disque de la carte est /dev/disk1, il faut donc saisir dans la commande de sauvegarde /dev/+++<u>r</u>+++disk1_
+_Remarque: Dans cet exemple, le nom du disque de la carte est /dev/disk1, il faut donc saisir dans la commande de sauvegarde /dev/+++<u>r</u>+++disk1_
 
 . [underline]#Restauration#
     
@@ -163,7 +163,7 @@ restaurer l'image sur la carte microSD.
 ** Démonter les partitions de la carte en tapant la commande : _sudo diskutil unmountDisk /dev/disk1_
 ** Restaurer l'image sur la carte microsd en tapant la commande : _sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/rdisk1_
 
-_Rmq : Dans cet exemple, le nom du disque de la carte est /dev/disk1, il faut donc saisir dans la commande de sauvegarde /dev/+++<u>r</u>+++disk1_
+_Remarque: Dans cet exemple, le nom du disque de la carte est /dev/disk1, il faut donc saisir dans la commande de sauvegarde /dev/+++<u>r</u>+++disk1_
 
 === Sous Linux
 
@@ -178,7 +178,7 @@ Disk /dev/sdc: 8.0 GB, 8006402048 bytes
 
 * Lancer la création de l'image en saisissant la commande : _sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m_
 
-_Rmq : Dans cet exemple, le nom du disque de la carte est /dev/sdc._
+_Remarque: Dans cet exemple, le nom du disque de la carte est /dev/sdc._
 
 . [underline]#Restauration#
     
@@ -186,4 +186,4 @@ _Rmq : Dans cet exemple, le nom du disque de la carte est /dev/sdc._
 * Démonter les partitions de la carte en tapant la commande : _sudo umount /dev/sdc?*_
 * Restaurer l'image sur la carte microsd en tapant la commande : _sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m_
 
-_Rmq : Dans cet exemple, le nom du disque de la carte est /dev/sdc._
+_Remarque: Dans cet exemple, le nom du disque de la carte est /dev/sdc._

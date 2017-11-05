@@ -1,8 +1,8 @@
-= Liste des équipements compatible RFXCOM
+= Liste der RFXCOM-kompatiblen Geräte
 
 [cols="5|*", options="header"] 
 |===
-|Nom|Type|Protocol|Remarque|Lien
+|Name|Typ|Protokoll|Bemerkung|Link
 
 |Alteco WS-1700|Station météo|Rubicson/Alecto||
 
@@ -28,7 +28,7 @@
 
 |Chacon 34131|Détecteur de fumée|AC||
 
-|Chacon 54595|Pack de 3 Prise Chacon + télécommande 3 canaux + 1 groupe|AC||
+|Chacon 54595|Pack de 3 Prises Chacon + télécommande 3 canaux + 1 groupe|AC||
 
 |Chacon 54795|Pack de 3 Prises Chacon DI.O first + télécommande 3 canaux|AC||
 
@@ -36,7 +36,7 @@
 
 |Chacon 54514|Variateur|AC||
 
-|Chacon 54761|Télecommande 16 canaux|AC||
+|Chacon 54761|Télécommande 16 canaux|AC||
 
 |Chacon 54730|Sonnette|AC||http://www.domadoo.fr/fr/peripheriques/574-chacon-di-o-carillon-sans-fil-enfichable.html[Acheter]
 
@@ -50,7 +50,7 @@
 
 |CRESTA HW-TX320|Température Humidité avec affichage|Hideki||
 
-|Digimax 210 TH10|Thermostat|X10|Utiliser "Température, Humidité et Pression - Defaut"|
+|Digimax 210 TH10|Thermostat|X10|Utiliser "Température, Humidité et Pression - Défaut"|
 
 |DI.O by Chacon 54583|Détecteur crépusculaire|AC||
 
@@ -60,7 +60,7 @@
 
 |DI.O by Chacon 54761|Télécommande 16 canaux|AC||http://www.domadoo.fr/produit,1528,15,CHACON-T%E5%B9%A8%E5%B6%B0ommande-16-canaux-Blanche-%28gamme-DI-O%29.htm[Acheter]
 
-|DI.O by Chacon 54746|Prise exterieur|AC||
+|DI.O by Chacon 54746|Prise extérieure|AC||
 
 |DI-O by Chacon 54783|Détecteur crépusculaire|AC||
 
@@ -100,15 +100,15 @@
 
 |OWL Micro+ CM180|Pince ampèremétrique + afficheur|Oregon||
 
-|OWL TSE200-001|Transmeteur pour pince ampèrmétrique (ref TSE000-001 ou TSE000-002)|Oregon||
+|OWL TSE200-001|Transmetteur pour pince ampèrmétrique (ref TSE000-001 ou TSE000-002)|Oregon||
 
 |SIMU RSA HZ|Porte de garage|||
 
-|Somfy Freevia 300|Motorisation portail|Poser RFXCOM sur le moteur pour l’associer au moteur comme si c’était une télécommande||
+|Somfy Freevia 300|Motorisation portail|Poser RFXcom sur le moteur pour l’associer au moteur comme si c’était une télécommande||
 
-|Somfy Evolvia 400/450|Motorisation portail|Poser RFXCOM sur le moteur pour l’associer au moteur comme si c’était une télécommande. Le capot du moteur doit être ouvert et il doit faire jour. La procédure ne marche pas s’il fait nuit.||
+|Somfy Evolvia 400/450|Motorisation portail|Poser RFXcom sur le moteur pour l’associer au moteur comme si c’était une télécommande. Le capot du moteur doit être ouvert et il doit faire jour. La procédure ne marche pas s’il fait nuit.||
 
-|Somfy RTS|Volet roulant et autres périphériques Somfy RTS|||
+|Somfy RTS|Volets roulants et autres périphériques Somfy RTS|||
 
 |Thermomètre TX320|Température Humidité avec affichage|||
 

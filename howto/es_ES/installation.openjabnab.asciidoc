@@ -7,7 +7,7 @@ Ce tuto est largement inspiré de link:http://jetweb.free.fr/nabaztag_rpi/Tutori
 
 == Installation des dépendances
 
-Une fois le systeme installé en SSH faite : 
+Une fois le système installé en SSH faite : 
 
 ----
 apt-get update 
@@ -25,7 +25,7 @@ apt-get install git
 
 == Configuration du réseau
 
-Il faut ensuite recuperer l'addresse IP du système : 
+Il faut ensuite récupérer l'addresse IP du système : 
 
 ----
 ifconfig
@@ -47,9 +47,9 @@ eth0      Link encap:Ethernet  HWaddr d0:63:b4:00:54:98
 Ici l'adresse IP est la 192.168.0.162.
 
 [NOTE]
-Pour toute la suite du tuto j'utiliserais cette IP elle est bien sur à remplacer en fonction de celle que vous avez réelement
+Pour toute la suite du tuto j'utiliserai cette IP, elle est bien sûr à remplacer en fonction de celle que vous avez réellement
 
-Edité ensuite le fichier /etc/resolv.conf 
+Editez ensuite le fichier /etc/resolv.conf 
 
 ----
 vim  /etc/resolv.conf 
@@ -83,7 +83,7 @@ zone "0.168.192.in-addr.arpa"{
 }; 
 ----
 
-Creez le fichier db.raspberry.pi
+Créez le fichier db.raspberry.pi
 
 ---
 vim db.raspberry.pi
@@ -105,7 +105,7 @@ ojn IN A 192.168.0.162
 192.168.0.162 IN A 192.168.0.162
 ----
 
-Puis creez ce fichier db.192.168.0.inv 
+Puis créez ce fichier db.192.168.0.inv 
 
 ----
 vim db.192.168.0.inv 
@@ -127,7 +127,7 @@ $TTL 604800
 ----
 
 [IMPORTANT]
-Pensez bien à remplacer le 162 de la dernière ligne par la derniere partie de l'ip de votre système
+Pensez bien à remplacer le 162 de la dernière ligne par la dernière partie de l'ip de votre système
 
 Lancer le DNS :
 
@@ -173,7 +173,7 @@ Et ajoutez :
 
 == Récupération d'openjabnab
 
-On va d'abord creer l'utilisateur : 
+On va d'abord créer l'utilisateur : 
 
 ----
 adduser ojn
@@ -222,7 +222,7 @@ Puis activez le site :
 a2ensite ojn
 ----
 
-Il faut ensuite autorisé le repertoire du serveur openjabnab, faites :
+Il faut ensuite autoriser le répertoire du serveur openjabnab, faites :
 
 ----
 vim /etc/apache2/apache2.conf
@@ -238,7 +238,7 @@ Et ajoutez :
 </Directory>
 ----
 
-Puis on redemarre apache : 
+Puis on redémarre apache : 
 
 ----
 service apache2 reload 
@@ -256,7 +256,7 @@ make
 ----
 
 [NOTE]
-Cette étape peut etre très longue (jusqu'a 45min)
+Cette étape peut être très longue (jusqu'à 45min)
 
 
 == Configuration d'openjabnab
@@ -281,7 +281,7 @@ Et remplacez tous les #my.domain.com# par #ojn.raspberry.pi#
 
 == Configuration du serveur web openjabnab
 
-Sur votre post vous devez editer le fichier  C:\Windows\System32\drivers\etc et rajouter : 
+Sur votre post vous devez éditer le fichier  C:\Windows\System32\drivers\etc et rajouter : 
 
 ----
 192.168.0.162 ojn.raspberry.pi 
@@ -297,7 +297,7 @@ Validez le tout
 
 == Lancement du serveur
 
-Voila tout est pret il reste plus qu'a lancer le serveur : 
+Voilà tout est prêt il ne reste plus qu'à lancer le serveur : 
 
 ----
 su ojn
@@ -316,22 +316,22 @@ Si tout est bon vous devriez avoir les statistique qui apparaissent en bas
 
 == Configuration du lapin
 
-Pour configurer le lapin c'est assez simple, vous devez le débrancher puis en le rebrancher rester appuyez sur son bouton. Il doit normalement s'allumer en bleu.
+Pour configurer le lapin c'est assez simple, vous devez le débrancher puis en le rebrancher, rester appuyez sur son bouton. Il doit normalement s'allumer en bleu.
 
-Ensuite avez votre PC vous devriez avoir un nouveau réseaux wifi nabaztagXX, connectez vous dessus en tapant 192.168.0.1.
+Ensuite avec votre PC vous devriez avoir un nouveau réseau wifi nabaztagXX, connectez-vous dessus en tapant 192.168.0.1.
 
 Une fois dessus renseignez votre configuration wifi et les informations suivantes : 
 
 ----
 DHCP enabled : no
 Local Mask : 255.255.255.0
-Local gateway : 192.168.0.1 ou 192.168.0.254 (en fonction de votre réseaux)
+Local gateway : 192.168.0.1 ou 192.168.0.254 (en fonction de votre réseau)
 DNS server : 192.168.0.162
 ----
 
 == Surveillance du serveur openjabnab et démarrage auto
 
-Comme vous le remarquerez si vous fermez votre session  le serveur openjabnab s'arrete il faut donc ajouter un petit script pour surveiller le serveur et le demarrer automatiquement. Faites : 
+Comme vous le remarquerez si vous fermez votre session le serveur openjabnab s'arrête. Il faut donc ajouter un petit script pour surveiller le serveur et le démarrer automatiquement. Faites : 
 
 ----
 cd /home/ojn
@@ -367,7 +367,7 @@ Et ajoutez :
 ----
 
 [IMPORTANT]
-Il faut absolument le mettre dans la crontab de root, si vous etes encore avec l'utilisateur ojn faites ctrl+D
+Il faut absolument le mettre dans la crontab de root, si vous êtes encore avec l'utilisateur ojn faites ctrl+D
 
 == Configuration de votre lapin dans openjabnab
 
@@ -381,11 +381,11 @@ Vous devez avoir :
 
 image::../images/installation.openjabnab.PNG[]
 
-Il faut vous maintenant vous creer un compte en cliquant sur creer un utilisateur : 
+Il faut vous maintenant vous créer un compte en cliquant sur créer un utilisateur : 
 
 image::../images/installation.openjabnab2.PNG[]
 
-Renseignez les informations demandée et connectez vous : 
+Renseignez les informations demandées et connectez-vous : 
 
 image::../images/installation.openjabnab3.PNG[]
 
@@ -393,11 +393,11 @@ Une fois connecté allez sur server  :
 
 image::../images/installation.openjabnab4.PNG[]
 
-Puis descendez pour trouver la liste des lapins connecté et récuperer son adresse mac : 
+Puis descendez pour trouver la liste des lapins connectés et récuperer son adresse mac : 
 
 image::../images/installation.openjabnab5.PNG[]
 
-Allez ensuite sur compte et renseignez le champs nom et adresse mac du lapin puis validez : 
+Allez ensuite sur compte et renseignez le champ nom et adresse mac du lapin puis validez : 
 
 image::../images/installation.openjabnab6.PNG[]
 
@@ -405,17 +405,17 @@ Vous retrouvez maintenant sur la page lapin votre lapin, cliquez dessus pour ouv
 
 image::../images/installation.openjabnab7.PNG[]
 
-Il faut vous maintenant activer l'api violet et la passer en public, c'est aussi ici que vous retrouvez la clef api violet qui vous servira pour Jeedom : 
+Il vous faut maintenant activer l'api violet et la passer en public, c'est aussi ici que vous retrouvez la clef api violet qui vous servira pour Jeedom : 
 
 image::../images/installation.openjabnab8.PNG[]
 
-En dessous vous retrouvez la liste des plugins, n'oubliez de les activer (type TTS ou controle des oreilles) : 
+En dessous vous retrouvez la liste des plugins, n'oubliez pas de les activer (type TTS ou contrôle des oreilles) : 
 
 image::../images/installation.openjabnab9.PNG[]
 
 == Configuration de Jeedom
 
-La configuration dans jeedom est assez simple, il faut tout d'abord se connecter en SSH à Jeedom (si vous avez une box jeedom les identifiants sont dans la doc d'installation). Puis editer le fichier /etc/hosts
+La configuration dans Jeedom est assez simple, il faut tout d'abord se connecter en SSH à Jeedom (si vous avez une box Jeedom les identifiants sont dans la doc d'installation). Puis editer le fichier /etc/hosts
 
 ----
 vim /etc/hosts
@@ -427,22 +427,22 @@ Et ajouter la ligne suivante :
 192.168.0.162 ojn.raspberry.pi
 ----
 
-Ensuite tous se passe dans Jeedom, après avoir creer votre lapin voila la configuration à mettre: 
+Ensuite tous se passe dans Jeedom, après avoir créer votre lapin voilà la configuration à mettre: 
 
 image::../images/installation.openjabnab10.PNG[]
 
-Voila votre lapin a maintenant son propre terrier en local !!!!!
+Voilà votre lapin a maintenant son propre terrier en local !!!!!
 
 == Mettre le TTS en local
 
 Tout est local sauf le TTS qui passe par le site Acapela mais il est possible en modifiant quelques fichiers de le passer en local
 
 [NOTE]
-Je vais consider que oenjabnab est installé dans /home/ojn/OpenJabNab et que vous etes connecté en tant que l'utilisateur d'openjabnab, ici ojn
+Je vais considérer que oenjabnab est installé dans /home/ojn/OpenJabNab et que vous êtes connecté en tant que l'utilisateur d'openjabnab, ici ojn
 
 === Création du tts jeedom
 
-Il vous faut creer un dossier jeedom dans servver/tts :
+Il vous faut crêer un dossier jeedom dans servver/tts :
 
 ----
 mkdir /home/ojn/OpenJabNab/server/tts/jeedom
@@ -605,7 +605,7 @@ make
 
 === Modification du service de tts
 
-Il faut editer le fichier /home/ojn/OpenJabNab/server/bin/openjabnab.ini et changer : 
+Il faut éditer le fichier /home/ojn/OpenJabNab/server/bin/openjabnab.ini et changer : 
 
 ----
 TTS=acapela
@@ -619,4 +619,4 @@ TTS=jeedom
 
 === Relance d'openjabnab
 
-Le plus simple est ici de redemarrer la machine pour relancer openjabnab
+Le plus simple est ici de redémarrer la machine pour relancer openjabnab

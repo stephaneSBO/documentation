@@ -1,15 +1,15 @@
-= Création d'une VM sur VMware
+= Erstellen einer VM auf VMware
 
-Nous allons voir ici comment créer une VM sous vmware.
+Nous allons voir ici comment créer une VM sous VMware.
 
 Il y a avant une petit chose importante à savoir sur VMware, il y a 2 moyen de le manager : 
 
-- l'interface web (présente par défaut en 6.0 update 2, ou par le biais d'un vib pour les autres version), on y accede par IP_ESXI/ui
+- l'interface web (présente par défaut en 6.0 update 2, ou par le biais d'un vib pour les autres versions), on y accède par IP_ESXI/ui
 - le client lourd et historique de VMware (vSphere client)
 
-Ici j'utiliserais principalement l'interface web car je pense que c'est l'avenir de vmware qui délaisse de plus en plus le client lourd (d'ailleurs toute les nouveautée depuis la 5.1 ne sont pas utilisable avec le client lourd). 
+Ici j'utiliserai principalement l'interface web car je pense que c'est l'avenir de VMware qui délaisse de plus en plus le client lourd (d'ailleurs toutes les nouveautées depuis la 5.1 ne sont pas utilisables avec le client lourd). 
 
-A noter aussi que l'interface web est toujours en cours de mise en place chez vmware, en effet vous allez surement rencontrer quelques bugs ou ralentissement avec mais un petit rafrachissement de la page et ca repart sans soucis.
+A noter aussi que l'interface web est toujours en cours de mise en place chez VMware, en effet vous allez surement rencontrer quelques bugs ou ralentissements avec mais un petit rafrachissement de la page et ça repart sans soucis.
 
 == Connexion à l'interface web
 
@@ -18,29 +18,29 @@ Allez sur IP_ESXI/ui avec votre navigateur internet, vous devez avoir :
 image::../images/vmware.createvm3.PNG[]
 
 [NOTE]
-Si vous n'avez rien je vous conseil de faire l'installation de l'interface web, toute les informations https://www.jeedom.com/doc/documentation/howto/fr_FR/doc-howto-vmware.trucs_et_astuces.html[ici] 
+Si vous n'avez rien je vous conseille de faire l'installation de l'interface web, toutes les informations https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.trucs_et_astuces.html[ici] 
 
 Entrez vos identifiants de connexion à l'ESXI : 
 
 image::../images/vmware.createvm4.PNG[]
 
-Comme vous pouvez le voir l'interface est plutot sympa et permet de faire pas mal de chose, je ne rentrerais pas dans les détails mais vous pouvez déja à partir de cette écran : 
+Comme vous pouvez le voir l'interface est plutôt sympa et permet de faire pas mal de choses, je ne rentrerai pas dans les détails mais vous pouvez déja à partir de cette écran : 
 
-- arreter/redémarrer l'ESXI
+- arrêter/redémarrer l'ESXi
 - voir l'utilisation des ressources (CPU,mémoire et disque)
-- avoir des informations sur votre système (temps de fonctionnement, version de vmware, version du bios, affichage des datastores)
-- bouton pour créer une vm (on va s'en servir juste après)
-- un bouton action qui permet en autre de passer en mode maintenance (pratique si vous avez un cluster d'ESXI sinon vous ne vous en servirez jamais), activer/désactiver le service SSH (est utilisé dans le tutoriel de configuration des backups)
+- avoir des informations sur votre système (temps de fonctionnement, version de VMware, version du bios, affichage des datastores)
+- bouton pour créer une VM (on va s'en servir juste après)
+- un bouton action qui permet en autre de passer en mode maintenance (pratique si vous avez un cluster d'ESXi sinon vous ne vous en servirez jamais), activer/désactiver le service SSH (est utilisé dans le tutoriel de configuration des backups)
 
 == Envoi de l'iso d'installation
 
-Après avoir télécharger votre iso d'installation (http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso[ici] par exemple pour debian 8.5 en netinstall), il vous faut le mettre sur votre datastore.
+Après avoir téléchargé votre iso d'installation (http://cdimage.debian.org/debian-cd/8.5.0/amd64/iso-cd/debian-8.5.0-amd64-netinst.iso[ici] par exemple pour debian 8.5 en netinstall), il vous faut le mettre sur votre datastore.
 
 Pour cela cliquez sur datastore : 
 
 image::../images/vmware.createvm18.PNG[]
 
-Selectionnez votre datastore (en general il s'appel datastore1) : 
+Selectionnez votre datastore (en general il s'appelle datastore1) : 
 
 image::../images/vmware.createvm19.PNG[]
 
@@ -52,7 +52,7 @@ Cliquez sur "Télécharger" (le premier) :
 
 image::../images/vmware.createvm21.PNG[]
 
-Selectionnez l'iso precedement téléchargé et validez : 
+Selectionnez l'iso précédement téléchargé et validez : 
 
 image::../images/vmware.createvm22.PNG[]
 
@@ -87,13 +87,13 @@ Ici vous allez pouvoir configurer les paramètre de votre machine (disque dure, 
 image::../images/vmware.createvm9.PNG[]
 
 [NOTE]
-Tous ces paramètres sont modifiable après coup sans soucis, à noter tout de meme qu'il n'est pas vraiment possible de réduire la taille d'un disque dur, on peut l'augmenter (mais il faut savoir gerer ca au niveau de l'OS ensuite) mais pas la réduire.
+Tous ces paramètres sont modifiable après coup sans soucis, à noter tout de meme qu'il n'est pas vraiment possible de réduire la taille d'un disque dur, on peut l'augmenter (mais il faut savoir gérer ça au niveau de l'OS ensuite) mais pas la réduire.
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de données" : 
 
 image::../images/vmware.createvm10.PNG[]
 
-Selectionner ensuite l'emplacement ou est stocké votre ISO (voir chapitre précedent) et validez : 
+Sélectionner ensuite l'emplacement où est stocké votre ISO (voir chapitre précedent) et validez : 
 
 image::../images/vmware.createvm11.PNG[]
 
@@ -113,7 +113,7 @@ Vous devez voir votre machine virtuelle (si ce n'est pas le cas cliquez sur "Act
 
 image::../images/vmware.createvm15.PNG[]
 
-Vous devez avoir une page de ce type, cliquer sur le bouton lecture : 
+Vous devez avoir une page de ce type, cliquez sur le bouton lecture : 
 
 image::../images/vmware.createvm16.PNG[]
 
@@ -122,19 +122,19 @@ Votre machine va se lancer et vous allez pouvoir faire l'installation de votre O
 image::../images/vmware.createvm17.PNG[]
 
 [IMPORTANT]
-Un fois votre machine installer il faut ABSOLUMENT installer les vmware tools (ca permet à vmware d'avoir des informations sur votre VM et d'eteindre celle-ci proprement). Sous debian il suffit de faire "sudo apt-get -y install open-vm-tools".
+Un fois votre machine installée il faut ABSOLUMENT installer les VMware tools (ça permet à VMware d'avoir des informations sur votre VM et d'éteindre celle-ci proprement). Sous debian il suffit de faire "sudo apt-get -y install open-vm-tools".
 
-Pour la suite de l'installation je vous invite à lire ce https://www.jeedom.com/doc/documentation/howto/fr_FR/doc-howto-debian.installation.html#_installation[tutoriel]
+Pour la suite de l'installation je vous invite à lire ce https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-debian.installation.html#_installation[tutoriel]
 
 == Monter les péripheriques USB dans la VM
 
 [NOTE]
-Si vous n'avez pas les options ci-dessous c'est qu'il faut mettre à jour l'ESXi Embedded Host Client , toute les informations https://www.jeedom.com/doc/documentation/howto/fr_FR/doc-howto-vmware.trucs_et_astuces.html[ici] 
+Si vous n'avez pas les options ci-dessous c'est qu'il faut mettre à jour l'ESXi Embedded Host Client , toutes les informations https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-vmware.trucs_et_astuces.html[ici] 
 
-C'est un besoin assez rare, mais j'ai du m'en servir pour Jeedom, en effet j'ai sur mon ESXI les clefs Zwave, RFXcom, edisio, enOcean et GSM de branchés et il me fallait les relier à ma VM Jeedom pour pouvoir m'en servir.
+C'est un besoin assez rare, mais j'ai dû m'en servir pour Jeedom, en effet j'ai sur mon ESXi les clefs Zwave, RFXcom, edisio, enOcean et GSM de branchées et il me fallait les relier à ma VM Jeedom pour pouvoir m'en servir.
 
 [NOTE]
-Pour Zwave, RFXcom, edisio et enOcean il n'y a aucun soucis, pour les clefs GSM il vous suivre ce https://www.jeedom.com/doc/documentation/howto/fr_FR/doc-howto-gsm.huawei_mode_modem.html[tutoriel] avant pour forcer la clef en mode modem seulement sinon celle-ci n'est pas vu correctement sur l'esxi.
+Pour Zwave, RFXcom, edisio et enOcean il n'y a aucun soucis, pour les clefs GSM il vous faut suivre ce https://jeedom.github.io/documentation/howto/fr_FR/doc-howto-gsm.huawei_mode_modem.html[tutoriel] avant pour forcer la clef en mode modem seulement sinon celle-ci n'est pas vue correctement sur l'ESXi.
 
 Allez sur votre VM puis faites "Modifier les paramètres" :
 
@@ -145,14 +145,14 @@ Cliquez sur "Ajouter un autre périphérique" puis controleur USB :
 image::../images/vmware.createvm26.PNG[]
 
 [NOTE]
-Le'étape qui suis devra être repété pour chaque péripherique USB que vous voulez connecter
+L'étape qui suit devra être repétée pour chaque périphérique USB que vous voulez connecter
 
-Enregistrez, refaite "Modifier les paramètres", puis "Ajouter un autre périphérique" et "USB device" : 
+Enregistrez, refaites "Modifier les paramètres", puis "Ajouter un autre périphérique" et "USB device" : 
 
 image::../images/vmware.createvm27.PNG[]
 
-Choisissez votre péripherique USB dans la liste déroulante :
+Choisissez votre périphérique USB dans la liste déroulante :
 
 image::../images/vmware.createvm28.PNG[]
 
-Et voila votre péripherique est branché sur votre VM. A chaque redemarrage il sera automatique rebranché sur le VM et si vous le deconnectez/connectez physiquement alors celui-ci sera rebanché sur votre VM. En d'autre terme l'utilisation est maintenant totalement transparente.
+Et voilà votre périphérique est branché sur votre VM. A chaque redémarrage il sera automatique rebranché sur la VM et si vous le deconnectez/connectez physiquement alors celui-ci sera rebranché sur votre VM. En d'autres termes l'utilisation est maintenant totalement transparente.

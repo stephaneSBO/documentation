@@ -23,7 +23,7 @@ image::../images/doc-presentation-maj.png[Page Mise à jour]
 image::../images/doc-presentation-sauvegarde.png[Page Sauvegarde]
 
 
-Autour de ce noyau viennent se greffer des plugins qui peuvent être de toute sorte :
+Autour de ce noyau viennent se greffer des plugins qui peuvent être de toutes sortes :
 
 - protocole domotique (Z-Wave, RFXcom, EnOcean...),
 - protocole IP (KNX,xPL...),
@@ -33,7 +33,7 @@ Autour de ce noyau viennent se greffer des plugins qui peuvent être de toute so
 - organisation (agenda, Google agenda),
 - développement (script).
 
-Ces plugins peuvent être récuperés via market et permettent d'étendre les possibilités de Jeedom.
+Ces plugins peuvent être récupérés via Market et permettent d'étendre les possibilités de Jeedom.
 
 image::../images/doc-presentation-market.png[Page Market]
 

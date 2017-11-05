@@ -23,7 +23,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut interagir 
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
-== Caractéristiques Techniques
+== Caractéristiques techniques
 
 * Type de module : Emetteur Edisio
 * Alimentation : 3VDC (Pile Lithium CR2032)
@@ -63,7 +63,7 @@ image::../images/etc1/etc1.remplacement-pile.jpg[align="center"]
 
 == Association de la télécommande à Jeedom
 
-L'association d'un émetteur Edisio, ce fait simplement et automatiquement. Il suffit juste d'appuyer sur la touche de votre télécommande.
+L'association d'un émetteur Edisio, se fait simplement et automatiquement. Il suffit juste d'appuyer sur la touche de votre télécommande.
 
 image::../images/etc1/etc1.touche-c.jpg[Commandes,align="center"]
 
@@ -73,7 +73,7 @@ image::../images/etc1/etc1.general.jpg[align="center"]
 
 === Commandes
 
-Une fois votre équipement crée, vous devriez obtenir les commandes associées au module :
+Une fois votre équipement créé, vous devriez obtenir les commandes associées au module :
 
 image::../images/etc1/etc1.commandes.jpg[Commandes,align="center"]
 
@@ -88,7 +88,7 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 
 image::../images/etc1/etc1.informations.jpg[Commandes,align="center"]
 
-* Création : Indique la date à laquelle l'équipement à était crée
+* Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie des modules à piles
 * Status : Retourne le status du module
