@@ -77,7 +77,7 @@ Ensuite, sur la partie basse on trouve ceci :
 
 image::../images/tuto.github8.png[]
 
-*Ce n'est pas terminé !*
+== Soumettre une modification
 
 1. On clique sur l'onglet Pull Request
 2. New Pull Request (PR pour les intimes)
@@ -113,3 +113,7 @@ On obtient la liste des PR en attentes de validation
 On voit bien le notre
 
 image::../images/tuto.github13.png[]
+
+= La mise à jour de votre fork
+
+A compléter
