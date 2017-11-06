@@ -20,7 +20,7 @@ Vous arrivez donc sur une 2eme page comme ci-dessous et vous ne changez rien, vo
 
 image::../images/tuto.github2.png[]
 
-Vous voilà inscrit et sur la page de configuration des options de votre compte. Je vous conseille de vérifier l'adresse email afin de pouvoir récupérer votre compte en cas d'oubli de mot de passe par exemple. Je vous laisse également découvrir les autres options si vous êtes curieux.
+Vous voilà inscrit et sur la page de configuration des options de votre compte. Je vous conseille de vérifier l'adresse email afin de pouvoir récupérer votre compte en cas d'oubli de mot de passe par exemple mais aussi afin de pouvoir soumettre des modifications. Je vous laisse également découvrir les autres options si vous êtes curieux.
 
 image::../images/tuto.github3.png[]
 
