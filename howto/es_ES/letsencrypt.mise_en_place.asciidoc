@@ -36,7 +36,7 @@ Aucun certificat ne sera delivré par LetsEncrypt tant que votre site en HTTPS n
 ----
 /opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com
 ----
-Vous devez remplacer les paramètres email et domaine par vos valeurs.
+Vous devez remplacer les paramètres email@domaine.com et domaine.com par vos valeurs.
 Normalement les paramètres d'ajout du protocole https sont ajoutés par le script dans Apache.
 
 [NOTE]
@@ -101,17 +101,22 @@ Vous recevez un mail automatiquement à l'arrivée à échéance du certificat q
 === Methode automatique
 C'est quand même mieux quand c'est automatique. Pour ce faire voici les étapes à suivre.
 
+Installation de bc utilisé dans le script le-renew
+----
+apt-get install -y bc
+----
+
 Créer un fichier, son emplacement est libre
 ----
 nano /bin/certletsencryptrenew.sh
 ----
 
 Saisir les lignes ci-dessous dans le fichier créé précedemment. Le copier/coller fonctionne via putty.
-Ce script vérifie l'expiration du certificat et le renouvelle automatiquement si la date d'expiration est à moins de 30 jours.
+Ce script vérifie l'expiration du certificat et le renouvelle automatiquement si la date d'expiration est à moins de 30 jours. Vous devez remplacer le paramètre domaine.com par votre valeur.
 ----
 curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
 chmod +x /usr/local/sbin/le-renew
-le-renew domaine.fr
+le-renew domaine.com
 ----
 
 Sauvegarder le fichier puis quitter l'editeur de texte (nano)

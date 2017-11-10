@@ -62,24 +62,12 @@ Zusatz der Montage in /etc/fstab
 Vous devez changer les TODO pour user et password par rapport à votre configuration
 
 == Umstellung von Jessie in Stretch
-Pour avoir testé l'upgrade et l'installation Stretch avec restauration d'un backup, je confirme que l'installation de Stretch par écrasement vous fera gagner du temps. Voir méthode 2.
+Pour avoir testé l'upgrade et l'installation Stretch avec restauration d'un backup, je confirme que l'installation de Stretch par écrasement vous fera gagner du temps.
 
-=== Méthode 1 : Upgrade (peu de chance de succès)
-Il faut éditer le fichier /etc/apt/sources.list et remplacer tous les Jessie par Stretch, puis faire : 
+- Méthode 1 : une demi-journée à essuyer les bugs.
+- Méthode 2 : 1 a 2 heures grand max, et surtout un os cleaned.
 
----- 
-apt-get update
-apt-get dist-upgrade
-----
-[IMPORTANT]
-Private Tmp : Si vous passez de Jessie à Stretch sans refaire l'installation de Jeedom il faut désactiver le 'private tmp' d'apache sinon Jeedom ne marchera pas : 
-
-----
-mkdir /etc/systemd/system/apache2.service.d
-echo -e "[Service]\nPrivateTmp=no" > /etc/systemd/system/apache2.service.d/privatetmp.conf
-systemctl daemon-reload
-----
-=== Méthode 2 : Installation sur Strech et restauration de sauvegarde
+=== Méthode 1 : Installation sur Strech et restauration de sauvegarde
 
 Avant de commencer, réaliser une sauvegarde complète via Jeedom de votre installation sous Jessie, puis exporter la sauvegarde sur un autre support de stockage.
 
@@ -130,5 +118,48 @@ chown -R www-data: /var/www/html/
 - Connexion à Jeedom avec vos anciens identifiants
 - Passer sur chaque plugin pour réinstaller les dépendances (notamment sur ceux ou le daemon est "NOK" KO).
 
-Voilà !
-Méthode une demi-journée à essuyer les bugs, méthode 2 : 1 a 2 heures grand max, et surtout un os cleaned.
+=== Méthode 1 : Upgrade (peu de chance de succès)
+Mise à jour de l'OS en version jessie.
+
+---- 
+apt-get -y update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+---- 
+
+Il faut éditer le fichier /etc/apt/sources.list et remplacer tous les Jessie par Stretch, puis faire : 
+
+---- 
+cp /etc/apt/sources.list /etc/apt/sources.list_backup
+sed -i 's/jessie/stretch/g' /etc/apt/sources.list
+---- 
+
+Mise à jour de l'OS en version stretch.
+
+---- 
+apt-get -y update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+---- 
+
+Bascule en MariaDB.
+
+---- 
+apt-get -y install mariadb-server mariadb-client mariadb-common
+---- 
+
+Mise à jour de Jeedom
+
+---- 
+sh /var/www/html/install/install.sh -s 2
+sh /var/www/html/install/install.sh -s 5
+sh /var/www/html/install/install.sh -s 7
+sh /var/www/html/install/install.sh -s 10
+---- 
+
+Suppression des librairies non nécessaires
+
+---- 
+apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
+apt -y remove `aptitude -F %p search '~o'`----
+---- 
