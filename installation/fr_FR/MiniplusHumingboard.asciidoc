@@ -11,7 +11,7 @@ Vous devez télécharger le logicel Etcher link:https://etcher.io/[ici] puis l'i
 === Etape 2 : 
 Récupération de l'image Jessie. Attention la humingboard n'est pas pas un raspberry. *Vous devez impérativement récupérer cet iso spécifique qui est une jessie pour IMX6.*
 
-Vous devez aller link:https://images.solid-build.xyz/IMX6/Debian/sr-imx6-debian-jessie-cli-20170407.img.xz[ici], et sauvegarder cette image sur votre PC.
+Vous devez aller link:https://images.solid-build.xyz/IMX6/Debian/sr-imx6-debian-jessie-cli-20171108.img.xz[ici], et sauvegarder cette image sur votre PC.
 
 
 === Etape 3 : Décompression de l'image
