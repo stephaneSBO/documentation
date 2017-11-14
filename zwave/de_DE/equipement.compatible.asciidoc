@@ -1,7 +1,7 @@
 = Liste der Z-Wave-kompatible Geräte 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*53* [green]*marques de modules différentes, soit un total de* [red]*341* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*54* [green]*marques de modules différentes, soit un total de* [red]*349* [green]*modules.*
 
 Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel sein. Für eine Bitte um Kompatibilität : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Hier klicken^]
 
@@ -319,6 +319,39 @@ Weitere Module, die nicht auf dieser Liste vorhanden sind, können kompatibel se
 
 |image:../images/compatibility_list/dlink.dchz510.jpg[width=150,align="center"]|Dlink|DCH-Z510|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html++[Acheter^]
 // 264.4.10_dchz510.siren.json
+
+
+|===
+
+== Dome
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Bild|Marke|Name|Typ|Hinweis|Link
+
+|image:../images/compatibility_list/dome.doorwindowpro.jpg[width=150,align="center"]|Dome|Door/Window Sensor Pro|Ouverture| | 
+// 543.3.513_door.window.sensor.pro.json
+
+|image:../images/compatibility_list/dome.doorwindow.jpg[width=150,align="center"]|Dome|Door/Window Sensor|Ouverture| | 
+// 543.3.257_door.window.sensor.json
+
+|image:../images/compatibility_list/dome.leaksensor.jpg[width=150,align="center"]|Dome|Leak Sensor|Fuite| | 
+// 543.3.133_leak.sensor.json
+
+|image:../images/compatibility_list/dome.motion.jpg[width=150,align="center"]|Dome|Motion Detector|Multicapteurs| | 
+// 543.3.131_motion-sensor.json
+
+|image:../images/compatibility_list/dome.mouser.jpg[width=150,align="center"]|Dome|Mouser|Ouverture| | 
+// 543.3.134_mouser.json
+
+|image:../images/compatibility_list/dome.0087.jpg[width=150,align="center"]|Dome|On/Off Plug-In Switch|Prise| | 
+// 543.3.135_on_off_plug_in_switch.json
+
+|image:../images/compatibility_list/dome.siren.jpg[width=150,align="center"]|Dome|Siren|Sirène| | 
+// 543.3.136_siren.json
+
+|image:../images/compatibility_list/dome.0002.jpg[width=150,align="center"]|Dome|Water Shut-Off Valve|Valve| | 
+// 543.3.2_water_valve.json
 
 
 |===
