@@ -6,12 +6,12 @@ D’autres modules non présents sur cette liste peuvent être compatibles.
 Awox
 ====
 
-+---------+----+-----------+------+------+----------------+--------------------------+------+
-| Image   | Ma | Nom       | Prof | Type | Remarque       | Inclusion                | Lien |
-|         | rq |           | il   |      |                |                          |      |
-|         | ue |           |      |      |                |                          |      |
-+=========+====+===========+======+======+================+==========================+======+
-| ![smart | ** | Smartplug | SMAR | Pris |                | Mode inclusion           |      |
+
+| Image   | Marque | Nom       | Profil | Type | Remarque       | Inclusion                | Lien |
+----------|--------|-----------|--------|------|----------------|--------------------------|------|
+| ![script1](images/compatibility_list/smartplug.jpg)   | Awox | Smartplug | SMARTPLUG | Prises |  | Mode inclusion | |
+
+                | Lien || ![smart | ** | Smartplug | SMAR | Pris |                | Mode inclusion           |      |
 | plug](. | Aw |           | TPLU | es   |                |                          |      |
 | ./image | ox |           | G    |      |                |                          |      |
 | s/compa | ** |           |      |      |                |                          |      |
