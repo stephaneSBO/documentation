@@ -7,7 +7,7 @@ http://download.virtualbox.org/virtualbox/5.1.28/VirtualBox-5.1.28-117968-Win.ex
 
 === Etape 2 : Téléchargement d'une image Debian strecht - netinstall
 
-Télécharger une image minimaliste debian 9 Strecht https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso[Ici] 
+Télécharger une image minimaliste debian 9 Strecht https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.2.1-amd64-netinst.iso[Ici] 
 
 Télécharger le pack d'extensions, et installez-le.
 http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_Pack-5.1.28.vbox-extpack[ICI]
@@ -18,7 +18,7 @@ http://download.virtualbox.org/virtualbox/5.1.28/Oracle_VM_VirtualBox_Extension_
 
 Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 
-image::../images/VirtualBox1.png[]
+image::../images/VirtualBox1.PNG[]
 
 * Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
 * Cliquez sur suivant, créer un disque virtuel maintenant
@@ -34,14 +34,14 @@ image::../images/VirtualBox1.png[]
 * Ajouter un lecteur optique
 * Choisir un disque
 
-image::../images/VirtualBox2.png[]
+image::../images/VirtualBox2.PNG[]
 
 * Indiquez l'image précédemment téléchargée
 
 * Sélectionner ensuite réseau et choisir "accès par pont" dans le mode d'accès réseau.
 
 
-image::../images/VirtualBox3.png[]
+image::../images/VirtualBox3.PNG[]
 
 * Cliquez sur OK
 *Cliquez sur démarrer
@@ -49,12 +49,12 @@ image::../images/VirtualBox3.png[]
 === Etape 5 : Installation de debian 9
 C'est du classique ...
 
-image::../images/VirtualBox4.png[]
+image::../images/VirtualBox4.PNG[]
 * Choisir Graphical install
 * Installer la debian de préférence sans interface graphique car inutile. Le nom d'utilisateur n'a aucune importance. Dans la plupart des écrans il suffit de valider le choix par défaut. Vous pouvez laissez des champs vides ce n'est pas bloquant.
 * Pour la sélection des logiciels :
 
-image::../images/VirtualBox5.png[]
+image::../images/VirtualBox5.PNG[]
 
 * Pour Grub, pas d'inquiétude, le secteur de démarrage est celui de la VM, pas celui de votre PC. Aucun risque de casser quoi que ce soit.
 

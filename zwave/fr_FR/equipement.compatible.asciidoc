@@ -1,7 +1,7 @@
 = Liste des equipements Z-Wave compatibles 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*53* [green]*marques de modules différentes, soit un total de* [red]*340* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*54* [green]*marques de modules différentes, soit un total de* [red]*349* [green]*modules.*
 
 D'autres modules non présents sur cette liste peuvent être compatibles. Pour une demande de compatibilité : link:++https://www.jeedom.fr/forum/viewtopic.php?f=100&t=8607++[Cliquez-ici^]
 
@@ -323,6 +323,39 @@ D'autres modules non présents sur cette liste peuvent être compatibles. Pour u
 
 |===
 
+== Dome
+
+[cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
+|===
+|Image|Marque|Nom|Type|Remarque|Lien
+
+|image:../images/compatibility_list/dome.doorwindowpro.jpg[width=150,align="center"]|Dome|Door/Window Sensor Pro|Ouverture| | 
+// 543.3.513_door.window.sensor.pro.json
+
+|image:../images/compatibility_list/dome.doorwindow.jpg[width=150,align="center"]|Dome|Door/Window Sensor|Ouverture| | 
+// 543.3.257_door.window.sensor.json
+
+|image:../images/compatibility_list/dome.leaksensor.jpg[width=150,align="center"]|Dome|Leak Sensor|Fuite| | 
+// 543.3.133_leak.sensor.json
+
+|image:../images/compatibility_list/dome.motion.jpg[width=150,align="center"]|Dome|Motion Detector|Multicapteurs| | 
+// 543.3.131_motion-sensor.json
+
+|image:../images/compatibility_list/dome.mouser.jpg[width=150,align="center"]|Dome|Mouser|Ouverture| | 
+// 543.3.134_mouser.json
+
+|image:../images/compatibility_list/dome.0087.jpg[width=150,align="center"]|Dome|On/Off Plug-In Switch|Prise| | 
+// 543.3.135_on_off_plug_in_switch.json
+
+|image:../images/compatibility_list/dome.siren.jpg[width=150,align="center"]|Dome|Siren|Sirène| | 
+// 543.3.136_siren.json
+
+|image:../images/compatibility_list/dome.0002.jpg[width=150,align="center"]|Dome|Water Shut-Off Valve|Valve| | 
+// 543.3.2_water_valve.json
+
+
+|===
+
 == Domitech
 
 [cols=".^3a,.^1s,.^6,.^2,.^10,.^3", options="header"]
@@ -637,6 +670,9 @@ D'autres modules non présents sur cette liste peuvent être compatibles. Pour u
 
 |image:../images/compatibility_list/fortrezz.wv01.jpg[width=150,align="center"]|Fortrezz|Automated Water Shut-Off Valve (WV-01)|Valve| | link:++http://www.domadoo.fr/fr/peripheriques/2957-fortrezz-vanne-d-arret-d-eau-34-z-wave-661799486057.html++[Acheter^]
 // 132.577.768_wv01_water_valve.json
+
+|image:../images/compatibility_list/fortrezz.mimolite.jpg[width=150,align="center"]|Fortrezz|MIMOlite|Compteur| | link:++http://www.domadoo.fr/fr/peripheriques/2380-fortrezz-module-entree-sortie-z-wave-mimolite-0661799563291.html++[Acheter^]
+// 132.1105.273_mimolite.json
 
 |image:../images/compatibility_list/fortrezz.ssa01.jpg[width=150,align="center"]|Fortrezz|SSA-01|Sirène| | link:++http://www.domadoo.fr/fr/peripheriques/979-fortrezz-sirene-z-wave-flash-clair-ssa1-0661799486033.html++[Acheter^]
 // 132.785.265_ssa1.json
